@@ -1,0 +1,73 @@
+POWRs requires
+
+- Python 2.6 or newer (www.python.org)
+- Numpy 1.5 or newer  (www.scipy.org)
+- Scipy 0.8 or newer  (www.scipy.org)
+- a Unix-like environment, such as Linux or Mac OS X
+
+These days, the easiest way to get these dependencies may be the
+free Anaconda system, provided by http://continuum.io/.  It may even
+work on Windows, but we haven't tested it, and you'll still have to
+build libRmath and libDivSufSort yourself -- see below.
+
+Building Numpy and Scipy from source can be challenging, but most
+systems have precompiled binaries available. Windows (cygwin) is not
+currently supported, because Scipy will not build for us. We recommend
+that Windows users run POWRS inside a Linux virtual machine. For
+example, VirtualBox (www.virtualbox.org) and Ubuntu (www.ubuntu.com) are
+both freely available and easy to use.
+
+POWRS also uses two C libraries. We have pre-packaged binaries of
+these libraries for Linux (64-bit Ubuntu / Linux Mint) and
+Mac OS X (64-bit OS X 10.6.8 "Snow Leopard"). If these binaries do not
+work for you, follow the directions below to compile for your system
+and replace the pre-packaged binaries. If you get a "wrong ELF class"
+error from Python, you have a 32-bit / 64-bit mismatch between Python
+and the libraries, and will need to recompile the libraries or use a
+different machine.
+
+
+
+Mac OS X
+========
+
+On Mac OS X, we tested with the MacPorts (www.macports.org) versions of
+Python, Numpy, and Scipy:
+
+    sudo port install py27-scipy cmake
+
+Mac OS X also needs help in finding the shared C libraries
+(libdivsufsort.dylib and libRmath.dylib). Either copy them to somewhere
+on your shared library search path (like /usr/local/lib), or add them to
+your DYLD_LIBRARY_PATH:
+
+    export DYLD_LIBRARY_PATH="/my/path/to/POWRS/pygr:$DYLD_LIBRARY_PATH"
+
+Replace "/my/path/to/POWRS" with whatever is appropriate for your
+system. Also, you must either run this command each time you open a new
+Terminal, before running POWRS; or add it to e.g. your ~/.bash_profile.
+
+
+
+libRmath    http://cran.r-project.org/
+======================================
+
+After downloading the R source code from CRAN, unpack it and do:
+
+    ./configure --enable-R-static-lib --enable-static --with-readline=no
+    cd src/nmath/standalone/
+    make
+    cp libRmath.so ~/POWRS/pygr/
+
+
+
+libDivSufSort    http://code.google.com/p/libdivsufsort/
+========================================================
+
+Get libdivsufsort 2.0.1 or later, unpack it, and:
+
+    mkdir build
+    cd build
+    ccmake ..  # accept default settings
+    make
+    cp libs/libdivsufsort.so ~/POWRS/pygr/

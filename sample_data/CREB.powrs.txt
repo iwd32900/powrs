@@ -1,0 +1,1549 @@
+Loading sequences ...
+G = 17868.000000    mu = 0.127435
+2.63222289085 seconds
+Building suffix array ...
+8.12583112717 seconds
+Searching for all k-mers ...
+Refining best motifs ...
+   54.35    [ 708.8]    TACTTCCG / CGGAAGTA      -650         0                   [Tacg][Acgt][Cagt][Ta][Tacg][Cag]CG    #1
+   54.35    [ 708.8]    CGGAAGTA / TACTTCCG      -650         0                   CG[Gct][Acgt][At][Gact][Tacg][Acgt]    #2
+   53.06    [ 667.1]    CGGAAGTG / CACTTCCG      -350         0                     CG[Gat][At][Ac][Gact][Tacg][Gact]    #3
+   53.06    [ 667.1]    CACTTCCG / CGGAAGTG      -350         0                     [Cagt][Acgt][Cagt][Tg][Ta][Cat]CG    #4
+   52.15    [ 754.2]    GCGGAAGT / ACTTCCGC      -800         0                    [Gac]C[Gc][Gac][At][Act][Gat][Tac]    #5
+   52.15    [ 754.2]    ACTTCCGC / GCGGAAGT      -800         0                    [Agt][Cat][Tag][Ta][Cgt][Cg]G[Cgt]    #6
+   52.01    [ 734.8]    CCGGAAGT / ACTTCCGG      -600         0                      [Cag][Cg]G[Gt][At][At][Gac][Tac]    #7
+   52.01    [ 734.8]    ACTTCCGG / CCGGAAGT      -600         0                      [Agt][Cgt][Ta][Ta][Ca]C[Gc][Gct]    #8
+   48.50    [ 698.6]    CGCTTCCG / CGGAAGCG      -350         0                     [Cat][Gact][Cagt]T[Ta][Cagt][Ct]G    #9
+   48.50    [ 698.6]    CGGAAGCG / CGCTTCCG      -350         0                     C[Ga][Gact][At]A[Gact][Cagt][Gat]    #10
+   48.48    [ 700.9]    GCCGGAAG / CTTCCGGC      -400         0                           [Gac][Cgt]CG[Gct][At]A[Gac]    #11
+   48.48    [ 700.9]    CTTCCGGC / GCCGGAAG      -400         0                           [Cgt]T[Ta][Cag]CG[Gac][Cgt]    #12
+   47.95    [ 730.6]    GGCGGAAG / CTTCCGCC      -400         0                         [Gat][Gact]C[Gc][Gat]AA[Gact]    #13
+   47.95    [ 730.6]    CTTCCGCC / GGCGGAAG      -400         0                         [Cagt]TT[Cat][Cg]G[Cagt][Cat]    #14
+   47.63    [ 561.6]    AACTTCCG / CGGAAGTT      -650         0                          [Acgt][Ag][Cat][Tag]T[Cat]CG    #15
+   47.63    [ 561.6]    CGGAAGTT / AACTTCCG      -650         0                          CG[Gat]A[Act][Gat][Tc][Tacg]    #16
+   46.45    [ 539.1]    CGGAAGTC / GACTTCCG      -600         0                         CG[Ga][Act][At][Ga][Ta][Cagt]    #17
+   45.92    [ 711.6]    TCCGGAAG / CTTCCGGA      -600         0                          [Tacg][Cagt]CG[Gct][At]A[Ga]    #18
+   45.91    [ 534.8]    ACTTCCGT / ACGGAAGT      -800         0                             [Agt][Ca]T[Ta][Ca]CG[Tcg]    #19
+   44.38    [ 715.0]    GGCGGAAA / TTTCCGCC      -550         0                    [Gact][Gact]CG[Gact][At][At][Acgt]    #20
+   44.21    [ 654.1]    TCTTCCGG / CCGGAAGA      -600         0                         [Tag][Cat][Tg][Ta][Cg]CG[Gct]    #21
+   44.21    [ 654.1]    CCGGAAGA / TCTTCCGG      -600         0                         [Cag]CG[Gc][At][Ac][Gat][Act]    #22
+   43.18    [ 710.6]    GCTTCCGG / CCGGAAGC      -500         0                           [Gat][Cgt][Ta][Ta]CCG[Gact]    #23
+   43.18    [ 710.6]    CCGGAAGC / GCTTCCGG      -500         0                           [Cagt]CGG[At][At][Gac][Cat]    #24
+   42.89    [ 581.8]    CGGAAGAG / CTCTTCCG      -350         0                            C[Gc][Gc]AA[Ga][Acgt][Gac]    #25
+   42.89    [ 581.8]    CTCTTCCG / CGGAAGAG      -350         0                            [Cgt][Tacg][Ct]TT[Cg][Cg]G    #26
+   42.87    [ 446.9]    AGTGACGT / ACGTCACT      -400         0                         [Acgt][Gat][Tg][Gct]ACG[Tacg]    #27
+   42.87    [ 446.9]    ACGTCACT / AGTGACGT      -400         0                         [Acgt]CGT[Cag][Ac][Cat][Tacg]    #28
+   41.83    [ 693.9]    CTTCCGCT / AGCGGAAG      -600         0                         [Cagt]TT[Cgt][Cg]G[Cagt][Tac]    #29
+   41.83    [ 693.9]    AGCGGAAG / CTTCCGCT      -600         0                         [Agt][Gact]C[Gc][Gac]AA[Gact]    #30
+   41.71    [ 580.6]    TTCCGCTT / AAGCGGAA      -450         0                        [Tacg][Tac]CCG[Cgt][Tcg][Tacg]    #31
+   40.65    [ 454.8]    GTGACGTA / TACGTCAC      -500         0                [Gac][Tcg][Gc][Acgt][Cg][Gt][Tc][Acgt]    #32
+   40.62    [ 669.6]    TTCCGGCT / AGCCGGAA      -500         0                    [Ta]T[Cag][Cg][Gc][Gc][Cagt][Tacg]    #33
+   39.37    [ 706.3]    TTCCGGCC / GGCCGGAA      -650         0                         T[Ta][Cag]CG[Gact][Cat][Cagt]    #34
+   39.14    [ 717.0]    TTTCCGGC / GCCGGAAA      -600         0                  [Tacg][Ta][Ta][Cagt]C[Gc][Gact][Cat]    #35
+   38.72    [ 682.9]    TTTTCCGC / GCGGAAAA      -600         0                 [Tacg][Tcg][Tag][Tacg][Cgt][Cg]G[Cgt]    #36
+   38.71    [ 324.9]    ATGACGTC / GACGTCAT      -550         0                           [Ag][Tc][Gt][Ag]CG[Tc][Cat]    #37
+   38.71    [ 324.9]    GACGTCAT / ATGACGTC      -550         0                           [Gat][Ag]CG[Tc][Ca][Ag][Tc]    #38
+   38.63    [ 430.3]    TTACGTCA / TGACGTAA      -750         0                    [Tacg][Tag][Acg]CG[Tacg][Cag][Agt]    #39
+   38.10    [ 569.9]    TTGCGCAG / CTGCGCAA      -650         0                      [Tac][Tac][Gc]CG[Cagt][Act][Gat]    #40
+   37.87    [ 595.3]    AGGCGGAA / TTCCGCCT      -400         0                        [Acgt][Gac][Gact]CG[Gact][At]A    #41
+   37.87    [ 595.3]    TTCCGCCT / AGGCGGAA      -400         0                        T[Ta][Cagt]CG[Cagt][Cgt][Tacg]    #42
+   37.53    [ 628.6]    CGATTGGC / GCCAATCG      -450         0              [Cgt][Gt][Acgt][Tcg][Ta][Gac][Gac][Cagt]    #43
+   37.33    [ 696.6]    CTTCCGCA / TGCGGAAG      -600         0                   [Cg][Tag][Tg][Cagt][Cg]G[Cagt][Act]    #44
+   36.17    [ 570.3]    TGCCGGAA / TTCCGGCA      -400         0                    [Tacg][Gact][Cag][Cg]G[Gact]A[Act]    #45
+   36.03    [ 611.8]    GAGCGGAA / TTCCGCTC      -650         0                          [Gact][Acg][Gac]CG[Gct][At]A    #46
+   35.62    [ 592.7]    TTCCGCTG / CAGCGGAA      -650         0                        TT[Cagt][Cg]G[Cat][Tacg][Gact]    #47
+   35.38    [ 684.6]    GGGCGGAA / TTCCGCCC      -450         0                      [Gact][Gac][Gact]C[Gc][Gat][At]A    #48
+   35.38    [ 684.6]    TTCCGCCC / GGGCGGAA      -450         0                      T[Ta][Cat][Cg]G[Cagt][Cgt][Cagt]    #49
+   35.13    [ 438.9]    ACGTCACA / TGTGACGT      -650         0                         [Agt]CG[Tacg]C[Agt][Ct][Acgt]    #50
+   35.02    [ 557.4]    GCGGAAAT / ATTTCCGC      -550         0                  [Gact]C[Gc][Gac][At][At][Acgt][Tacg]    #51
+   35.01    [ 613.0]    AGCGGAAA / TTTCCGCT      -600         0                     [Acgt][Gac]CG[Gct][Agt][At][Acgt]    #52
+   34.96    [ 522.6]    GCGGAAGA / TCTTCCGC      -300         0                   [Gac]C[Gc][Gact][At][Ac][Gac][Acgt]    #53
+   34.96    [ 522.6]    TCTTCCGC / GCGGAAGA      -300         0                   [Tacg][Cgt][Tg][Ta][Cagt][Cg]G[Cgt]    #54
+   34.81    [ 439.0]    CGTGACGT / ACGTCACG      -350         0              [Cagt][Gat][Tcg][Gc][Acg][Cag][Gat][Tac]    #55
+   34.81    [ 439.0]    ACGTCACG / CGTGACGT      -350         0              [Agt][Cat][Gct][Tcg][Cg][Acg][Cat][Gact]    #56
+   34.42    [ 555.0]    GTGACGTC / GACGTCAC     -1050         0                          [Ga][Tcg]G[At]CG[Tacg][Cagt]    #57
+   34.42    [ 555.0]    GACGTCAC / GTGACGTC     -1050         0                          [Gact][Acgt]CG[Ta]C[Acg][Ct]    #58
+   33.80    [ 697.0]    CCTTCCGC / GCGGAAGG      -600         0                             [Cagt][Cgt][Ta]TCCG[Cagt]    #59
+   33.75    [ 696.7]    CTTCCGGG / CCCGGAAG      -650         0                             C[Ta][Ta]C[Cg]G[Gc][Gact]    #60
+   33.75    [ 696.7]    CCCGGAAG / CTTCCGGG      -650         0                             [Cagt][Cg]C[Gc]G[At][At]G    #61
+   33.29    [ 408.9]    TTCTTCCG / CGGAAGAA      -400         0                     [Tcg][Tag][Cat][Tg][Ta][Cag][Cg]G    #62
+   32.70    [ 219.6]    ACGTCATT / AATGACGT      -350         0                                  [Ag]CGTCA[Tac][Tacg]    #63
+   32.70    [ 219.6]    AATGACGT / ACGTCATT      -350         0                                  [Acgt][Agt]TGACG[Tc]    #64
+   32.47    [ 419.6]    ACCAATCG / CGATTGGT      -300         0               [Acgt][Cgt][Cgt][Ag][Agt][Tg][Cag][Gac]    #65
+   32.18    [ 674.8]    CCGATTGG / CCAATCGG      -550         0               [Cagt][Cgt][Gact][Agt]T[Tag][Gct][Gact]    #66
+   31.09    [ 500.1]    AAGTGACG / CGTCACTT      -700         0                    [Agt][Acgt][Gact][Tc][Gact][Agt]CG    #67
+   31.09    [ 500.1]    CGTCACTT / AAGTGACG      -700         0                    CG[Tac][Cagt][Ag][Cagt][Tacg][Tac]    #68
+   30.97    [ 568.8]    GGCGGAAC / GTTCCGCC      -600         0                          [Gact][Gact]CG[Gt][At]A[Cag]    #69
+   30.77    [ 444.8]    CCAATCGC / GCGATTGG      -250         0             [Cagt][Cat][Ac][Agt][Tacg][Cat][Ga][Cagt]    #70
+   30.62    [ 394.6]    ACGTCATC / GATGACGT      -600         0                      [Agt]CG[Tac][Cg][Ag][Tacg][Cagt]    #71
+   30.59    [ 186.6]    TACGTCAT / ATGACGTA      -200         0                      [Tacg][Ag]CG[Tg][Cgt][Acg][Tacg]    #72
+   30.59    [ 624.6]    AGCTTCCG / CGGAAGCT      -800         0                     [Act][Gat][Cg][Tag][Ta][Cgt][Cg]G    #73
+   30.40    [ 477.7]    CTGATTGG / CCAATCAG      -200         0                        [Cagt][Tcg][Gac]AT[Ta][Gt][Ga]    #74
+   29.49    [ 396.7]    AGACTACG / CGTAGTCT      -750         0                  [Acgt][Gact][Ac][Cat][Tac][At]C[Gct]    #75
+   29.01    [ 480.7]    TACGGAAG / CTTCCGTA      -600         0                 [Tag][Acgt]C[Gac][Gat][Ac][Acgt][Gct]    #76
+   28.43    [ 352.6]    AACCAATC / GATTGGTT      -250         0                                [Acg][Acg][Cg][Cg]AATC    #77
+   28.41    [ 427.6]    ACTACGAT / ATCGTAGT     -1400         0                      [Acgt][Ca][Tac]AC[Ga][Act][Tacg]    #78
+   28.27    [ 583.0]    TTCCGCAG / CTGCGGAA      -700         0                        TT[Cagt][Cg]G[Cagt][Acgt][Gat]    #79
+   27.93    [ 597.8]    ACCGGAAA / TTTCCGGT      -850         0                   [Agt][Cag][Cg]G[Gact][At][Act][Agt]    #80
+   27.78    [ 433.7]    TGATTGGC / GCCAATCA      -200         0                               [Tc][Gct][Ag]TTGG[Cagt]    #81
+   27.78    [ 433.7]    GCCAATCA / TGATTGGC      -200         0                               [Gact]CCAA[Tc][Cag][Ag]    #82
+   27.71    [ 664.6]    AAAAAACG / CGTTTTTT      -850      -100                    [Ag][Acgt][Acgt][Acgt][Act][Agt]CG    #83
+   27.29    [ 498.7]    CGGAAAAA / TTTTTCCG      -400         0               C[Gc][Gct][Acgt][Agt][Acgt][Acgt][Acgt]    #84
+   26.78    [ 672.3]    CGCCGAAA / TTTCGGCG     -1200         0              [Ct][Gct][Cagt][Cagt][Gct][Acgt][At][At]    #85
+   26.78    [ 660.5]    CGCGAAAA / TTTTCGCG     -1000         0           [Cagt][Gt][Cagt][Gat][Acgt][Agt][Act][Acgt]    #86
+   26.54    [ 670.3]    GCTTGCGC / GCGCAAGC      -750         0                       [Gact][Cagt][Ta]T[Gct]C[Ga][Cg]    #87
+   26.48    [ 343.7]    ACCAATCA / TGATTGGT      -200         0                                [Acg]CC[At]AT[Cg][Acg]    #88
+   26.48    [ 343.7]    TGATTGGT / ACCAATCA      -200         0                                [Tcg][Gc]AT[Ta]GG[Tcg]    #89
+   26.40    [ 657.2]    TAAAACGC / GCGTTTTA     -1350       -50                    [Tg][Acg][Act][Ac][Acgt][Ca]G[Cgt]    #90
+   26.26    [ 332.8]    GACTACGA / TCGTAGTC     -1150         0                         [Gact][Acgt][Ct]T[Ag]CG[Acgt]    #91
+   26.25    [ 459.2]    GATTGGTC / GACCAATC      -300         0                   [Gc][Agt][Tc][Ta]G[Gac][Tacg][Cagt]    #92
+   26.20    [ 396.6]    CGGAAACA / TGTTTCCG      -350         0                   C[Gc][Gct][At][Ag][Acgt][Cat][Acgt]    #93
+   25.93    [ 300.0]    TGACGTCA / TGACGTCA      -350         0                          [Tg][Gt][Agt]CG[Tg][Ct][Agt]    #94
+   25.75    [ 496.5]    TTCCGGGA / TCCCGGAA      -350         0                        [Ta]T[Cg][Ct]G[Gat][Gact][Agt]    #95
+   25.66    [ 401.7]    GCGCAAAA / TTTTGCGC      -650         0                      [Ga]CG[Cagt][Acg][Ac][Acgt][Act]    #96
+   25.59    [ 485.2]    GCGTAGTC / GACTACGC      -700         0                   [Gact][Cat][Gt][Tacg][Ag][Gat]T[Ct]    #97
+   25.56    [ 456.3]    TTTGCGCA / TGCGCAAA      -550         0                  [Tacg][Tc][Tacg][Gact]CG[Cagt][Acgt]    #98
+   25.40    [ 638.6]    ACCCGGAA / TTCCGGGT      -350         0                    [Acgt][Cagt][Cagt][Ct][Gat]GA[Agt]    #99
+   25.32    [ 558.7]    AAACTACG / CGTAGTTT     -1150         0                   [Acgt][Acgt][Ag][Ct][Tcg][Acg]C[Gc]    #100
+   25.05    [ 514.7]    CCAATCAC / GTGATTGG      -450         0                               CC[Ag]AT[Ca][Acg][Cagt]    #101
+   25.00    [ 427.9]    ATGCGCAG / CTGCGCAT      -600         0                           [Act][Ta][Gat]CG[Ca]A[Gact]    #102
+   24.81    [ 480.2]    TGCGCATG / CATGCGCA      -700         0                           [Tac][Ga]CG[Cgt]A[Tacg][Gt]    #103
+   24.55    [ 515.4]    AGCGCAAG / CTTGCGCT      -700         0                        [Acgt][Gact]CG[Cag]A[At][Gact]    #104
+   24.41    [ 524.7]    GATTGGCT / AGCCAATC      -450         0                           G[Ag]T[Ta][Gc]G[Cagt][Tacg]    #105
+   24.41    [ 524.7]    AGCCAATC / GATTGGCT      -450         0                           [Acgt][Gact]C[Cg][At]A[Tc]C    #106
+   24.27    [ 633.5]    AAAAAGCG / CGCTTTTT      -700         0                  [Acg][Acg][Acgt][Act][Ac][Gact][Ct]G    #107
+   24.03    [ 364.5]    TTGATTGG / CCAATCAA      -200         0                       [Tacg][Tc][Gc][Ag]T[Ta][Gc][Ga]    #108
+   23.99    [ 612.8]    TTTCCCGC / GCGGGAAA      -600         0                   [Tag][Ta][Tag][Cagt][Cgt][Cg]G[Cat]    #109
+   23.86    [ 650.9]    CGCAGTCG / CGACTGCG      -650         0                  [Ca][Gt][Ct][At][Ga][Tag][Cat][Gact]    #110
+   23.71    [ 229.8]    TCGTAGTT / AACTACGA      -400         0                       [Tacg][Ct]G[Ta][Acg]G[Tc][Tacg]    #111
+   23.56    [ 354.9]    CAGCGCAA / TTGCGCTG      -650         0                             [Cagt][Agt][Gat]CG[Cag]AA    #112
+   23.33    [ 627.9]    AAAACGCC / GGCGTTTT      -850         0                     [Acgt][Acgt]A[Acgt]CG[Cagt][Cagt]    #113
+   23.30    [ 591.1]    AAGCGGAC / GTCCGCTT      -700         0                [At][Act][Gact]C[Gct][Gat][Acgt][Cagt]    #114
+   23.17    [ 335.6]    TCCGATTG / CAATCGGA      -400         0                   [Tag][Cat][Cgt][Gt][Ag][Tag][Tacg]G    #115
+   23.14    [ 469.3]    CGCCATTT / AAATGGCG      -550         0                     CG[Ct][Cagt][Acg][Tac][Tacg][Tag]    #116
+   23.12    [ 609.6]    CGGAAGAC / GTCTTCCG      -650         0                    [Ca]G[Gct][Act][Agt][Gt][Act][Cag]    #117
+   23.10    [ 339.2]    TTGCGCAT / ATGCGCAA      -850         0                        [Ta][Tac][Gt]CG[Cg][Acgt][Tag]    #118
+   23.10    [ 339.2]    ATGCGCAA / TTGCGCAT      -850         0                        [Act][Tacg][Gc]CG[Ca][Agt][At]    #119
+   23.03    [ 639.6]    CGCCTGCG / CGCAGGCG      -450         0                              CG[Cat][Cagt]T[Gat]C[Gt]    #120
+   22.93    [ 591.8]    AACTCCGC / GCGGAGTT      -450         0                   [Agt][Ag][Cgt][Tacg][Cag][Cg]G[Cgt]    #121
+   22.86    [ 440.7]    AGAAAACG / --------      -750         0                    [Ag][Gat][Agt][Ag][Acgt][Agt]C[Gt]    #122
+   22.84    [ 641.8]    AGAAAGCG / CGCTTTCT     -1050       -50                          [Act][Gac][Acgt][At]A[Gat]CG    #123
+   22.82    [ 560.8]    AATTGCGC / GCGCAATT     -1000         0                 [Acgt][Acgt][Tcg][Tacg][Gc][Cg]G[Cgt]    #124
+   22.75    [ 542.9]    CCTTAGCG / CGCTAAGG      -800         0              [Cgt][Cagt][Tag][Ta][Acgt][Gact][Ct][Ga]    #125
+   22.71    [ 346.2]    GCCGCAAT / ATTGCGGC      -500         0                    [Gct][Cagt][Cg]G[Ct][Act][At][Tag]    #126
+   22.69    [ 351.5]    ACTACGCT / AGCGTAGT     -1100         0                      [Ag][Cagt][Tag][Ac]CG[Cagt][Tag]    #127
+   22.68    [ 327.0]    ATTGGTTG / CAACCAAT      -150         0                   [Ag][Tacg][Ta][Gc]G[Tac][Tacg][Gct]    #128
+   22.67    [ 469.8]    TTTCCGGA / TCCGGAAA      -550         0                    [Tcg][Tac][Tg][Cagt]C[Gc][Gc][Act]    #129
+   22.47    [ 641.7]    CCGGAAAG / CTTTCCGG      -600         0                  [Cg][Cg][Gc][Gact][At][At][Ag][Gact]    #130
+   22.37    [ 370.6]    TGCGGATG / CATCCGCA      -700         0                         T[Gat]C[Gc][Gct][At][Tac][Ga]    #131
+   22.19    [ 353.2]    GATTGGGT / ACCCAATC      -400         0                              [Gc]ATT[Gc][Gc][Gct][Tc]    #132
+   22.17    [ 646.9]    CCGCTTTT / AAAAGCGG      -900         0                     [Cat][Cg]G[Cat][Tcg][Ta][Tcg][Tc]    #133
+   21.86    [ 419.1]    CCGTTAAG / CTTAACGG      -850       -50               [Cag][Cgt]G[Tacg][Tacg][Agt][Acg][Gact]    #134
+   21.68    [ 515.0]    TTTCCCGT / ACGGGAAA      -600         0                     [Tc]T[Tg][Cagt][Cagt][Cg][Ga][Tc]    #135
+   21.68    [ 515.0]    ACGGGAAA / TTTCCCGT      -600         0                     [Ag][Ct][Gc][Gact][Gact][Ac]A[Ag]    #136
+   21.54    [ 335.6]    ACTACGAC / GTCGTAGT     -1300         0                         [Ac][Cgt][Tg][Agt]C[Ga]A[Cgt]    #137
+   21.42    [ 540.7]    AAACGCCA / TGGCGTTT      -800         0                    [Acgt][Ag][Acg]CG[Cagt][Cgt][Acgt]    #138
+   21.39    [ 474.0]    CGCAAGAG / CTCTTGCG      -400         0                  CG[Cgt][Acgt][Act][Gact][Acgt][Gact]    #139
+   21.38    [ 556.3]    AGACGTTT / AAACGTCT     -1300         0                      [Act][Gact][Acgt]CG[Tac][Tc][Ta]    #140
+   21.38    [ 448.7]    GAGCGCAA / TTGCGCTC      -950         0                            [Gact]A[Gact]CG[Cagt]A[At]    #141
+   21.36    [ 362.5]    CGGTAGAA / TTCTACCG     -1100         0                    C[Gc][Gct][Ta][Act][Gact][At][Act]    #142
+   21.27    [ 466.6]    AACGCCAA / TTGGCGTT      -850         0                    [Acgt][Acg]CG[Ca][Cagt][Acgt][Act]    #143
+   21.26    [ 313.6]    TTCGTAAG / CTTACGAA     -1050         0                       [Tcg][Tac]CG[Tag][Ag][Acg][Gac]    #144
+   21.15    [ 370.1]    TCATTGGC / GCCAATGA      -450         0                                 T[Cg][Ag]T[Ta]GG[Cat]    #145
+   21.06    [ 204.5]    TACTCCCG / CGGGAGTA      -600         0                                     TA[Cgt]T[Cagt]CCG    #146
+   20.81    [ 609.9]    GCGCATGC / GCATGCGC      -400         0                       [Ga]CG[Cag][Acg][Ta][Gat][Cagt]    #147
+   20.69    [ 517.6]    TGCCAATC / GATTGGCA      -700         0                            [Tacg]G[Cg][Cgt]AA[Ta][Ca]    #148
+   20.66    [ 421.2]    TGCGCAGG / CCTGCGCA      -700         0                                     TGCGCA[Gact][Gac]    #149
+   20.61    [ 458.5]    GTAAAACG / CGTTTTAC      -900         0                     [Gac][Tacg][Act][Ag][Acgt][Acg]CG    #150
+   20.53    [ 481.1]    CACGCTTC / GAAGCGTG      -450         0                     [Cagt][Ac]CG[Cat][Tcg][Tac][Cagt]    #151
+   20.39    [ 280.8]    ATAAAACG / --------     -1100         0                            [Acg][Tag][Act][At][Ac]ACG    #152
+   20.33    [ 623.4]    TCGCGCGA / TCGCGCGA     -1950         0                           [Tc][Cg][Gt][Ct]G[Cgt][Gt]A    #153
+   20.23    [ 482.2]    GCGTTTTG / CAAAACGC     -1000         0                          [Gct]CGT[Tag][Tcg][Tc][Gact]    #154
+   20.13    [ 400.5]    CAACCGGA / TCCGGTTG      -400         0                   [Cag][Acgt][Ag][Cagt][Cg]G[Gac][Ac]    #155
+   19.99    [ 413.5]    CGCAGTAG / CTACTGCG      -850         0                        CG[Cgt][Acgt][Gac]T[Act][Gact]    #156
+   19.96    [ 455.0]    CGAACTTC / GAAGTTCG      -750         0                  CG[Acgt][Acgt][Cgt][Tacg][Tag][Cagt]    #157
+   19.94    [ 638.2]    GGAAACGA / TCGTTTCC     -1000       -50                   [Gac][Gac][Acgt][Ag][Agt]C[Gt][Act]    #158
+   19.93    [ 486.7]    TGCGCAGA / TCTGCGCA      -600         0                          T[Gct]CG[Ca][Act][Gat][Acgt]    #159
+   19.92    [ 286.9]    AACGTAGT / ACTACGTT     -1100         0                           [Act][Acgt]CG[Ta]A[Gct][Ta]    #160
+   19.81    [ 260.7]    CATGCGCA / --------     -1350         0                                [Ca][Agt]TGCG[Cat][Ag]    #161
+   19.70    [ 415.0]    TTAACGTC / GACGTTAA     -1100         0                    [Tac][Tac][Agt][Agt]C[Gt][Tg][Cgt]    #162
+   19.53    [ 442.3]    CGCATGCG / --------      -300         0                     [Ca][Ga][Ct][Acg][Tacg]G[Cgt][Ga]    #163
+   19.49    [ 312.8]    GCATGCGC / --------      -850         0                            [Gat]C[At][Ta][Gat]CG[Cat]    #164
+   19.49    [ 522.6]    AAAGCCGC / GCGGCTTT      -550         0                   [Agt][At][Ac][Gact][Cat][Cg]G[Cagt]    #165
+   19.41    [ 306.1]    ACTTACGT / ACGTAAGT      -800         0                      [Ag][Cagt][Ta][Tacg][Act]CG[Tag]    #166
+   19.40    [ 317.2]    CTTAGCGG / CCGCTAAG      -950         0                           [Cgt]T[Ta][At][Gact]CG[Gct]    #167
+   19.33    [ 509.9]    AGGCGTTT / AAACGCCT     -1000         0                         [Acgt][Gac][Gact]CG[Ta]T[Tcg]    #168
+   19.24    [ 278.1]    CACCAATC / GATTGGTG      -300         0                            [Cagt]A[Ca][Ca]A[At]T[Cag]    #169
+   19.23    [ 441.7]    CGTTAGTT / AACTAACG      -900         0              [Cag]G[Tacg][Tacg][Acgt][Gac][Tcg][Tacg]    #170
+   19.19    [ 177.6]    ATGCGCAT / --------      -650         0                            [At][Ta][Gc]CG[Cgt]A[Tacg]    #171
+   18.83    [ 495.6]    ATTGGCTG / CAGCCAAT      -550         0                               ATT[Gc]G[Cat][Tcg][Gac]    #172
+   18.83    [ 495.6]    CAGCCAAT / ATTGGCTG      -550         0                               [Cgt][Acg][Gat]C[Cg]AAT    #173
+   18.75    [ 217.6]    CTATTGGT / ACCAATAG      -250         0                                C[Tcg][Ag]T[Tc]GG[Tac]    #174
+   18.50    [ 261.6]    GCCGCCAT / ATGGCGGC      -500       -50                                [Gat][Ca]CGC[Cat]A[Ta]    #175
+   18.41    [ 599.6]    ACGCAATC / GATTGCGT     -1450         0                 [Acgt]C[Gc][Cag][Act][Agt][Tac][Cagt]    #176
+   18.40    [ 385.9]    ACGTTAAA / TTTAACGT     -1100         0                     [Acg]CG[Tacg][Ta][Acg][Agt][Acgt]    #177
+   18.36    [ 357.7]    GTAGTTCC / GGAACTAC      -500         0                      [Ga][Ta][Ac][Gc][Tcg]T[Ct][Cagt]    #178
+   18.32    [ 247.6]    CTACGTTT / AAACGTAG      -600         0                            [Ca][Ta][Act]CG[Tacg][Tg]T    #179
+   18.32    [ 247.6]    AAACGTAG / CTACGTTT      -600         0                            A[Ac][Acgt]CG[Tag][At][Gt]    #180
+   18.27    [ 489.1]    TTCGAATT / AATTCGAA     -1550         0                     [Tac][Ta]CG[Agt][Acg][Tacg][Tacg]    #181
+   18.19    [ 622.4]    TTGTAGTT / AACTACAA     -1250         0                             [Tac][Tcg]GT[Ac]G[Tg][Tc]    #182
+   18.17    [ 628.3]    TCGCGCCA / TGGCGCGA     -1950         0                               [Ta][Cg]GCG[Cagt][Cgt]A    #183
+   18.17    [ 628.3]    TGGCGCGA / TCGCGCCA     -1950         0                               T[Gac][Gact]CGC[Gc][At]    #184
+   18.11    [ 623.8]    GGCGCGAA / TTCGCGCC     -1550         0                            [Gact][Gt]C[Gt]C[Gac]A[At]    #185
+   18.07    [ 317.2]    GGAAGTGA / TCACTTCC      -150         0                           [Gt]G[At][Ac][Ga]T[Ga][Acg]    #186
+   18.07    [ 317.2]    TCACTTCC / GGAAGTGA      -150         0                           [Tcg][Ct]A[Ct][Tg][Ta]C[Ca]    #187
+   17.97    [ 524.0]    CGCCTATT / AATAGGCG      -850         0                   CG[Cat][Cagt][Tacg][Acgt][Tacg][Tg]    #188
+   17.87    [ 342.6]    GAACCAAT / ATTGGTTC      -350         0                       [Gac][Acg][Acgt]C[Cg][At]A[Tac]    #189
+   17.87    [ 483.8]    CGTTTCCA / TGGAAACG      -800         0                           CG[Tc]T[Ta][Cag][Cgt][Acgt]    #190
+   17.83    [ 258.9]    TAGAAACG / CGTTTCTA      -350         0                      [Tacg][Acg][Gct][Acgt]A[Ag]C[Gc]    #191
+   17.78    [ 250.2]    GCACTACG / CGTAGTGC      -800         0                         [Gat][Cagt][At][Cagt][Tag]ACG    #192
+   17.78    [ 424.7]    ATTGGCTA / TAGCCAAT      -600         0                            AT[Tcg][Gc]G[Cg][Tag][Acg]    #193
+   17.64    [ 359.8]    CTACGACT / AGTCGTAG     -1150         0                         [Cgt][Tag]AC[Gac]A[Cgt][Tacg]    #194
+   17.59    [ 597.5]    ATCGCGCC / --------     -2000      -600                      [Ag][Tac][Cag][Gc]C[Gat][Ca][Cg]    #195
+   17.49    [ 285.9]    TCTACGGA / TCCGTAGA      -850         0                     [Ta][Cagt][Tag][Ag]C[Gc][Gt][Agt]    #196
+   17.44    [ 572.2]    TGCGCAGC / GCTGCGCA      -600         0                         [Ta][Gat]CG[Cag]A[Gact][Cagt]    #197
+   17.43    [ 431.9]    TGCGGAGT / ACTCCGCA      -600         0                        [Tag][Gac]C[Gc][Gact][At][Ga]T    #198
+   17.43    [ 453.7]    ACCTCCGC / GCGGAGGT      -350         0                            A[Cag][Cagt]T[Cat]CG[Cagt]    #199
+   17.42    [ 557.1]    CCGCCATC / GATGGCGG      -600         0                         [Cagt]CGC[Cagt][At][Ta][Cagt]    #200
+   17.41    [ 510.5]    AACTCACG / CGTGAGTT      -950         0                    [At][Agt][Cgt][Tacg][Cagt][Acgt]CG    #201
+   17.34    [ 344.7]    AACGCCAC / --------     -1150         0                       [Agt]AC[Ga][Cg][Ct][Acgt][Cagt]    #202
+   17.28    [ 439.8]    TGGGCGGA / TCCGCCCA      -300         0                       [Ta][Gact][Gac][Gat]CG[Gat][At]    #203
+   17.28    [ 439.8]    TCCGCCCA / TGGGCGGA      -300         0                       [Ta][Cat]CG[Cat][Cgt][Cagt][At]    #204
+   17.26    [ 337.8]    TAAAACGT / --------     -1200       -50                      [Ta]A[Agt][Acg][Acgt][Cg]G[Tacg]    #205
+   17.22    [ 515.8]    TCGCTTTC / GAAAGCGA      -700         0                      [Tacg]CG[Cat][Tacg][Ta][Ta][Cgt]    #206
+   17.18    [ 348.6]    GCGGAGTC / GACTCCGC      -600         0                                  GCG[Gact]A[Ga]T[Cat]    #207
+   17.18    [ 403.6]    AAACGTTT / --------     -1400         0                      [Agt][Agt][Ac][Cg]G[Ta][Tag][Tc]    #208
+   17.15    [ 551.0]    TCCCGCCT / AGGCGGGA      -400         0                          T[Cat][Cgt][Cg]G[Ca][Ct][Ta]    #209
+   17.13    [ 299.8]    CCGCCAAC / --------      -400         0                [Cag][Ct][Gt][Cag][Cagt][At][At][Cagt]    #210
+   17.07    [ 476.8]    TCTCGCGA / TCGCGAGA     -1250         0              [Tag][Cagt][Tacg][Cagt][Gat][Ct][Ga][At]    #211
+   17.06    [ 234.0]    ATTGGTGG / CCACCAAT      -400         0                                  ATT[Gc]GT[Gact][Gct]    #212
+   17.04    [ 502.6]    CGCGCGAC / --------     -1950         0                        [Cg][Gact][Ct]G[Ct][Gct]A[Cat]    #213
+   17.03    [ 533.7]    ACGAAACT / --------     -2000       -50               [Agt]C[Gct][Acgt][Acgt][Acg][Cag][Tacg]    #214
+   16.95    [ 618.6]    GTACTTAA / TTAAGTAC     -1600      -300                           [Gc][Ta]A[Ct][Tag]T[Ag][Ac]    #215
+   16.95    [ 616.7]    CTGCCGGA / TCCGGCAG      -600         0                      [Cat][Ta][Gact][Cag]CG[Gact][At]    #216
+   16.87    [ 604.5]    GGAACGCG / CGCGTTCC      -550         0                   [Gac][Gact]A[At][Cag][Gt][Cat][Gct]    #217
+   16.80    [ 405.7]    ACGCCACC / GGTGGCGT      -650         0                           ACG[Cat][Cagt][At][Ct][Cat]    #218
+   16.76    [ 622.1]    ACGTAAAA / --------     -1350      -400                 [Act][Cagt][Gact][Tg][Ac][Act]A[Acgt]    #219
+   16.74    [ 608.9]    AACTACAA / --------     -1500         0                           [Ag][Ac][Ct][Ta][Acg]C[Ag]A    #220
+   16.68    [ 354.7]    AGCCGCCA / TGGCGGCT      -350       -50                       [At][Gact][Cag][Cg]G[Cat][Cat]A    #221
+   16.67    [ 126.6]    ACTACGAG / CTCGTAGT     -1200         0                                       AC[Ta]ACGA[Gct]    #222
+   16.60    [ 377.6]    CTCATTGG / CCAATGAG      -200         0                                 [Cgt][Tcg][Cagt]ATTGG    #223
+   16.57    [ 370.7]    AAACGAAA / TTTCGTTT      -750         0                           [Act][Agt][Ac]CG[Acg]A[Acg]    #224
+   16.55    [ 541.5]    ACGCCCTT / AAGGGCGT      -450         0                 [Acgt][Ct]G[Cagt][Cagt][Cg][Tcg][Tag]    #225
+   16.46    [ 244.8]    CGAAAAGG / --------      -750       -50                      CG[Act][Act][Acgt][Acg][Ga][Gct]    #226
+   16.46    [ 614.7]    CGTTTTGG / CCAAAACG     -1750         0                       CG[Tacg][Ta][Tag][Tac][Ga][Gct]    #227
+   16.43    [ 584.8]    GTCCCGCC / GGCGGGAC      -450         0                             [Gt]T[Cat][Cag]CG[Ca][Ct]    #228
+   16.42    [ 206.8]    AAACGCCT / --------      -850       -50                               [Agt]A[At]CGC[Cgt][Tac]    #229
+   16.40    [ 485.9]    GTACTTCC / --------     -1550         0                        [Gc]TA[Cgt][Tac][Tag][Cgt][Ct]    #230
+   16.39    [ 617.1]    CGCCATCT / AGATGGCG     -1450         0                              CG[Ct][Cgt]A[Ta][Ct][Ta]    #231
+   16.39    [ 418.7]    CGTCATCA / TGATGACG      -700         0                    [Ct]G[Tac]C[Acg][Tacg][Cagt][Acgt]    #232
+   16.37    [ 609.7]    AAATACGG / CCGTATTT     -1550         0                     A[Agt][Act][Ta][Acg][Cg][Gc][Gct]    #233
+   16.26    [ 315.5]    CCGCAGAA / --------      -600         0                    [Cagt]CG[Cagt][Agt][Gact][At][Act]    #234
+   16.25    [ 245.9]    GAATGACG / --------      -750         0                   [Gact][Act][Acgt][Tag][Gt][At]C[Gc]    #235
+   16.25    [ 583.7]    GGCGCGAT / ATCGCGCC     -2000      -800                              [Ga][Gt][Ca]GCG[Ag][Tac]    #236
+   16.21    [ 620.0]    AGATCGCG / CGCGATCT     -1450       -50                           A[Ga][At][Ta][Cg][Gct]C[Gt]    #237
+   16.21    [ 620.0]    CGCGATCT / AGATCGCG     -1450       -50                           [Ca]G[Cag][Gc][At][Ta][Ct]T    #238
+   16.19    [ 406.5]    CTACTTCC / --------      -650         0                     [Cagt][Tag]A[Cat][Tcg][Tacg][Ct]C    #239
+   16.18    [ 602.1]    GTCTCAAA / --------     -1850     -1250                          [Gt][Tg][Cag][Ta]CA[At][Act]    #240
+   16.16    [ 585.6]    AAACTACA / TGTAGTTT     -1350         0                                [Acg]A[Ac]C[Tg]AC[Acg]    #241
+   16.09    [ 610.8]    GCAACGCC / GGCGTTGC      -750         0                       [Gat][Cag][Acgt]AC[Gt][Cag][Ca]    #242
+   16.04    [ 329.7]    GACCACGC / GCGTGGTC      -650         0                              [Gat]AC[Cat][At]CG[Cagt]    #243
+   16.03    [ 480.9]    TTCCCGTA / TACGGGAA      -600         0              [Tacg][Tg][Cg][Cagt][Cg][Ga][Tacg][Acgt]    #244
+   15.89    [ 592.7]    ACACTAAA / --------     -1800      -450                      [Act]C[Ag][Ca][Tg][At][At][Acgt]    #245
+   15.87    [ 412.6]    ACGCCAAG / CTTGGCGT      -500         0                   [Acg]C[Gt][Ct][Cagt][Agt][Act][Gac]    #246
+   15.73    [ 341.8]    CGCTCTTC / GAAGAGCG      -350         0                          [Ct]G[Ct][Tac][Cgt]T[Ta][Ca]    #247
+   15.66    [ 210.7]    GCCAATAG / CTATTGGC      -250         0                               [Gat]C[Cg][Acg]AT[Act]G    #248
+   15.65    [ 595.9]    GTTAACAA / TTGTTAAC     -1150      -250                    [Gc][Tag][Ta]A[At][Cg][Acgt][Acgt]    #249
+   15.64    [ 332.9]    CTCTAACG / --------     -1250         0                [Cgt][Tacg][Ct][Tcg][Acg][Agt][Ct][Gc]    #250
+   15.62    [ 570.1]    CGCGGCTT / AAGCCGCG      -400         0                   [Cagt][Gt][Cgt][Gact][Gct][Ca]T[Ta]    #251
+   15.61    [ 151.8]    CACTACGA / TCGTAGTG     -1150         0                                   [Cagt][Ac][Cg]TACGA    #252
+   15.51    [ 611.7]    CACACTAA / --------     -1600      -500                 [Cagt][Acgt][Cgt][Agt][Cag][Tag]A[At]    #253
+   15.48    [ 601.0]    TAAAATAC / --------     -1800      -800                          [Tg]A[Ac][Ag][Acgt]T[At][Ct]    #254
+   15.46    [ 475.9]    TCTAACGC / GCGTTAGA     -1200         0                 [Tacg][Cagt][Tag][Act][Acg]C[Gc][Cgt]    #255
+   15.40    [ 300.0]    AACCAATG / CATTGGTT      -400         0                        [Acg][Act]C[Ct][Agt]A[Tc][Gac]    #256
+   15.36    [ 611.1]    TTGTAGTC / GACTACAA     -1300         0                           [Tg][Tc]GT[Ac][Gat][Tg][Ct]    #257
+   15.35    [ 612.7]    ACTACAAC / GTTGTAGT     -1150         0                        [Acg]C[Tg]A[Ca][Acg][Acg][Cgt]    #258
+   15.30    [ 343.1]    CTCGTAAG / CTTACGAG     -1150       -50                       [Cgt][Tag]C[Gc]T[Ag][Acg][Gact]    #259
+   15.29    [ 549.6]    TCCGGGTT / AACCCGGA     -1150         0                         [Ta][Cag]CG[Gac][Gac][Ta][Tc]    #260
+   15.27    [ 612.4]    GATCGCGC / GCGCGATC     -1950         0                                 [Gac][At]T[Cg]GC[Gt]C    #261
+   15.27    [ 612.4]    GCGCGATC / GATCGCGC     -1950         0                                 G[Ca]GC[Gc]A[Ta][Cgt]    #262
+   15.23    [ 611.2]    ACCGCGCC / --------     -2000      -700                                     A[Ct]C[Ga]CGC[Ct]    #263
+   15.17    [ 580.5]    ACTACAAT / ATTGTAGT     -1300         0                           [Ag][Cg]T[Ac]C[Ag][Ag][Tac]    #264
+   15.14    [ 603.7]    ACTAATTT / --------     -1900      -500                           A[Ca][Tg]A[Ac][Tag][Tc][Tc]    #265
+   15.07    [ 599.7]    ATCCGCCC / GGGCGGAT     -1800         0                                           [At]TCCGCCC    #266
+   15.07    [ 599.7]    GGGCGGAT / ATCCGCCC     -1800         0                                           GGGCGGA[Ta]    #267
+   15.03    [ 603.8]    AAACTCCG / CGGAGTTT     -1400         0                                   A[Agt]A[Ct]T[Cag]CG    #268
+   14.96    [ 421.6]    AAATCGGT / ACCGATTT     -1300         0                      [Acg][Agt][At][Tag]CG[Gact][Tac]    #269
+   14.92    [ 581.3]    AAAATTAC / --------     -1700      -200                               A[Act][Act][Acg][Tg]TAC    #270
+   14.92    [ 444.8]    CCAAATCG / CGATTTGG     -1000         0                     [Cat][Cgt][Acg][Agt][Act][Tacg]CG    #271
+   14.92    [ 601.0]    AAAAACGA / --------     -1800       -50                             [Ag][Ac][Ag]AAC[Gct][Act]    #272
+   14.91    [ 595.5]    TGTCTCAA / --------     -2000     -1000                                 [Tc][Ga]T[Cgt]TC[Ag]A    #273
+   14.90    [ 100.9]    GAAGTGAC / GTCACTTC      -100         0                                     G[At]A[Ga]T[Ga]AC    #274
+   14.90    [ 100.9]    GTCACTTC / GAAGTGAC      -100         0                                     GT[Ct]A[Ct]T[Ta]C    #275
+   14.88    [ 553.0]    CCGACAAG / CTTGTCGG     -1000         0                [Cgt][Cg]G[Acgt][Cagt][Acgt][Act][Gat]    #276
+   14.86    [ 347.9]    TACTAATT / --------     -1150      -300                       [Tcg][At][Cg][Tg][Ac]A[Tg][Tac]    #277
+   14.84    [ 483.3]    AACGTAAA / --------     -2000       -50                      [Acgt][Acgt]C[Gt][Tag][At][Acg]A    #278
+   14.81    [ 610.2]    CGATTCTT / AAGAATCG     -1350         0                               CG[Ac][Tc][Tg][Ct]T[Tc]    #279
+   14.81    [ 527.0]    AGCGGCTT / AAGCCGCT      -750         0                    [Act][Ga]C[Gac][Gact][Cat][Ta][Ta]    #280
+   14.79    [ 506.9]    CGCCATTG / CAATGGCG     -1450         0                           CG[Cagt][Cg][Ag]T[Tcg][Gat]    #281
+   14.78    [ 361.9]    ACAGCGGA / TCCGCTGT      -600         0                          A[Cagt][At][Gat]C[Gc][Gact]A    #282
+   14.62    [ 544.6]    CTACTCCC / --------     -1400         0                        [Ct][Ta]AC[Tg][Cagt][Cag][Cag]    #283
+   14.61    [ 561.0]    ACTTAAAA / --------     -1650      -400                                [Ag]C[Tacg]TAA[Ac][At]    #284
+   14.58    [ 386.2]    TAGCGGCT / AGCCGCTA      -850         0                    [Ta][At][Gact]C[Gct][Gat][Cgt][Ta]    #285
+   14.55    [ 389.8]    GCGAACCA / TGGTTCGC      -600         0                [Gact]C[Gct][Agt][Act][Cag][Cagt][Agt]    #286
+   14.52    [ 216.4]    CTGCGCAG / --------      -750         0                                       [Cat]TGCGCA[Ga]    #287
+   14.52    [ 243.8]    AAAACCCG / --------      -600       -50                      [At][Ac][Acgt][Ag][Cagt][Cagt]CG    #288
+   14.51    [ 515.6]    AACGATCA / --------     -1750      -150           [Agt][Acgt][Cag][Gat][Act][Tac][Cagt][Acgt]    #289
+   14.46    [ 341.8]    GTACGAAG / CTTCGTAC      -950         0                   [Gct][Tag][Agt]C[Gc][Agt][Ac][Gact]    #290
+   14.45    [ 589.6]    TAGTTAAC / GTTAACTA     -1650      -200                           [Tacg][Act][Gc]T[Ta][Acg]AC    #291
+   14.44    [ 604.3]    AAAAAAAC / --------     -1550     -1050                                  A[At][Ac]A[Ac]AA[Cg]    #292
+   14.44    [ 606.4]    CGCGCCAC / GTGGCGCG     -1700       -50                                       CGC[Gt]CCA[Cat]    #293
+   14.41    [ 583.9]    TAATACAC / --------     -2000      -150                          [Ta][At][Agt]TA[Ca][Act][Ca]    #294
+   14.35    [ 601.6]    CACCACGC / --------     -1100         0                         [Cagt][Ag][Cagt][Cagt][Ag]CGC    #295
+   14.34    [ 162.4]    ACGCTCTA / TAGAGCGT      -250         0                   [Agt]C[Gt][Ca][Ta][Cagt][Tacg][Act]    #296
+   14.31    [ 569.0]    CAGCACGC / GCGTGCTG      -800         0                      [Cat][Ag][Gat][Cagt]A[Cat]G[Cat]    #297
+   14.29    [ 578.7]    AGCCTGTA / TACAGGCT     -2000     -1500                                  [Ac][Gt][Ct]CT[Gt]TA    #298
+   14.27    [ 595.8]    TCCCGCCA / --------     -1750         0                             T[Ca][Cg]CG[Ca][Cagt][At]    #299
+   14.25    [ 607.8]    TACTCGGG / CCCGAGTA     -2000      -700                                   TA[Cg]TC[Gc][Gact]G    #300
+   14.25    [ 607.8]    CCCGAGTA / TACTCGGG     -2000      -700                                   C[Cagt][Cg]GA[Gc]TA    #301
+   14.23    [ 604.1]    TCTAGCGA / TCGCTAGA     -1300         0                              [Tcg][Ca][Ta][Ac][Gc]CGA    #302
+   14.19    [ 598.0]    TCGCTTCT / AGAAGCGA      -800         0                    [Tacg]CG[Cagt][Tcg][Tag][Cag][Tcg]    #303
+   14.15    [ 593.2]    AAAAAAAG / --------     -1550     -1050                               [Ac][Ac][Ac]AAA[Ac][Gc]    #304
+   14.12    [ 180.9]    TCCCAGAA / TTCTGGGA      -150         0                                      TCCC[Acg][Gac]AA    #305
+   14.02    [ 599.1]    AATACAAG / CTTGTATT     -2000      -450                                     A[At]TACA[Ac][Gt]    #306
+   13.97    [ 218.0]    CCGACTAA / --------     -1350      -100                     [Cat]C[Gc][Ac][Cag][Tag][Agt][Ac]    #307
+   13.96    [ 534.0]    GCGAATCC / GGATTCGC     -1150         0                     [Gat]C[Gc][Agt][Ac][Ta][Cag][Cgt]    #308
+   13.94    [ 554.7]    TACGTTTG / CAAACGTA     -1950         0                       [Tg][At]C[Gc][Tac]T[Tacg][Gact]    #309
+   13.92    [ 360.4]    CGGCTAGA / TCTAGCCG      -700         0                   C[Gc][Gct][Cagt][Ta][Act][Gac][Acg]    #310
+   13.91    [ 601.7]    GGTACTTT / AAAGTACC     -1400      -700                      [Gat][Gt][Tc]A[Cgt][Tc][Ta][Tac]    #311
+   13.91    [ 590.9]    AGGTACTT / AAGTACCT     -1650      -300                               [Act][Gact]GT[At]CT[Tc]    #312
+   13.91    [ 180.6]    CAACGCTC / --------      -300         0                       [Cagt][Acg][Ac][Cg]GC[Tcg][Cat]    #313
+   13.90    [ 601.8]    ATTTACTA / --------     -1650      -500                     [At][Tacg]T[Tacg][Ac][Cg][Tg][At]    #314
+   13.78    [ 432.7]    CGCCACAG / CTGTGGCG      -700         0                            CG[Cagt][Cagt]A[Ca]A[Gact]    #315
+   13.77    [ 601.2]    AATTACAA / --------     -1800      -500                           [Acg]A[Tc][Tc][At]C[At][Ac]    #316
+   13.77    [ 588.4]    CTCAAAAA / --------     -1600     -1050                           [Ct][Tg][Cgt][Ag]A[At][At]A    #317
+   13.73    [ 225.9]    GCATGCGT / --------     -1050         0                                    GCA[Tc][Gc]CG[Tac]    #318
+   13.72    [ 182.5]    TCCGTTCC / GGAACGGA      -350         0                               T[Cat]CGT[Ta][Cgt][Cgt]    #319
+   13.65    [ 285.2]    CAGCGACT / --------      -850         0                        [Cagt][At][Gact]CGA[Cat][Tacg]    #320
+   13.63    [ 603.9]    AACACTAA / --------     -1700      -150                      [Acgt][Ac][Ct][Acg][Cg]T[Ag][At]    #321
+   13.62    [ 210.6]    AGCACGCA / --------      -700         0                            A[Gat][Cgt][Act]CG[Ct][At]    #322
+   13.56    [ 541.6]    AATTACAC / --------     -1500      -350                        [Act][Acgt][Tc][Tc][Ac]CA[Cag]    #323
+   13.52    [ 576.6]    TGAACCCG / CGGGTTCA     -1700      -600                             [Tc][Gct][Ag]A[Cat][Cg]CG    #324
+   13.51    [ 595.4]    ACTAAACT / --------     -1950      -800                    [Ac][Ca][Tcg][Acg]A[Agt][Cagt][Tg]    #325
+   13.49    [ 257.5]    ATCACCGC / --------      -550         0                    [Acg][Tag][Cat][Ag][Cag][Cg]G[Cag]    #326
+   13.36    [ 601.1]    AAAAATTA / --------     -1700     -1300                             [At]A[At]A[Act][Tc]T[Acg]    #327
+   13.32    [ 138.8]    CGCAATCC / GGATTGCG     -1100         0                                       CGCAAT[Ct][Cag]    #328
+   13.28    [ 413.7]    ATTGAACG / CGTTCAAT     -1700      -100                     [Acgt][Tg][Tacg][Gact][Act][At]CG    #329
+   13.25    [ 338.2]    AAACCCGT / --------     -1350      -100                       [At][At]A[Cgt][Cagt]C[Gt][Tacg]    #330
+   13.24    [ 601.6]    CTGTAATC / GATTACAG     -1900     -1650                                     C[Ta]GTA[Ag][Tc]C    #331
+   13.24    [ 601.6]    GATTACAG / CTGTAATC     -1900     -1650                                     G[Ag][Tc]TAC[At]G    #332
+   13.23    [ 561.3]    ATTACAAG / CTTGTAAT     -2000      -450                                     A[Ta]TACA[Ac][Gt]    #333
+   13.22    [ 590.4]    TCTCAAAA / --------     -1950     -1400                                 [Tag]CT[Ct][Ag]AA[Ac]    #334
+   13.13    [ 571.9]    CTAAGTTT / AAACTTAG     -1850     -1600                          C[Ta]A[Acgt][Gat][Tacg]T[Tg]    #335
+   13.06    [ 567.7]    CACGCGCC / GGCGCGTG      -200         0                 [Cat]A[Cgt][Gat][Cag][Gact][Cat][Cag]    #336
+   13.03    [ 590.6]    CAAAAATT / --------     -1700     -1250                              [Cag][Ac]A[Ac]A[At]T[Ta]    #337
+   13.03    [ 292.1]    CGCACAAG / --------      -450         0            [Ca][Gac][Cat][Act][Cagt][Acgt][Act][Gact]    #338
+   13.01    [ 595.5]    AACGAAAA / --------     -1550      -100                            [Agt]AC[Ga][Act]A[Ac][Acg]    #339
+   12.99    [ 297.8]    CGCAGAAC / --------     -1350         0                              CG[Cagt]A[Ga][Act]A[Cag]    #340
+   12.90    [ 589.8]    TCGCTTGA / TCAAGCGA     -1950      -900                               TCG[Cgt][Tag][Ta][Gat]A    #341
+   12.88    [ 585.5]    TTAAAAAG / --------     -1050      -250                            [Tacg][Tc]AA[Ac]A[Act][Gc]    #342
+   12.87    [ 417.5]    CTACAACT / --------     -1000         0                     [Cagt]TA[Cg][Acg][Acgt][Cg][Tacg]    #343
+   12.87    [ 242.9]    CAACGCCG / --------      -950         0                       [Cgt]A[At][Ct][Ga][Cagt]C[Gact]    #344
+   12.85    [ 599.7]    TAATTTTT / AAAAATTA     -1500     -1300                            [Tc]A[Ag][Tc]T[Ta][Ta][Ta]    #345
+   12.84    [ 587.8]    TTTTTGTA / TACAAAAA     -2000     -1700                                          TTTT[Tac]GTA    #346
+   12.84    [ 587.8]    TACAAAAA / TTTTTGTA     -2000     -1700                                          TAC[Agt]AAAA    #347
+   12.84    [ 587.8]    TTTTAGTA / TACTAAAA     -2000     -1700                                          TTTT[Act]GTA    #348
+   12.84    [ 574.6]    AGTTAAGC / GCTTAACT     -1600      -200                           [Acgt][Gt]T[Ta]A[Acg][Gct]C    #349
+   12.83    [ 584.0]    TGTAGTTC / --------     -1700       -50                       [Tacg][Gac][Tg]A[Gc][Tg]T[Cagt]    #350
+   12.83    [ 584.0]    GGCGGAGT / ACTCCGCC      -550         0                         [Gact][Gct]CG[Gact]A[Gat][Ta]    #351
+   12.76    [ 597.1]    ACAAAAAT / --------     -1650     -1250                              A[Ct][Acg][Ag]AA[At][Ta]    #352
+   12.75    [ 104.8]    ACACGCTC / --------      -300         0                                 [Act][Cg]ACG[Cg]T[Ca]    #353
+   12.68    [ 597.1]    CACCGCGC / --------     -1300       -50                       [Cat]A[Cat][Cg][Gt][Ca][Gc][Ct]    #354
+   12.67    [ 256.6]    AAGACTAC / GTAGTCTT      -550         0                               [Acgt][Acg][Ga]AC[Ta]AC    #355
+   12.67    [ 581.1]    AAAAACTA / --------     -1700     -1150                                A[Act][Ag]AA[Ct][Tcg]A    #356
+   12.67    [ 537.6]    AAAGTACT / AGTACTTT     -1400      -800                           [Agt]A[Ac][Gac]TA[Ct][Tacg]    #357
+   12.66    [ 253.6]    AGGCCTAA / TTAGGCCT      -550      -150                      [Act][Gac][Gt][Ca][Cg]T[At][Act]    #358
+   12.66    [ 583.1]    ATCGCTTG / CAAGCGAT     -1950      -850                                 ATCG[Cg][Tac][Ta][Gc]    #359
+   12.65    [ 252.2]    AAAGGTTA / --------     -1650      -600                                    A[At][Acg]GGTT[At]    #360
+   12.65    [ 597.5]    ATTAATAC / --------     -1900      -450                        [Agt][Tacg]TA[Ac][Tc][Acg][Ca]    #361
+   12.64    [ 332.1]    AACGCCGG / CCGGCGTT      -500         0                      [At]A[Ca][Gt][Ca][Ct][Gct][Gact]    #362
+   12.63    [ 452.5]    AAGCTAAC / --------     -1450      -150                  [Ac][Acg][Gat][Ct][Tg][Agt][Ag][Cag]    #363
+   12.59    [ 178.8]    TAAAAAGC / --------     -1000      -200                                        TAAAA[Ac][Gc]C    #364
+   12.59    [ 597.6]    GGACTACA / TGTAGTCC     -1900     -1650                             [Gc][Gct][Act][Ct]TA[Cg]A    #365
+   12.59    [ 560.6]    TCGGGAGT / ACTCCCGA     -1600      -700                             [Tg]CG[Gact][Ga]A[Ga][Tg]    #366
+   12.59    [ 410.5]    CAGCCGAC / GTCGGCTG      -700         0                     [Cagt][At][Gac][Cat]C[Gt][At][Ca]    #367
+   12.56    [ 577.9]    CGGAGTCT / AGACTCCG     -1500         0                                    CG[Gt]A[Gt]T[Cat]T    #368
+   12.53    [ 201.8]    AGTACCTC / --------      -800       -50                       [Act][Gc]T[At][Ct][Cag][Tg][Ct]    #369
+   12.52    [ 594.1]    GAGTTCGA / TCGAACTC     -1550      -600                         [Gac][At][Gact][Tg][Tc]CG[Ag]    #370
+   12.52    [ 593.6]    GACTACAG / CTGTAGTC     -1900     -1650                                    GA[Ct]TA[Cag][At]G    #371
+   12.50    [ 587.9]    CCGCCTCA / TGAGGCGG     -2000      -750                                        CCG[Ct]CT[Ca]A    #372
+   12.49    [ 591.6]    AACTGCAA / --------     -1300         0                        [At]A[Cgt][Tg][Gac]C[Acgt][Ag]    #373
+   12.49    [ 582.1]    AAAAAGGC / GCCTTTTT     -1050       -50                                 A[At]AA[Act][Gc][Gc]C    #374
+   12.49    [ 413.5]    GGATTAAA / --------     -1050      -250                    [Gc][Gat][At][Tg][Ta][At][Ag][Act]    #375
+   12.44    [ 590.2]    TACAACTC / GAGTTGTA     -1300         0                       [Tg][At]C[Ag][Act][Ct][Tag][Ca]    #376
+   12.43    [ 594.4]    ACTACAGG / CCTGTAGT     -1900     -1650                                A[Cgt][Tg]AC[Acg][Ga]G    #377
+   12.43    [ 471.5]    AAGCTTAA / TTAAGCTT     -1500      -450                                A[Ac]GC[Tac][Ta]A[Act]    #378
+   12.42    [ 594.6]    TACAGGCG / CGCCTGTA     -2000     -1350                                  TAC[Ac][Gc][Ga]C[Gt]    #379
+   12.42    [ 594.6]    CGCCTGTA / TACAGGCG     -2000     -1350                                  [Ca]G[Ct][Cg][Tg]GTA    #380
+   12.42    [ 354.0]    AAAGGTTT / --------     -1800      -200                                     [At]AA[Gc]GTT[Ta]    #381
+   12.38    [ 575.9]    ACTAAAGT / --------     -1950      -500                         [At][Ct][Tag][Ag]A[Acg][Gac]T    #382
+   12.38    [ 363.8]    GTTTCGAG / CTCGAAAC     -1000         0                      [Gat][Tg][Tacg][Tac]CG[Ac][Gact]    #383
+   12.37    [ 586.8]    AAACAAAA / --------     -1600     -1250                               [At][Ac]A[Ca][Ag]AA[At]    #384
+   12.36    [ 595.9]    CCTGTAAT / ATTACAGG     -1900     -1650                                    C[Ca][Tc]GTA[Acg]T    #385
+   12.36    [ 595.9]    ATTACAGG / CCTGTAAT     -1900     -1650                                    A[Tcg]TAC[Ag][Gt]G    #386
+   12.34    [ 576.0]    AACAAAAA / --------     -1500     -1050                                        AA[Ca][At]AAAA    #387
+   12.31    [ 593.3]    GCGCCACT / AGTGGCGC     -1450         0                                      GCG[Cgt]CA[Cat]T    #388
+   12.31    [ 593.3]    AGTGGCGC / GCGCCACT     -1450         0                                      A[Gat]TG[Gac]CGC    #389
+   12.29    [ 361.5]    CCACTAAA / --------     -1200      -550                      [Ca][Ca][At][Cg][Tag][Act][Act]A    #390
+   12.25    [ 590.5]    CTACTCGG / CCGAGTAG     -2000      -700                                     CTA[Ct]TC[Gc][Ga]    #391
+   12.25    [ 590.5]    CCGAGTAG / CTACTCGG     -2000      -700                                     [Ct][Cg]GA[Ga]TAG    #392
+   12.24    [ 593.8]    CGTCTCAA / TTGAGACG     -2000     -1350                                 [Ct]G[Tc]CTC[Ag][Agt]    #393
+   12.22    [ 584.6]    GGATTACA / TGTAATCC     -1900     -1650                               [Gc][Gc][Ag][Tc]TAC[Ag]    #394
+   12.22    [ 584.6]    TGTAATCC / GGATTACA     -1900     -1650                               [Tc]GTA[Ag][Tc][Cg][Cg]    #395
+   12.20    [ 592.9]    CGCTTGAA / TTCAAGCG     -1950      -850                                    CG[Ct]TT[Gt]A[Acg]    #396
+   12.19    [ 497.5]    GCGACAGA / TCTGTCGC     -2000      -800                                 [Ga]CGA[Cat][At][Gc]A    #397
+   12.19    [ 497.5]    TCTGTCGC / GCGACAGA     -2000      -800                                 T[Cg][Ta][Gat]TCG[Ct]    #398
+   12.18    [ 475.2]    GAGAAAGC / --------      -650         0                    [Gact][Ac][Gact][At][At][Ac][Gac]C    #399
+   12.16    [ 583.3]    AGTTCGAG / CTCGAACT     -1750      -600                                  A[Gat]TTCG[Ag][Gact]    #400
+   12.16    [ 583.3]    CTCGAACT / AGTTCGAG     -1750      -600                                  [Cagt][Tc]CGAA[Cat]T    #401
+   12.14    [ 583.7]    ACGCGCCT / AGGCGCGT     -1250         0                         A[Ct][Gc]C[Gt][Cagt][Cat][Ta]    #402
+   12.13    [ 239.7]    TCACGTGA / TCACGTGA      -900         0                                T[Ct][Acg]CG[Ta][Gct]A    #403
+   12.11    [ 574.3]    ACAAATTT / --------     -1500      -250                             AC[Agt][Ag][Agt][Tg]T[Tc]    #404
+   12.07    [ 592.8]    GTCTCGAA / --------     -1950     -1150                                     [Gt][Ta]CTC[Ga]AA    #405
+   12.07    [ 585.0]    GAGAATCG / CGATTCTC     -1950      -850                                G[Ac][Gat][Agt][Ac]TCG    #406
+   12.07    [ 585.0]    CGATTCTC / GAGAATCG     -1950      -850                                CGA[Tg][Tac][Cat][Tg]C    #407
+   12.06    [ 585.8]    ATTTTTAG / CTAAAAAT     -2000     -1700                             A[Tag][Ta][Ta][Tac]T[Ac]G    #408
+   12.06    [ 585.8]    CTAAAAAT / ATTTTTAG     -2000     -1700                             C[Tg]A[Agt][At][At][Act]T    #409
+   12.03    [ 591.1]    TGTATTTT / AAAATACA     -2000     -1700                                  [Tc]GTA[Ta]T[Tc][Tg]    #410
+   12.03    [ 591.1]    AAAATACA / TGTATTTT     -2000     -1700                                  [Ac][Ag]A[At]TAC[Ag]    #411
+   12.01    [ 235.8]    ACGATCAA / --------     -1300      -100                  [Acg][Ca][Gt][At][Tc][Cat][Act][Acg]    #412
+   12.01    [ 591.2]    GATCCGCC / GGCGGATC     -1800         0                                        [Gt][At]TCCGCC    #413
+   12.00    [ 572.8]    CTTAAAAA / --------     -1950     -1150                                     C[Tg][Tc]AA[Ag]AA    #414
+   12.00    [ 588.2]    AATTTACT / --------     -1700      -500                          [Acg]A[Tc][Tc][Ta]A[Cgt][Tc]    #415
+   11.96    [ 426.9]    ACAGTATT / --------     -1650      -400                                A[Ca]A[Gct]TA[Tc][Tac]    #416
+   11.94    [ 381.5]    TAAGGAAT / --------     -1200      -300                         [Ta][At][Acg][Gct][Gt][Agt]AT    #417
+   11.93    [ 419.1]    ACACCTAA / --------     -1700      -400                            A[Cg][Acg][Ca][Cagt]T[Ac]A    #418
+   11.92    [ 578.5]    ACCACGCC / --------     -2000      -650                                 AC[Ca][Acg]CG[Cg][Cg]    #419
+   11.92    [ 452.7]    TTAACAAG / --------     -1150      -250                         [Tac]T[Ac][Ac][Ca]A[Acg][Gct]    #420
+   11.91    [ 568.2]    AATAATTT / --------     -1700      -950                                A[Act]TA[Ac][Ta]T[Tac]    #421
+   11.90    [ 354.1]    GCCATCTT / AAGATGGC      -900         0                                     GC[Cg][Ag]T[Ct]TT    #422
+   11.88    [ 568.5]    TCCGTCTC / GAGACGGA     -2000      -750                                     T[Ct][Cg]GTCT[Cg]    #423
+   11.88    [ 568.5]    GAGACGGA / TCCGTCTC     -2000      -750                                     [Gc]AGAC[Gc][Ga]A    #424
+   11.86    [ 187.5]    AGTTTCGA / --------     -1150         0                           [Acgt][Gat][Ta]T[Tag][Ca]GA    #425
+   11.86    [ 297.1]    AAATCGAT / ATCGATTT     -1300       -50                                 AAA[Tac]CG[Acgt][Tac]    #426
+   11.84    [ 475.6]    CGACAGAG / CTCTGTCG     -2000      -800                                 CGA[Ct][Ac][Gc]A[Gct]    #427
+   11.84    [ 475.6]    CTCTGTCG / CGACAGAG     -2000      -800                                 [Cag]T[Cg][Tg][Ga]TCG    #428
+   11.84    [ 590.1]    AAAAAATT / --------     -1700     -1300                                   [Acg][Act]AA[At]ATT    #429
+   11.82    [ 554.6]    CCAGCCTG / CAGGCTGG     -2000     -1850                                C[Ct]A[Gat][Ca][Cgt]TG    #430
+   11.82    [ 554.6]    CAGGCTGG / CCAGCCTG     -2000     -1850                                CA[Gac][Gt][Cat]T[Ga]G    #431
+   11.80    [ 574.7]    AATCAACT / --------     -1900      -750                  [Ag][Acgt][Tg][Ct][Act][Ac][Cgt][Tg]    #432
+   11.78    [ 592.7]    ACAAAACA / --------     -2000     -1250                               AC[Ag][At][At][Ag][Ca]A    #433
+   11.77    [ 178.0]    TGTAGTCT / AGACTACA      -700         0                                      [Tacg]GTAGTC[Tg]    #434
+   11.74    [ 587.2]    ACAAAAAA / --------     -1600     -1150                                        A[Ca]A[Ac]AAAA    #435
+   11.73    [ 565.1]    TTTTTTTT / AAAAAAAA     -1550     -1400                                  [Tg]TTT[Tg][Tg][Tg]T    #436
+   11.72    [ 579.6]    TTGTATTT / AAATACAA     -2000     -1700                                     [Ta]TG[Ta]ATT[Ta]    #437
+   11.72    [ 579.6]    AAATACAA / TTGTATTT     -2000     -1700                                     [At]AAT[At]CA[At]    #438
+   11.71    [ 589.8]    CGAGATCG / CGATCTCG     -1650         0                          C[Gt][Act][Ga]A[Tc][Ca][Gct]    #439
+   11.70    [ 138.2]    ACAACTCC / --------      -200       -50                   [Ag][Cag][Acgt]A[Cagt][Tag][Ca][Cg]    #440
+   11.68    [ 590.3]    TCGAACTT / AAGTTCGA     -1750      -500                                [Tc]CGAA[Cgt][Ta][Tcg]    #441
+   11.65    [ 591.9]    CTAATTTT / AAAATTAG     -1900     -1650                           [Ca][Tg]A[Ag][Tg][Tc]T[Tag]    #442
+   11.65    [ 591.9]    AAAATTAG / CTAATTTT     -1900     -1650                           [Act]A[Ag][Ac][Tc]T[Ac][Gt]    #443
+   11.64    [ 295.8]    AGCGTGAG / CTCACGCT      -750       -50                              A[Gact]CGT[Gact][At][Gc]    #444
+   11.64    [ 544.6]    AAAAGAGC / --------     -1550      -250                              A[Ag][At]A[Gct]A[Gt][Ct]    #445
+   11.64    [ 582.8]    CCGTCTCA / TGAGACGG     -2000      -800                                        [Ct]CG[Tc]CTCA    #446
+   11.64    [ 582.8]    TGAGACGG / CCGTCTCA     -2000      -800                                        TGAG[Ag]CG[Ga]    #447
+   11.62    [ 589.5]    AAAACAAA / --------     -1600     -1250                                 AA[Acg][Ac][Ca][Ac]AA    #448
+   11.59    [ 585.9]    GAGATCGC / GCGATCTC     -1950      -500                               [Ga][Act][Gact]AT[Ca]GC    #449
+   11.57    [ 375.7]    TAAAAACC / --------     -1000      -200                          [Tcg]A[At][At][Acg][At][Cg]C    #450
+   11.56    [ 570.0]    AAAAAAAT / --------     -1550     -1250                                A[At]AAA[Agt][Acg][Tg]    #451
+   11.50    [ 581.4]    ATAAACTA / TAGTTTAT     -1700      -500                                    A[Tag][Ac][Ac]ACTA    #452
+   11.49    [ 250.7]    AGGACGCA / TGCGTCCT      -600         0                                 A[Gct][Gct]ACG[Cagt]A    #453
+   11.48    [ 588.4]    AAAAAAAA / --------     -1550     -1050                                           AA[Ac]AAAAA    #454
+   11.48    [ 510.0]    ACGGAGTC / GACTCCGT     -2000     -1000                             ACG[Gat][Acg][Ga][Ta][Ct]    #455
+   11.44    [ 132.7]    CAACCGGC / --------     -1500         0                                     C[At]A[Ct]CGG[Ca]    #456
+   11.44    [ 417.9]    TCACGGGC / GCCCGTGA      -700         0                          T[Ct][At]C[Gct][Gc][Gct][Ca]    #457
+   11.35    [ 147.8]    ACGCACAA / --------     -1000       -50                                [Agt]CG[Ct][Ac][Cag]AA    #458
+   11.32    [ 507.5]    CCACCGCG / --------     -1250         0                            [Cag][Cat]A[Cat][Cg]G[Ca]G    #459
+   11.27    [ 587.7]    TTTGAGAC / GTCTCAAA     -1650     -1300                             [Tg][Ta]T[Gac]A[Gct][Ac]C    #460
+   11.27    [ 586.5]    GGGTTTCA / TGAAACCC     -2000     -1600                           [Gac]G[Gt][Ta][Ta][Ta]C[Ag]    #461
+   11.27    [ 587.0]    TTCAATAA / --------     -1950      -350                               T[Ta]CA[Ac][Ta][Ag][Ac]    #462
+   11.24    [ 568.1]    TTTTGTAT / ATACAAAA     -2000     -1700                                     TT[Ta][Ta][Ga]TAT    #463
+   11.24    [ 568.1]    ATACAAAA / TTTTGTAT     -2000     -1700                                     ATA[Ct][At][At]AA    #464
+   11.23    [ 571.8]    TTACTCTA / --------     -2000      -850                     [Tc][Tac][Agt]C[Tcg][Cgt][Tc][At]    #465
+   11.22    [ 536.7]    GGTTTCAC / GTGAAACC     -2000     -1650                              G[Gct][Tg]TT[Ct][Ag][Cg]    #466
+   11.21    [ 589.3]    AAATAATT / --------     -1850     -1250                                 [Agt]A[Ac][Ta]AAT[Tg]    #467
+   11.20    [ 582.7]    GAACTACT / --------     -1750         0                     [Ga][Acgt]A[Cgt][Tcg]A[Cag][Tacg]    #468
+   11.20    [ 579.2]    AAAAAAGT / --------     -1500     -1000                                   AAAAA[Agt][Gt][Tcg]    #469
+   11.20    [ 552.8]    CCCGTCTC / --------     -1500      -700                                 [Cat]CCG[Tc][Ct]T[Ca]    #470
+   11.19    [ 203.9]    CACACCGC / --------      -600      -150                            [Cag][At][Cat][At][Cag]CGC    #471
+   11.18    [ 584.8]    AGGCTGGA / TCCAGCCT     -2000     -1800                                AG[Gt][Cg]T[Gact]G[At]    #472
+   11.16    [ 452.6]    AACCCGGG / CCCGGGTT     -1450      -600                                    AA[Ct][Cg]CGG[Gat]    #473
+   11.13    [ 263.7]    AGCCTCGT / --------     -1150         0                         [Ac][Gact][Cgt][Cg][Ta]CG[Ta]    #474
+   11.12    [ 520.9]    AAAGATAA / --------     -1450      -450                           A[Ac][Ag][Gc][Ac]T[Ac][Agt]    #475
+   11.12    [ 335.0]    TAGCTACA / --------     -1250       -50                            [Tc]A[Gac]C[Ta][Acgt]C[Ag]    #476
+   11.11    [ 565.4]    GGTTAAGA / TCTTAACC     -1550      -750                           [Gat][Gc]TT[Ag][Acgt][Gat]A    #477
+   11.09    [ 530.7]    TCTAACAT / --------     -1800      -350                        [Tc][Cag]T[At][Act]C[Acg][Tag]    #478
+   11.09    [ 332.3]    TGTTAACA / --------     -1250      -200                              [Tac][Gc][Tc]T[At]AC[At]    #479
+   11.07    [ 416.8]    ACTACTTC / --------     -1900         0                         A[Cg][Tg]A[Ca][Tcg][Tacg][Ca]    #480
+   11.06    [ 143.5]    ACAGCGAT / --------      -550         0                              [Agt]C[Agt]GCG[Act][Tac]    #481
+   11.06    [ 587.4]    GCTACTCG / CGAGTAGC     -1900      -700                                     [Ga]C[Tc]ACTC[Gc]    #482
+   11.06    [ 587.4]    CGAGTAGC / GCTACTCG     -1900      -700                                     [Cg]GAGT[Ag]G[Ct]    #483
+   11.06    [ 570.6]    TGATCCGC / GCGGATCA     -1900      -500                               [Tac][Gat]ATC[Cg]G[Cgt]    #484
+   11.01    [ 567.7]    AAAAACAA / --------     -1550     -1150                                    AA[Ac]AA[Ca][Agt]A    #485
+   10.99    [ 581.8]    TTACAGGC / GCCTGTAA     -2000     -1600                                      [Tg]TACA[Gact]GC    #486
+   10.99    [ 581.8]    GCCTGTAA / TTACAGGC     -2000     -1600                                      GC[Cagt]TGTA[Ac]    #487
+   10.98    [ 274.6]    ACATTATT / --------     -1650      -450                                       ACA[Tcg]TA[Tc]T    #488
+   10.96    [ 583.5]    AGAATCGC / GCGATTCT     -1950      -750                                       [Ag]G[Agt]ATCGC    #489
+   10.96    [ 583.5]    GCGATTCT / AGAATCGC     -1950      -750                                       GCGAT[Tac]C[Tc]    #490
+   10.94    [ 583.3]    ATATTTAG / CTAAATAT     -2000     -1650                                AT[Agt][Ta][Tcg][Tg]AG    #491
+   10.93    [ 578.1]    AAAAAGTG / CACTTTTT     -1250      -350                                    [Ag]AA[At]AG[Tcg]G    #492
+   10.93    [ 415.8]    ATCTCGGC / --------     -1950      -800                               [Ag][Ta]C[Tcg]CGG[Cagt]    #493
+   10.92    [ 545.5]    AACCTCCG / CGGAGGTT     -1900      -800                               [At][Ag][Ct]C[Tc][Ca]CG    #494
+   10.92    [ 580.7]    CGGGGTTT / AAACCCCG     -1100         0                                    CGG[Ga][Gct]TT[Ta]    #495
+   10.89    [ 531.5]    GTGATCCG / --------     -2000      -750                              [Gt][Tcg][Gt]A[Tg][Ca]CG    #496
+   10.87    [ 547.2]    TACCTGAA / TTCAGGTA     -1150      -200                          TA[Cat][Cgt][Tcg][Gact]A[Ac]    #497
+   10.83    [ 585.0]    TCCATTTT / AAAATGGA     -1400         0                                     [Tg]C[Cg][Ag]TTTT    #498
+   10.82    [ 581.5]    AATTTTTG / CAAAAATT     -2000     -1450                                       AATT[Tg]T[Tcg]G    #499
+   10.82    [ 571.1]    TCTCGAAC / GTTCGAGA     -1350         0                           [Ta][Cg][Tcg]CG[At][Ag][Ca]    #500
+   10.81    [ 579.5]    CAAAAAAA / --------     -1550     -1050                                        [Ca]AAAAAA[Ag]    #501
+   10.80    [ 572.4]    CCCGCCTC / --------     -1500      -700                                [Ca]CCG[Cat]C[Ta][Cat]    #502
+   10.75    [ 584.8]    AAATATTA / --------     -1700     -1200                              A[Ac][Ag][Ta]A[Tg]T[Acg]    #503
+   10.74    [ 203.6]    TCAGAACG / --------      -750         0                        [Tag][Cat]A[Gct][Act][Ag]C[Gc]    #504
+   10.74    [ 579.7]    GGGATTAC / GTAATCCC     -1900     -1600                                        GGG[Ag][Tc]TAC    #505
+   10.74    [ 579.7]    GTAATCCC / GGGATTAC     -1900     -1600                                        GTA[Ag][Tc]CCC    #506
+   10.73    [ 580.4]    ACTAAGGA / TCCTTAGT     -1050         0                     [Acg][Ct][Tg]A[Ac][Gc][Gct][Acgt]    #507
+   10.67    [ 570.1]    GGAGTTCG / CGAACTCC     -2000      -900                                   G[Gct]A[Gat]TT[Ca]G    #508
+   10.67    [ 570.1]    CGAACTCC / GGAGTTCG     -2000      -900                                   C[Gt]AA[Cat]T[Cag]C    #509
+   10.67    [ 558.7]    TCCGCCTC / --------     -1450      -800                            [Tac][Cat][Cg]G[Cgt][Ca]TC    #510
+   10.66    [ 578.7]    GTTTCACC / GGTGAAAC     -2000     -1500                                 [Gc]TTT[Cgt][Ag][Ca]C    #511
+   10.66    [ 575.0]    CACTAAAA / --------     -1700      -450                           CAC[Tag][At][Acg][Agt][Acg]    #512
+   10.63    [ 564.5]    TAAATTTA / --------     -1700      -750                              [Ta]A[Ag][Ac][Ta]T[Tcg]A    #513
+   10.62    [ 561.8]    TGAGCCAC / GTGGCTCA     -1850     -1550                                    T[Gt][Act]GCCA[Ct]    #514
+   10.59    [ 542.1]    GCCACCGC / --------     -1250         0                               G[Cat][Cat]A[Cat]CG[Ca]    #515
+   10.59    [ 576.2]    AGATAAAA / --------     -1400      -400                          [Acg][Gc][Ag][Tc]AA[At][Agt]    #516
+   10.58    [ 563.2]    GTATTTTT / AAAAATAC     -1850     -1600                              G[Ta]AT[Tc][Ta][Tg][Tac]    #517
+   10.57    [ 355.0]    GAACCCGG / CCGGGTTC     -1350      -800                                  [Gc][Ac]A[Ct][Cg]CGG    #518
+   10.57    [ 585.2]    TAATCCCA / TGGGATTA     -1900     -1700                           [Tg]A[Acg][Tc][Ct][Ca][Cg]A    #519
+   10.57    [ 585.2]    TGGGATTA / TAATCCCA     -1900     -1700                           T[Gc][Gt][Ga][Ag][Tcg]T[Ac]    #520
+   10.56    [ 349.8]    CTACCCGC / GCGGGTAG     -1350         0                           [Ca]TA[Cagt][Cagt][Cg]G[Ca]    #521
+   10.55    [ 565.7]    TCGGGAGG / CCTCCCGA     -1700      -700                                   TCG[Gct][Gct]AG[Gt]    #522
+   10.55    [ 565.7]    CCTCCCGA / TCGGGAGG     -1700      -700                                   [Ca]CT[Cag][Cag]CGA    #523
+   10.54    [ 492.1]    CACCCGGC / GCCGGGTG     -1850     -1050                                    C[Ag][Cat]CCG[Gt]C    #524
+   10.53    [ 554.3]    GCGTGAGC / GCTCACGC     -2000     -1050                                       GCG[Ta][Gat]AGC    #525
+   10.53    [ 554.3]    GCTCACGC / GCGTGAGC     -2000     -1050                                       GCT[Cat][At]CGC    #526
+   10.50    [ 579.6]    TCCGCCCG / --------     -1300         0                          [Ta][Ct][Ca]G[Ca]C[Cag][Gat]    #527
+   10.47    [ 205.6]    TCCCATGA / TCATGGGA      -450         0                              TC[Cg][Ca][Ag][Tc][Gat]A    #528
+   10.46    [ 568.8]    AATTTTCA / --------     -1750      -900                               AAT[Tcg][Tc]T[Ca][Acgt]    #529
+   10.42    [ 522.7]    AGACGGAG / CTCCGTCT     -2000     -1000                               [Ac][Ga]AC[Gc][Gt]A[Ga]    #530
+   10.42    [ 522.7]    CTCCGTCT / AGACGGAG     -2000     -1000                               [Ct]T[Ca][Cg]GT[Ct][Tg]    #531
+   10.42    [ 548.6]    GATTACAA / --------     -1650      -500                       [Gat][At][Tac][Tag]AC[Acgt][At]    #532
+   10.42    [ 580.1]    CCTCACAA / TTGTGAGG     -1900     -1600                              [Ct][Cg][Tg][Ct][Acg]CAA    #533
+   10.42    [ 558.6]    TTTGTATT / AATACAAA     -2000     -1650                                     [Ta]T[Tc]GTA[Tc]T    #534
+   10.42    [ 558.6]    AATACAAA / TTTGTATT     -2000     -1650                                     A[Ag]TAC[Ag]A[At]    #535
+   10.41    [ 469.8]    CAGCCTGG / --------     -2000     -1850                               [Cg]A[Gac][Cag]CTG[Gat]    #536
+   10.40    [ 577.3]    TACAACCT / --------     -1450      -200                [Ta][Act][Cg][Ag][Acgt][Cagt][Ct][Tag]    #537
+   10.36    [ 581.9]    TTCTTAAA / --------     -1700      -600                              T[Ta]CT[Tc][At][Act][Ac]    #538
+   10.35    [ 578.4]    ATTAGCCG / CGGCTAAT     -1800     -1200                        [Acg][Tg]T[Ag][Gac][Cgt]C[Gat]    #539
+   10.33    [ 470.1]    CCGCCTCG / CGAGGCGG     -1400      -650                             [Cag]CG[Cat][Ca][Ta]C[Ga]    #540
+   10.31    [ 581.5]    GATCTCGG / CCGAGATC     -2000      -850                                    [Gat]AT[Ct]TCG[Ga]    #541
+   10.31    [ 582.1]    AATCGCTT / AAGCGATT     -1950      -800                                    [Ag]A[Tc]CGC[Tag]T    #542
+   10.29    [ 228.1]    CCTTCGCC / --------      -900       -50                                  C[Cagt][Ta]TCGC[Cag]    #543
+   10.29    [ 579.4]    ACGGGGTT / AACCCCGT     -1800      -700                                      ACGG[Gac][Gct]TT    #544
+   10.27    [ 574.6]    TTTTTTTA / TAAAAAAA     -1600     -1250                                       TTTT[Tag]T[Tc]A    #545
+   10.26    [ 577.3]    CCCGGCTA / --------     -2000     -1450                           [Cg][Ct]C[Ga][Ga][Cag][Tc]A    #546
+   10.25    [  64.7]    TGGTCGCG / --------      -150         0                             T[Gact]GT[Ct][Ga][Ca][Gc]    #547
+   10.24    [ 377.1]    TCCCGAGT / ACTCGGGA     -1650     -1200                            [Tc][Ct][Cgt][Cag]G[Act]GT    #548
+   10.24    [ 377.1]    ACTCGGGA / TCCCGAGT     -1650     -1200                            AC[Tag]C[Gct][Gac][Ga][Ag]    #549
+   10.22    [ 433.1]    GACGGAGT / ACTCCGTC     -2000      -750                                           GACGGA[Gt]T    #550
+   10.22    [ 433.1]    ACTCCGTC / GACGGAGT     -2000      -750                                           A[Ca]TCCGTC    #551
+   10.21    [ 582.1]    TTTACTAA / TTAGTAAA     -2000     -1700                        [Ta][Tc][Ta]A[Ct][Tg][At][Act]    #552
+   10.20    [ 578.6]    GAATCGCT / AGCGATTC     -1950      -750                                       G[Acg][Ac]TCGCT    #553
+   10.15    [ 279.2]    AGGTCCTC / --------     -1050         0                            A[Gc][Gt]T[Ca][Cg][Tg][Ct]    #554
+   10.15    [ 463.8]    AGGCTGGT / ACCAGCCT     -2000     -1850                             [At][Gc][Gac]CT[Gct]G[Ta]    #555
+   10.14    [ 397.9]    TAACCAAA / --------     -1900      -650                               T[Ac]A[Ct][Ca][At]A[Ag]    #556
+   10.13    [ 536.6]    CCACGCCC / --------     -1100       -50                               [Cat][Cat]ACGC[Cat][Ct]    #557
+   10.13    [ 355.8]    CAGTACCG / CGGTACTG     -1150         0                        [Ca][Ag][Gct]T[Agt][Cag][Cgt]G    #558
+   10.11    [ 581.0]    TCTACTAA / TTAGTAGA     -2000     -1700                              T[Ct][Tc][Agt][Cg][Ta]AA    #559
+   10.11    [ 581.0]    TTAGTAGA / TCTACTAA     -2000     -1700                              TT[At][Gc][Tac][Ag][Ga]A    #560
+   10.11    [ 577.9]    CGGCTCAC / --------     -1900     -1250                                  [Ct][Gc]G[Ca][Tg]CAC    #561
+   10.11    [ 576.6]    AGCACTTT / AAAGTGCT     -1950     -1600                                  [Ag][Gc][Ca][Ag]CTTT    #562
+   10.11    [ 576.6]    AAAGTGCT / AGCACTTT     -1950     -1600                                  AAAG[Tc][Gt][Cg][Tc]    #563
+   10.09    [ 572.0]    CAACATGG / CCATGTTG     -2000     -1600                               C[At]ACA[Tc][Gact][Gat]    #564
+   10.09    [ 572.0]    CCATGTTG / CAACATGG     -2000     -1600                               [Cat][Cagt][Ag]TGT[Ta]G    #565
+   10.05    [ 552.8]    CAAAGTGC / GCACTTTG     -1950     -1600                                 [Cgt][Ac]AAG[Tc][Gt]C    #566
+   10.05    [ 552.8]    GCACTTTG / CAAAGTGC     -1950     -1600                                 G[Ca][Ag]CTT[Tg][Gac]    #567
+   10.03    [ 569.8]    TGGCTCAC / --------     -1950     -1400                                  [Tc][Gact]GC[Tag]CAC    #568
+   10.02    [ 581.2]    TCACGAGT / ACTCGTGA     -2000     -1000                                  T[Ct][Ac]CGA[Ga][Tg]    #569
+   10.01    [ 346.5]    TGGGCGAC / GTCGCCCA     -2000     -1100                                    T[Gac][Gc][Gt]CGAC    #570
+   10.01    [ 346.5]    GTCGCCCA / TGGGCGAC     -2000     -1100                                    GTCG[Ca][Cg][Cgt]A    #571
+    9.99    [ 564.8]    TTCACCAT / ATGGTGAA     -2000     -1450                                     T[Tg]CACC[Ag][Ta]    #572
+    9.99    [ 568.8]    GCTAATTT / AAATTAGC     -2000     -1700                                      [Gac][Cat]TAATTT    #573
+    9.99    [ 568.8]    AAATTAGC / GCTAATTT     -2000     -1700                                      AAATTA[Gat][Cgt]    #574
+    9.98    [ 576.0]    TTCCAAAA / --------     -1400      -600                         [Ta][Ta]C[Cagt]A[Acg][At][Ac]    #575
+    9.98    [ 230.6]    CCACTACA / --------     -1250      -600                            [Ct][Cagt]A[Cg]TA[Cat][At]    #576
+    9.97    [ 360.6]    ACCTCTAC / --------     -1650       -50                              A[Cg][Ca][Tag]CT[At][Cg]    #577
+    9.97    [ 574.7]    TCAAAAAA / --------     -1850     -1250                                        [Ta]C[At]AAAAA    #578
+    9.94    [ 569.5]    TAAAAAAA / --------     -1600     -1050                                           [Ta]AAAAAAA    #579
+    9.93    [ 551.3]    ACAGATAA / --------     -1500      -500                           [Acgt][Ca]A[Gac][Act]T[At]A    #580
+    9.93    [ 565.9]    TGGCCAAC / GTTGGCCA     -2000     -1400                                     T[Gc]G[Ca][Ct]AAC    #581
+    9.91    [ 573.8]    AGAAACAA / --------     -1700      -850                                  [Ac][Ga]AAA[Ct][At]A    #582
+    9.90    [ 572.5]    ACAGGCGC / GCGCCTGT     -1750     -1050                                       AC[Act]GGCG[Ct]    #583
+    9.90    [ 227.6]    GTTGAGCT / AGCTCAAC      -950         0                                 GT[Tc][Gat][Ac]GC[Tg]    #584
+    9.90    [ 510.0]    TACAAAGC / --------     -1700      -200                           [Tc]A[Cagt][Acgt]A[Ac][Gc]C    #585
+    9.89    [ 574.4]    TAGCCGGG / CCCGGCTA     -2000      -700                                    TA[Gc][Cgt]CGG[Gc]    #586
+    9.88    [ 336.8]    CTAACCTC / --------     -1100         0                           [Ct][Tg][Ac]A[Cg][Cg]T[Cat]    #587
+    9.88    [ 578.9]    AGCTACTC / GAGTAGCT     -2000     -1600                                  A[Ga][Ct]TAC[Tg][Ct]    #588
+    9.88    [ 578.9]    GAGTAGCT / AGCTACTC     -2000     -1600                                  [Ga][Ac]GTA[Ga][Ct]T    #589
+    9.88    [ 106.6]    CAGATTCG / --------     -1200       -50                                 [Ct][Acg][Ga]A[Ta]TCG    #590
+    9.88    [ 541.6]    ATGTTGGC / GCCAACAT     -2000     -1400                                    AT[Gat]TT[Gc][Ga]C    #591
+    9.85    [ 549.8]    CCAACTTT / AAAGTTGG      -600       -50                       C[Cagt][At][Agt]C[Tag][Tcg][Tc]    #592
+    9.84    [ 569.1]    ATAAAAAC / --------     -1650      -700                                    [Ag][Tag]AAA[At]AC    #593
+    9.83    [ 568.0]    TTTCACCA / TGGTGAAA     -1850     -1350                                  [Tg][Ta]TC[Ag]CC[Ag]    #594
+    9.76    [ 144.0]    CAATCACC / --------     -1450         0                                     C[Ag]ATC[Ag]C[Cg]    #595
+    9.76    [ 553.8]    TTTAAAAA / --------     -1300      -900                            [Tc][Tc][Tc]A[Ag]A[Ac][At]    #596
+    9.76    [ 565.6]    GGCTAATT / AATTAGCC     -1800     -1250                                 [Gt]GC[Tg][Ac]AT[Tcg]    #597
+    9.76    [ 565.6]    AATTAGCC / GGCTAATT     -1800     -1250                                 [Acg]AT[Tg][Ac]GC[Ca]    #598
+    9.74    [ 254.4]    GCCTCCAA / TTGGAGGC      -300       -50                             [Gc][Ca]C[Tag][Cat][Ca]AA    #599
+    9.72    [ 569.8]    CCACCACG / --------     -1500      -300                               C[Cagt][Ag][Cat]C[Ag]CG    #600
+    9.71    [ 559.9]    AAAACTGA / --------     -1550      -450                                  [Act]AA[Ag]CT[Gact]A    #601
+    9.68    [ 395.0]    CCGAGGCG / CGCCTCGG     -1800      -600                                        [Ca]CGAG[Ga]CG    #602
+    9.68    [ 395.0]    CGCCTCGG / CCGAGGCG     -1800      -600                                        CG[Ct]CTCG[Gt]    #603
+    9.68    [ 555.2]    AACTGTTT / --------     -1950      -300                                AA[Ct][Tacg]G[Tc]T[Tc]    #604
+    9.65    [ 530.5]    GAGACGGG / CCCGTCTC     -1450     -1000                                    [Gt]AG[Ag]CGG[Gat]    #605
+    9.65    [ 540.2]    CAATTAAG / --------     -1850      -750                    [Cg][Ag][Acg][Tc][Tacg][Ac]A[Gact]    #606
+    9.64    [ 436.8]    AGACGGGG / CCCCGTCT     -1450     -1000                                 [At]G[At]CGG[Ga][Gct]    #607
+    9.64    [ 250.7]    CACTAATT / --------     -1150      -250                                [Cgt][Agt]C[Ta]A[Ac]TT    #608
+    9.64    [ 551.8]    CCTCCCAA / TTGGGAGG     -1900     -1600                                       CC[Tg][Cat]CCAA    #609
+    9.64    [ 551.8]    TTGGGAGG / CCTCCCAA     -1900     -1600                                       TTGG[Gat][Ac]GG    #610
+    9.62    [ 572.1]    AGTAGCTG / CAGCTACT     -1900     -1600                             [Ag]GTA[Ga][Ct][Tag][Gac]    #611
+    9.60    [ 572.2]    GTAGCTGG / CCAGCTAC     -1950     -1650                           [Ga]T[At][Ga][Ct]T[Ga][Gac]    #612
+    9.59    [ 570.7]    ACAGGCGT / ACGCCTGT     -2000     -1300                                   AC[Acg]G[Gt]CG[Tac]    #613
+    9.59    [ 554.5]    CGCCCGGC / GCCGGGCG     -1800     -1050                               C[Ga][Ca][Ct]CG[Gc][Ca]    #614
+    9.58    [ 560.7]    CGTGAGCC / GGCTCACG     -2000     -1050                                     CGT[Gt][Ac]GC[Cg]    #615
+    9.56    [ 523.9]    CTCCGCCT / AGGCGGAG     -1950     -1700                                   [Cag]TC[Ca]GC[Cat]T    #616
+    9.56    [ 503.9]    GTTCAAAA / --------     -1750      -450                           G[Tc]T[Ct][Acg][At][Ac][Ac]    #617
+    9.56    [ 541.6]    GACGGGGT / ACCCCGTC     -2000     -1250                                  GAC[Gc]G[Ga][Gt][Ta]    #618
+    9.51    [ 224.9]    ACTCCTGA / --------     -1800     -1600                           [At][Ca]T[Cg][Ct][Tcg][Ga]A    #619
+    9.50    [ 560.5]    TTCTCAAT / --------     -1700      -800                      [Tc][Tg][Cgt][Tcg][Cat][Ag]A[Ta]    #620
+    9.48    [ 555.7]    CCCAGCTA / --------     -1900     -1400                              [Ca]C[Cag][Ag][Ga][Ca]TA    #621
+    9.48    [ 204.7]    CTCTCGAG / --------     -1050         0                             [Cg][Tg][Cat][Tag]CGA[Ga]    #622
+    9.48    [ 549.6]    CGGGAGGC / GCCTCCCG     -1500      -700                                           CGG[Gc]AGGC    #623
+    9.48    [ 549.6]    GCCTCCCG / CGGGAGGC     -1500      -700                                           GCCT[Cg]CCG    #624
+    9.48    [ 406.9]    AACTGCTT / --------     -1900      -650                                [At]AC[Tcg][Gat][Ct]TT    #625
+    9.44    [ 469.8]    AGGCGGAG / CTCCGCCT     -1950     -1750                                  A[Gt][Ga]C[Gt]GA[Gt]    #626
+    9.42    [ 555.2]    GGCGACAG / CTGTCGCC     -2000      -700                             [Gc][Gat]CGA[Ct][Act][Gc]    #627
+    9.36    [ 571.8]    GGAGGTTG / CAACCTCC     -1650      -900                                        GGAG[Ga]T[Tc]G    #628
+    9.36    [ 571.8]    CAACCTCC / GGAGGTTG     -1650      -900                                        C[Ag]A[Ct]CTCC    #629
+    9.36    [ 574.9]    CGCCACTG / CAGTGGCG     -1950      -800                                  CGC[Ct]A[Ct][Ta][Ga]    #630
+    9.36    [ 574.9]    CAGTGGCG / CGCCACTG     -1950      -800                                  [Ct][At][Ga]T[Ga]GCG    #631
+    9.36    [ 567.7]    TTAGCCGG / CCGGCTAA     -1800     -1150                            [Tg]T[Ac][Ga][Ct]C[Ga][Gt]    #632
+    9.34    [ 516.7]    CAGCTACT / --------     -1750     -1300                      [Cag][Acg][Ga][Cgt]T[Ag][Ca][Tg]    #633
+    9.34    [ 573.2]    GGCTGGTC / GACCAGCC     -2000     -1550                                        GG[Ca]TGGT[Ca]    #634
+    9.32    [ 570.8]    GGTCTCGA / TCGAGACC     -1750      -650                                     [Gt][Gc]T[Cg]TCGA    #635
+    9.31    [ 575.3]    CGCCACCA / --------     -1850       -50                                 C[Gt]C[Cat][At]C[Cg]A    #636
+    9.29    [ 555.6]    AGGCGTGA / TCACGCCT     -1750      -900                                 A[Gac][Gc]CG[Tc][Gc]A    #637
+    9.28    [ 567.2]    AGAGACGG / CCGTCTCT     -2000     -1250                                    [At]G[At][Gct]ACGG    #638
+    9.27    [ 552.9]    AGGCTGAG / CTCAGCCT     -1950     -1700                                    AGGC[Tg][Gt]A[Gct]    #639
+    9.27    [ 552.9]    CTCAGCCT / AGGCTGAG     -1950     -1700                                    [Cag]T[Ca][Ac]GCCT    #640
+    9.27    [ 560.0]    TTTTTTGA / TCAAAAAA     -2000     -1550                                           [Tg]TTTTTGA    #641
+    9.26    [ 254.1]    CGATCACC / --------     -1550         0                           C[Ga][Act]T[Cgt]A[Cag][Cgt]    #642
+    9.26    [ 573.0]    CACGCCTG / CAGGCGTG     -1800     -1050                                           CACGCC[Tc]G    #643
+    9.26    [ 573.0]    CAGGCGTG / CACGCCTG     -1800     -1050                                           C[Ag]GGCGTG    #644
+    9.24    [ 565.9]    GGCGTGAG / CTCACGCC     -2000      -950                                           GGCGTG[Ac]G    #645
+    9.21    [ 572.6]    GTGAGCCA / TGGCTCAC     -1750     -1400                                       GTG[Act]GCC[Ag]    #646
+    9.21    [ 555.6]    CTGGCCAA / TTGGCCAG     -2000     -1400                                     C[Tc][Gc]G[Ca]CAA    #647
+    9.20    [ 570.3]    CCGGCTAC / --------     -1900     -1150                             [Ct]C[Gat][Gc][Cag]TA[Ca]    #648
+    9.19    [ 509.9]    CTCGGCCT / AGGCCGAG     -1950     -1750                                     CTC[Gac]GCC[Tacg]    #649
+    9.17    [ 306.7]    ACTCAATT / --------     -1500      -400                             AC[Tacg][Ca][Ag]A[Tc][Ta]    #650
+    9.16    [ 530.6]    GCTTGAAC / GTTCAAGC     -1650     -1150                           G[Ca][Tg][Ta][Gct][At]A[Ct]    #651
+    9.12    [ 554.8]    CCACGCCT / --------     -1100         0                             C[Cat]ACG[Ca][Cagt][Tacg]    #652
+    9.09    [ 565.9]    TAGCTGGG / CCCAGCTA     -1900     -1600                                TA[Ga][Ct][Tc][Gact]GG    #653
+    9.08    [ 571.9]    CCAGCTAC / --------     -1900     -1150                                     CC[Ag][Ga]CTA[Ca]    #654
+    9.07    [ 570.3]    CATGTTGG / CCAACATG     -2000     -1400                                  [Ct]A[Ta]GTT[Gc][Gt]    #655
+    9.03    [ 568.5]    TCTCGGCT / AGCCGAGA     -1950      -800                                          TCTCGG[Cat]T    #656
+    9.02    [ 551.9]    TTAAGTTC / GAACTTAA     -1750      -450                                     TT[Ac]A[Gt]TT[Cg]    #657
+    9.01    [ 150.5]    TGCCGACA / --------      -650         0                         [Tac][Gc][Cagt]CG[At][Ca][Ac]    #658
+    9.01    [ 570.0]    TTTTGAGA / TCTCAAAA     -1950     -1450                                           TTT[Tc]GAGA    #659
+    8.97    [ 331.3]    AACAGAGT / --------     -2000     -1300                               [At]A[Cag][Acgt][Ga]AGT    #660
+    8.96    [ 489.7]    GCCCGCCT / --------     -1850      -500                                    [Gat][Ca]CCGC[Ct]T    #661
+    8.95    [ 559.1]    ACAAAATC / --------     -1950      -600                              [Acg]C[Ac][At]A[Ag][Ta]C    #662
+    8.94    [ 567.1]    GGGTTCAA / TTGAACCC     -1850     -1100                                     [Gc][Gc]GTTCA[Ac]    #663
+    8.93    [ 541.7]    GGAGAATC / GATTCTCC     -1350      -900                           [Ga][Gat]A[Gt][At]A[Ta][Ca]    #664
+    8.91    [ 504.6]    AAACATCT / --------     -1700      -200                              A[At][Ac][Cg][Acg][Tg]CT    #665
+    8.90    [  79.8]    CCTTTCGT / --------      -500       -50                                 [Cgt]CT[Ta][Tg][Ca]GT    #666
+    8.90    [ 571.8]    TTTCACAA / --------     -1100      -250                       [Tcg][Tac][Tcg]C[Acg][Cag][Ag]A    #667
+    8.87    [ 528.8]    AGTTACCT / AGGTAACT     -1550         0                                [Ac][Gt]TTA[Cag][Cgt]T    #668
+    8.86    [ 169.7]    CAATTACA / --------      -800      -300                                CA[Act]T[Tg]A[Cg][Act]    #669
+    8.86    [ 277.6]    ACCTCGTC / --------      -750       -50                        [Act][Cgt][Cg]TC[Gct][Ta][Cat]    #670
+    8.83    [ 534.8]    GAGGCGGA / TCCGCCTC     -2000     -1200                                           GAG[Ga]CGGA    #671
+    8.80    [ 455.5]    TTCCCTAA / --------     -1250      -150                           T[Ta][Cag][Cat][Cagt]TA[Ac]    #672
+    8.79    [ 544.3]    TTTTTGAG / CTCAAAAA     -2000     -1600                                           TTTTTGA[Ga]    #673
+    8.77    [ 515.5]    CTCCCGAG / CTCGGGAG     -1500      -750                                  CTC[Cagt][Cg]GA[Gac]    #674
+    8.77    [ 515.5]    CTCGGGAG / CTCCCGAG     -1500      -750                                  [Cgt]TC[Gc][Gact]GAG    #675
+    8.77    [ 564.9]    GAGGCTGA / TCAGCCTC     -1950     -1700                                       [Gac]AGGC[Tg]GA    #676
+    8.76    [ 262.8]    ATCAGACG / CGTCTGAT     -1900         0                             [At]T[Cg][Acgt][Ga][At]CG    #677
+    8.72    [ 569.1]    GCCTCCCA / TGGGAGGC     -1950     -1600                                           GCCTC[Cg]CA    #678
+    8.72    [ 569.1]    TGGGAGGC / GCCTCCCA     -1950     -1600                                           TG[Gc]GAGGC    #679
+    8.71    [ 547.2]    GTTGCAGT / ACTGCAAC     -1850     -1250                                        [Ga]T[Tc]GCAGT    #680
+    8.71    [ 547.2]    ACTGCAAC / GTTGCAGT     -1850     -1250                                        ACTGC[Ag]A[Ct]    #681
+    8.70    [ 563.5]    TTTAAAAT / --------     -1250      -600                                     [Tc]TTA[Ag]AA[Ta]    #682
+    8.70    [ 496.2]    CCACTGCA / TGCAGTGG     -2000     -1800                               [Ct]C[Ag][Ct]T[Gt]C[At]    #683
+    8.69    [ 564.2]    AAAAACCC / --------     -1800      -150                                  A[Ag]AA[Ag]C[Cg][Ca]    #684
+    8.64    [ 557.6]    GAGGTTGC / GCAACCTC     -2000     -1500                                     GA[Gc][Gc]TT[Ga]C    #685
+    8.64    [ 557.6]    GCAACCTC / GAGGTTGC     -2000     -1500                                     G[Ct]AA[Cg][Cg]TC    #686
+    8.63    [ 565.2]    TTTTAAAA / --------     -1300      -600                                       [Tg]TTTAA[Acg]A    #687
+    8.61    [ 344.3]    TCTGATTC / --------     -1300         0                             T[Ca][Tcg][Ga]AT[Ta][Cag]    #688
+    8.61    [ 220.6]    TCACCTCG / --------     -1300       -50                                  T[Cat]A[Cag]C[Tcg]CG    #689
+    8.58    [ 371.7]    AGGAATTC / --------     -2000     -1500                             A[Gc][Ga][Acgt][Ag]T[Tg]C    #690
+    8.56    [ 563.9]    AATCCCAG / CTGGGATT     -1900     -1600                                     AAT[Ca][Ca][Cg]AG    #691
+    8.54    [ 532.6]    CCGGGCGT / ACGCCCGG     -2000      -800                                  CC[Ga][Ga][Gc][Ca]GT    #692
+    8.53    [ 568.9]    CTACTAAA / --------     -1950     -1000                                 [Ca][Tcg][Ac]C[Tg]AAA    #693
+    8.53    [ 143.6]    TCCAGTAC / --------     -1900     -1450                             TC[Ct][Acgt][Gact]TA[Cat]    #694
+    8.48    [ 543.6]    GGTTGCAG / CTGCAACC     -1850     -1250                                        GGTT[Gt]C[Ac]G    #695
+    8.47    [ 118.0]    CACACTAT / --------     -1900     -1050                                     C[Ac]C[Ag]CTA[Ta]    #696
+    8.47    [ 398.7]    ACGCCTGG / CCAGGCGT     -1550      -650                                       ACGCC[Tc][Gct]G    #697
+    8.46    [ 569.3]    ACCCGGGA / TCCCGGGT     -2000     -1150                                     AC[Ct]CG[Ga][Gt]A    #698
+    8.43    [ 323.0]    CATAACAT / --------     -1200      -250                      [Ct][Act]T[Ac][At][Ct][Ag][Tacg]    #699
+    8.41    [ 181.7]    GGAGAACG / --------     -1550       -50                                    [Ga][Gac]A[Gc]AACG    #700
+    8.41    [ 567.3]    TCGGCTCA / TGAGCCGA     -1950      -850                                  TCG[Gt][Ct][Tg][Ct]A    #701
+    8.40    [ 541.8]    TTTTTTAA / --------     -1250      -450                                       TT[Tac][Tc]TTAA    #702
+    8.38    [  88.8]    CATTCCTA / --------     -1400      -950                                        CAT[Ta]CC[Ta]A    #703
+    8.36    [ 489.8]    CAACAGAG / CTCTGTTG     -2000     -1350                                  C[Ag]A[Ct][Ac]G[Ac]G    #704
+    8.35    [ 560.3]    CAGATAAA / TTTATCTG     -1550      -500                              [Cg][Acg]G[Ac]T[At]A[Ag]    #705
+    8.35    [ 269.6]    AACTCCTG / --------     -1800     -1600                         [Acg][At][Ca]T[Cag][Cg][Tcg]G    #706
+    8.34    [ 175.7]    GCCCGAGA / TCTCGGGC      -700      -150                                     [Ga]CCCG[At][Gc]A    #707
+    8.26    [  56.6]    CAACCCTA / --------      -250      -100                               C[Ag][Ag][Ca]C[Ca]T[Ac]    #708
+    8.26    [ 545.5]    GGGGTTTC / GAAACCCC     -2000     -1600                             [Gac][Gac]GG[Ta]T[Ta][Ca]    #709
+    8.26    [ 562.6]    AATCTTTT / --------     -2000      -850                              AA[Tag]C[Tc][Ta][Tg][Ta]    #710
+    8.25    [  83.8]    CACGTTAT / --------     -1100      -250                                 C[At]CG[Tg][Tc]A[Tag]    #711
+    8.22    [ 548.7]    TCGGCCTC / --------     -1800      -400                                TCG[Gac][Ca][Cat]T[Ca]    #712
+    8.19    [ 556.4]    CACTGCAA / --------     -1850     -1350                                    CAC[Tcg][Ga]CA[Ac]    #713
+    8.16    [ 415.4]    GTTCTCAA / --------     -1600      -500                                [Gat]TT[Cat][Ta]C[Ag]A    #714
+    8.15    [ 560.7]    TTTTGGAG / CTCCAAAA     -1050      -750                           [Tc]TT[Tc][Gct][Ga][Ag][Ga]    #715
+    8.13    [ 550.6]    GGCTGAGG / CCTCAGCC     -1950     -1700                                     GGCT[Ga]A[Ga][Ga]    #716
+    8.12    [ 559.1]    GGCTCACT / AGTGAGCC     -1950     -1250                                           GGC[Tg]CACT    #717
+    8.05    [ 382.4]    CTGGGCGA / TCGCCCAG     -1950     -1100                                [Cat]T[Gac][Gc][Gt]CGA    #718
+    8.04    [  69.9]    AACTGTCA / --------      -400      -150                                  AA[Cg]TG[Tg][Cg][Ag]    #719
+    8.04    [ 438.7]    TTGCAGTG / CACTGCAA     -1600     -1250                                     TT[Ga][Ct]AG[Tc]G    #720
+    8.03    [ 531.7]    ATTCCATT / --------     -1600      -300                            A[Tac]T[Ca][Cgt][Acg][Tc]T    #721
+    8.00    [ 416.1]    AGGAAATA / --------     -1650      -700                             [Ag]GG[Act][Agt][Ac]T[Ac]    #722
+    8.00    [ 142.6]    GCCGACCC / --------      -550      -150                              [Gt][Ca]CG[At]C[Cat][Ca]    #723
+    7.99    [ 392.0]    ACTGCACT / AGTGCAGT     -2000     -1800                              A[Ct][Ta]G[Cag][At][Ca]T    #724
+    7.97    [ 542.8]    AAGTGCTG / CAGCACTT     -1800     -1400                                     AA[Gt]T[Ga]C[Tc]G    #725
+    7.94    [ 391.0]    AAAGTGTA / --------     -1300      -350                           A[Acgt][Ag]G[Tacg][Gt][Tc]A    #726
+    7.93    [ 558.9]    CTCCCAAA / TTTGGGAG     -1950     -1600                                    C[Tg][Ca][Cag]CAAA    #727
+    7.91    [ 557.5]    CAGAAATA / --------     -1900     -1000                             [Cat][Acg][Ga][At]AAT[At]    #728
+    7.91    [  73.7]    TCTAAACC / --------      -800      -600                              [Tg][Ca][Tg][Acg]AA[Cg]C    #729
+    7.90    [ 467.3]    GGGCGACA / TGTCGCCC     -1950      -800                                   [Gct][Gac]GCGAC[At]    #730
+    7.89    [ 308.8]    TCAGAATT / --------     -1750     -1150                           T[Ca][Ag]G[Acg][At][Ta][Tc]    #731
+    7.88    [ 561.9]    AGCTGGGA / TCCCAGCT     -1950     -1650                                     A[Ga][Cg]TG[Gc]GA    #732
+    7.88    [ 561.9]    TCCCAGCT / AGCTGGGA     -1950     -1650                                     TC[Cg]CA[Gc][Ct]T    #733
+    7.84    [ 517.5]    AGGTTGCA / TGCAACCT     -1850     -1250                                        [Ac]GGTTG[Ct]A    #734
+    7.84    [ 517.5]    TGCAACCT / AGGTTGCA     -1850     -1250                                        T[Ga]CAACC[Tg]    #735
+    7.83    [  56.3]    AGTTTAGA / --------     -1150      -800                                     [Ac]GT[Ta]T[Ac]GA    #736
+    7.83    [ 560.6]    GTCTCTAC / GTAGAGAC     -1950     -1350                                        GT[Cg]TCTA[Ca]    #737
+    7.83    [ 560.6]    GTAGAGAC / GTCTCTAC     -1950     -1350                                        [Gt]TAGA[Gc]AC    #738
+    7.78    [ 240.1]    GCCAGAAT / --------     -2000     -1350                             G[Ca][Cg][Ac][Gact]A[Ac]T    #739
+    7.78    [ 563.0]    TAAAAATA / TATTTTTA     -2000     -1650                                           TA[Ag]AAATA    #740
+    7.76    [ 381.7]    ATTATTCT / --------     -1200      -550                     A[Tg][Tg][Ac][Tag][Tacg][Cg][Tag]    #741
+    7.76    [  84.6]    TCGGCAGG / --------      -550         0                                     TCG[Ga][Ca]AG[Gt]    #742
+    7.75    [ 556.1]    CGGCCTCC / --------     -1950      -800                                        C[Gc][Ga]CCTCC    #743
+    7.73    [ 433.7]    AGCCACCG / CGGTGGCT     -1700     -1050                                   AGC[Cag]A[Cat][Cg]G    #744
+    7.73    [ 232.6]    ATCTAAGT / --------     -1250       -50                           A[Tc]C[Tag][At][Ac][Gc][Ta]    #745
+    7.72    [ 213.5]    GCACATTA / --------     -1750     -1000                              [Gt]C[At]C[Ac][Tcg]T[At]    #746
+    7.66    [ 550.7]    CACTGCAC / --------     -1850     -1350                                     CAC[Tg]GC[Ag][Ca]    #747
+    7.62    [ 361.7]    ACTTATCT / --------     -2000      -150                                AC[Tac][Ta]AT[Cg][Tac]    #748
+    7.57    [  43.8]    ACCATACC / --------     -2000     -1650                                           [Ag]CCATACC    #749
+    7.55    [ 545.3]    TTTTTAGT / ACTAAAAA     -1950     -1650                                           TTTTT[At]GT    #750
+    7.55    [ 114.6]    CACCTATC / GATAGGTG      -300         0                                     [Cg]ACC[Ta][At]TC    #751
+    7.51    [ 558.6]    CCCAAAGT / ACTTTGGG     -1950     -1600                               [Ca][Cg]C[At]A[Ac][Ga]T    #752
+    7.51    [ 558.6]    ACTTTGGG / CCCAAAGT     -1950     -1600                               A[Ct][Tg]T[Ta]G[Gc][Gt]    #753
+    7.50    [ 528.2]    TGCAGTGA / --------     -2000     -1250                                     TG[Ct]AG[Tc][Ga]A    #754
+    7.47    [ 198.9]    CAGCAACC / --------      -750      -150                                 [Ca][Ac][Gc]CAAC[Cag]    #755
+    7.47    [ 299.0]    GCTCCACC / --------      -650       -50                             [Gt][Ct]T[Cat][Cg]AC[Cag]    #756
+    7.46    [  77.6]    CGCCGCTT / --------      -750      -150                                     [Ct]G[Ct]CG[Ct]TT    #757
+    7.37    [ 559.5]    TGGTCTCG / CGAGACCA     -1750      -750                               T[Gt][Gc][Ta][Ca][Tg]CG    #758
+    7.35    [ 358.5]    CTCCTGAC / GTCAGGAG     -1800     -1550                                 C[Tc][Cag]CT[Gt]A[Ct]    #759
+    7.34    [ 129.9]    CTAAAGCC / --------      -450      -150                          [Ca][Ta][At]A[Acgt][Gc]C[Ct]    #760
+    7.33    [ 107.0]    TAACAACA / --------      -550      -200                               T[Acg][Agt]C[Agt]AC[At]    #761
+    7.31    [ 558.4]    CTGTACTA / --------     -1750     -1000                   [Ct][Tacg][Gact][Ta]A[Cg][Tc][Acgt]    #762
+    7.25    [ 556.1]    GCTGGTCT / AGACCAGC     -2000     -1650                                  [Ga][Ca]TG[Gc]T[Ca]T    #763
+    7.20    [ 491.5]    CCTCGGCC / GGCCGAGG     -1950     -1750                              [Cg][Ca]T[Ca][Gac]GC[Ct]    #764
+    7.18    [ 540.3]    TGCCTTTA / TAAAGGCA     -1100      -100                              [Tc]GC[Ct][Tag]T[Ta][Ag]    #765
+    7.15    [ 552.7]    CCGCCTCC / --------     -1950      -750                                        C[Cg]GCCT[Ca]C    #766
+    7.13    [  65.6]    GGTACTCC / --------      -850      -400                                  G[Ga]TA[Ca][Tg]C[Ca]    #767
+    7.11    [ 359.6]    CCGCCCGC / --------     -1800      -550                               [Ca]CG[Ct][Ct]C[Ga][Ct]    #768
+    7.05    [ 182.9]    CAATAAGA / --------     -1700      -200                                     CA[Ac]TA[Ac]G[Ag]    #769
+    6.99    [ 241.0]    ATTCTCCT / --------     -1950     -1750                             A[Tg][Tac]CT[Ca][Ca][Tag]    #770
+    6.98    [ 542.6]    CACTTTGG / CCAAAGTG     -1950     -1600                                    C[Ag][Ca]TTT[Gat]G    #771
+    6.94    [ 129.6]    GAGTCTTG / --------     -2000     -1800                          [Gt]A[Gac]T[Cag][Tg][Tc][Ga]    #772
+    6.93    [ 125.8]    TTTGTTCA / --------      -900      -350                                    [Tag]T[Tc]GTTC[Ag]    #773
+    6.92    [ 167.8]    GTTTACAT / --------     -1550      -150                                     G[Tc]T[Tg]AC[Ag]T    #774
+    6.89    [ 540.5]    GCCACTGC / --------     -1850     -1050                                           GCCAC[Tc]GC    #775
+    6.81    [ 554.5]    GCCACCAC / --------     -1200      -150                                  [Gt]C[Cg]AC[Cg][Ag]C    #776
+    6.78    [ 460.6]    GGGAGGCT / AGCCTCCC     -1900     -1700                                        GG[Ga]AGGC[Tc]    #777
+    6.59    [ 120.9]    TCTTATAC / --------     -1300      -450                                  T[Ca][Tg][Ta]ATA[Cg]    #778
+    6.57    [ 449.6]    CGCCCGCC / --------     -1900      -700                           [Cg][Gt][Ca][Cgt]C[Gc]C[Ca]    #779
+    6.57    [ 134.6]    AGCTCCAC / --------      -700      -200                                       [Ac]GCT[Cag]CAC    #780
+    6.50    [ 551.8]    ACTCCAGC / --------     -1900     -1050                                  AC[Tg][Ca]C[Ac]G[Cg]    #781
+    6.38    [ 236.5]    ATTTCACA / --------     -1400      -250                                          ATT[Tac]CACA    #782
+    6.29    [ 542.2]    ATCCCAGC / --------     -1950     -1200                                  ATC[Cg]C[Ag][Ga][Ca]    #783
+    6.26    [ 151.2]    TCATTCCA / --------     -1100      -250                                     TCA[Ta]T[Cg][Cg]A    #784
+    6.24    [  31.2]    TTGTACCT / --------     -1100      -750                                           TTGTACC[Tg]    #785
+    6.19    [ 545.3]    TCCCAAAG / CTTTGGGA     -1950     -1500                                              TCCCAAAG    #786
+    6.17    [ 499.9]    CCGCGCCC / --------     -1750      -600                              [Ct]C[Ga]CG[Cat][Ct][Ct]    #787
+    6.06    [  49.5]    ACCCTCCG / --------      -250      -100                                     ACC[Cg]T[Ca]C[Ga]    #788
+    6.02    [  91.8]    AAGTATAT / --------     -1600     -1300                                  A[Ac][Gc]T[Ag][Tc]AT    #789
+    5.94    [  22.6]    TGACGGTT / --------     -1400      -550                                           [Tc]GACGGTT    #790
+    5.94    [ 172.8]    GGCCTCCC / --------     -1800     -1700                              [Ga]G[Ca][Ct]T[Cat]C[Ca]    #791
+    5.77    [  30.9]    GCTTATAA / --------     -1350     -1100                                        GC[Tg]TATA[Ag]    #792
+    5.66    [ 324.6]    CTGGTCTC / GAGACCAG     -1350     -1050                                        [Ct]T[Gt]GTCTC    #793
+    5.62    [ 110.9]    AAAGCACA / --------     -1900     -1100                                           AAAGC[Ag]CA    #794
+    4.90    [  45.7]    TTTGTAAC / --------     -1200     -1050                                     TT[Tc]G[Tc]AA[Ct]    #795
+    4.89    [  20.7]    GGTATAAG / --------      -900      -350                                              GGTATAAG    #796
+    4.73    [  37.5]    TGATCTTA / --------     -1450      -800                                              TGATCTTA    #797
+    4.70    [  19.5]    GATACAGT / --------     -1750     -1450                                              GATACAGT    #798
+    4.32    [  30.9]    ATTGTTCC / --------     -1400     -1150                                           [Ag]TTGTTCC    #799
+    4.28    [  21.9]    AGCAACTT / --------     -1050      -800                                              AGCAACTT    #800
+================================================================================
+   54.35    [ 708.8]    TACTTCCG / CGGAAGTA      -650         0                   [Tacg][Acgt][Cagt][Ta][Tacg][Cag]CG    #1
+   52.15    [ 754.2]    GCGGAAGT / ACTTCCGC      -800         0                    [Gac]C[Gc][Gac][At][Act][Gat][Tac]    #5
+   48.50    [ 698.6]    CGCTTCCG / CGGAAGCG      -350         0                     [Cat][Gact][Cagt]T[Ta][Cagt][Ct]G    #9
+   48.48    [ 700.9]    GCCGGAAG / CTTCCGGC      -400         0                           [Gac][Cgt]CG[Gct][At]A[Gac]    #11
+   45.92    [ 711.6]    TCCGGAAG / CTTCCGGA      -600         0                          [Tacg][Cagt]CG[Gct][At]A[Ga]    #18
+   44.38    [ 715.0]    GGCGGAAA / TTTCCGCC      -550         0                    [Gact][Gact]CG[Gact][At][At][Acgt]    #20
+   44.21    [ 654.1]    TCTTCCGG / CCGGAAGA      -600         0                         [Tag][Cat][Tg][Ta][Cg]CG[Gct]    #21
+   42.87    [ 446.9]    AGTGACGT / ACGTCACT      -400         0                         [Acgt][Gat][Tg][Gct]ACG[Tacg]    #27
+   41.83    [ 693.9]    CTTCCGCT / AGCGGAAG      -600         0                         [Cagt]TT[Cgt][Cg]G[Cagt][Tac]    #29
+   41.71    [ 580.6]    TTCCGCTT / AAGCGGAA      -450         0                        [Tacg][Tac]CCG[Cgt][Tcg][Tacg]    #31
+   40.65    [ 454.8]    GTGACGTA / TACGTCAC      -500         0                [Gac][Tcg][Gc][Acgt][Cg][Gt][Tc][Acgt]    #32
+   40.62    [ 669.6]    TTCCGGCT / AGCCGGAA      -500         0                    [Ta]T[Cag][Cg][Gc][Gc][Cagt][Tacg]    #33
+   38.72    [ 682.9]    TTTTCCGC / GCGGAAAA      -600         0                 [Tacg][Tcg][Tag][Tacg][Cgt][Cg]G[Cgt]    #36
+   38.71    [ 324.9]    ATGACGTC / GACGTCAT      -550         0                           [Ag][Tc][Gt][Ag]CG[Tc][Cat]    #37
+   38.63    [ 430.3]    TTACGTCA / TGACGTAA      -750         0                    [Tacg][Tag][Acg]CG[Tacg][Cag][Agt]    #39
+   38.10    [ 569.9]    TTGCGCAG / CTGCGCAA      -650         0                      [Tac][Tac][Gc]CG[Cagt][Act][Gat]    #40
+   37.53    [ 628.6]    CGATTGGC / GCCAATCG      -450         0              [Cgt][Gt][Acgt][Tcg][Ta][Gac][Gac][Cagt]    #43
+   35.38    [ 684.6]    GGGCGGAA / TTCCGCCC      -450         0                      [Gact][Gac][Gact]C[Gc][Gat][At]A    #48
+   33.80    [ 697.0]    CCTTCCGC / GCGGAAGG      -600         0                             [Cagt][Cgt][Ta]TCCG[Cagt]    #59
+   32.18    [ 674.8]    CCGATTGG / CCAATCGG      -550         0               [Cagt][Cgt][Gact][Agt]T[Tag][Gct][Gact]    #66
+   31.09    [ 500.1]    AAGTGACG / CGTCACTT      -700         0                    [Agt][Acgt][Gact][Tc][Gact][Agt]CG    #67
+   30.62    [ 394.6]    ACGTCATC / GATGACGT      -600         0                      [Agt]CG[Tac][Cg][Ag][Tacg][Cagt]    #71
+   29.49    [ 396.7]    AGACTACG / CGTAGTCT      -750         0                  [Acgt][Gact][Ac][Cat][Tac][At]C[Gct]    #75
+   28.43    [ 352.6]    AACCAATC / GATTGGTT      -250         0                                [Acg][Acg][Cg][Cg]AATC    #77
+   28.41    [ 427.6]    ACTACGAT / ATCGTAGT     -1400         0                      [Acgt][Ca][Tac]AC[Ga][Act][Tacg]    #78
+   27.93    [ 597.8]    ACCGGAAA / TTTCCGGT      -850         0                   [Agt][Cag][Cg]G[Gact][At][Act][Agt]    #80
+   27.71    [ 664.6]    AAAAAACG / CGTTTTTT      -850      -100                    [Ag][Acgt][Acgt][Acgt][Act][Agt]CG    #83
+   27.29    [ 498.7]    CGGAAAAA / TTTTTCCG      -400         0               C[Gc][Gct][Acgt][Agt][Acgt][Acgt][Acgt]    #84
+   26.78    [ 672.3]    CGCCGAAA / TTTCGGCG     -1200         0              [Ct][Gct][Cagt][Cagt][Gct][Acgt][At][At]    #85
+   26.78    [ 660.5]    CGCGAAAA / TTTTCGCG     -1000         0           [Cagt][Gt][Cagt][Gat][Acgt][Agt][Act][Acgt]    #86
+   26.54    [ 670.3]    GCTTGCGC / GCGCAAGC      -750         0                       [Gact][Cagt][Ta]T[Gct]C[Ga][Cg]    #87
+   26.48    [ 343.7]    ACCAATCA / TGATTGGT      -200         0                                [Acg]CC[At]AT[Cg][Acg]    #88
+   26.40    [ 657.2]    TAAAACGC / GCGTTTTA     -1350       -50                    [Tg][Acg][Act][Ac][Acgt][Ca]G[Cgt]    #90
+   26.26    [ 332.8]    GACTACGA / TCGTAGTC     -1150         0                         [Gact][Acgt][Ct]T[Ag]CG[Acgt]    #91
+   25.75    [ 496.5]    TTCCGGGA / TCCCGGAA      -350         0                        [Ta]T[Cg][Ct]G[Gat][Gact][Agt]    #95
+   25.56    [ 456.3]    TTTGCGCA / TGCGCAAA      -550         0                  [Tacg][Tc][Tacg][Gact]CG[Cagt][Acgt]    #98
+   25.05    [ 514.7]    CCAATCAC / GTGATTGG      -450         0                               CC[Ag]AT[Ca][Acg][Cagt]    #101
+   24.81    [ 480.2]    TGCGCATG / CATGCGCA      -700         0                           [Tac][Ga]CG[Cgt]A[Tacg][Gt]    #103
+   23.86    [ 650.9]    CGCAGTCG / CGACTGCG      -650         0                  [Ca][Gt][Ct][At][Ga][Tag][Cat][Gact]    #110
+   23.33    [ 627.9]    AAAACGCC / GGCGTTTT      -850         0                     [Acgt][Acgt]A[Acgt]CG[Cagt][Cagt]    #113
+   23.17    [ 335.6]    TCCGATTG / CAATCGGA      -400         0                   [Tag][Cat][Cgt][Gt][Ag][Tag][Tacg]G    #115
+   23.14    [ 469.3]    CGCCATTT / AAATGGCG      -550         0                     CG[Ct][Cagt][Acg][Tac][Tacg][Tag]    #116
+   23.12    [ 609.6]    CGGAAGAC / GTCTTCCG      -650         0                    [Ca]G[Gct][Act][Agt][Gt][Act][Cag]    #117
+   22.93    [ 591.8]    AACTCCGC / GCGGAGTT      -450         0                   [Agt][Ag][Cgt][Tacg][Cag][Cg]G[Cgt]    #121
+   22.84    [ 641.8]    AGAAAGCG / CGCTTTCT     -1050       -50                          [Act][Gac][Acgt][At]A[Gat]CG    #123
+   22.82    [ 560.8]    AATTGCGC / GCGCAATT     -1000         0                 [Acgt][Acgt][Tcg][Tacg][Gc][Cg]G[Cgt]    #124
+   22.75    [ 542.9]    CCTTAGCG / CGCTAAGG      -800         0              [Cgt][Cagt][Tag][Ta][Acgt][Gact][Ct][Ga]    #125
+   22.71    [ 346.2]    GCCGCAAT / ATTGCGGC      -500         0                    [Gct][Cagt][Cg]G[Ct][Act][At][Tag]    #126
+   22.68    [ 327.0]    ATTGGTTG / CAACCAAT      -150         0                   [Ag][Tacg][Ta][Gc]G[Tac][Tacg][Gct]    #128
+   22.47    [ 641.7]    CCGGAAAG / CTTTCCGG      -600         0                  [Cg][Cg][Gc][Gact][At][At][Ag][Gact]    #130
+   22.17    [ 646.9]    CCGCTTTT / AAAAGCGG      -900         0                     [Cat][Cg]G[Cat][Tcg][Ta][Tcg][Tc]    #133
+   21.86    [ 419.1]    CCGTTAAG / CTTAACGG      -850       -50               [Cag][Cgt]G[Tacg][Tacg][Agt][Acg][Gact]    #134
+   21.42    [ 540.7]    AAACGCCA / TGGCGTTT      -800         0                    [Acgt][Ag][Acg]CG[Cagt][Cgt][Acgt]    #138
+   21.39    [ 474.0]    CGCAAGAG / CTCTTGCG      -400         0                  CG[Cgt][Acgt][Act][Gact][Acgt][Gact]    #139
+   21.38    [ 556.3]    AGACGTTT / AAACGTCT     -1300         0                      [Act][Gact][Acgt]CG[Tac][Tc][Ta]    #140
+   21.38    [ 448.7]    GAGCGCAA / TTGCGCTC      -950         0                            [Gact]A[Gact]CG[Cagt]A[At]    #141
+   21.36    [ 362.5]    CGGTAGAA / TTCTACCG     -1100         0                    C[Gc][Gct][Ta][Act][Gact][At][Act]    #142
+   21.27    [ 466.6]    AACGCCAA / TTGGCGTT      -850         0                    [Acgt][Acg]CG[Ca][Cagt][Acgt][Act]    #143
+   21.26    [ 313.6]    TTCGTAAG / CTTACGAA     -1050         0                       [Tcg][Tac]CG[Tag][Ag][Acg][Gac]    #144
+   21.15    [ 370.1]    TCATTGGC / GCCAATGA      -450         0                                 T[Cg][Ag]T[Ta]GG[Cat]    #145
+   20.69    [ 517.6]    TGCCAATC / GATTGGCA      -700         0                            [Tacg]G[Cg][Cgt]AA[Ta][Ca]    #148
+   20.61    [ 458.5]    GTAAAACG / CGTTTTAC      -900         0                     [Gac][Tacg][Act][Ag][Acgt][Acg]CG    #150
+   20.53    [ 481.1]    CACGCTTC / GAAGCGTG      -450         0                     [Cagt][Ac]CG[Cat][Tcg][Tac][Cagt]    #151
+   20.33    [ 623.4]    TCGCGCGA / TCGCGCGA     -1950         0                           [Tc][Cg][Gt][Ct]G[Cgt][Gt]A    #153
+   20.23    [ 482.2]    GCGTTTTG / CAAAACGC     -1000         0                          [Gct]CGT[Tag][Tcg][Tc][Gact]    #154
+   19.96    [ 455.0]    CGAACTTC / GAAGTTCG      -750         0                  CG[Acgt][Acgt][Cgt][Tacg][Tag][Cagt]    #157
+   19.94    [ 638.2]    GGAAACGA / TCGTTTCC     -1000       -50                   [Gac][Gac][Acgt][Ag][Agt]C[Gt][Act]    #158
+   19.70    [ 415.0]    TTAACGTC / GACGTTAA     -1100         0                    [Tac][Tac][Agt][Agt]C[Gt][Tg][Cgt]    #162
+   19.53    [ 442.3]    CGCATGCG / --------      -300         0                     [Ca][Ga][Ct][Acg][Tacg]G[Cgt][Ga]    #163
+   19.49    [ 522.6]    AAAGCCGC / GCGGCTTT      -550         0                   [Agt][At][Ac][Gact][Cat][Cg]G[Cagt]    #165
+   19.41    [ 306.1]    ACTTACGT / ACGTAAGT      -800         0                      [Ag][Cagt][Ta][Tacg][Act]CG[Tag]    #166
+   19.23    [ 441.7]    CGTTAGTT / AACTAACG      -900         0              [Cag]G[Tacg][Tacg][Acgt][Gac][Tcg][Tacg]    #170
+   19.19    [ 177.6]    ATGCGCAT / --------      -650         0                            [At][Ta][Gc]CG[Cgt]A[Tacg]    #171
+   18.75    [ 217.6]    CTATTGGT / ACCAATAG      -250         0                                C[Tcg][Ag]T[Tc]GG[Tac]    #174
+   18.41    [ 599.6]    ACGCAATC / GATTGCGT     -1450         0                 [Acgt]C[Gc][Cag][Act][Agt][Tac][Cagt]    #176
+   18.40    [ 385.9]    ACGTTAAA / TTTAACGT     -1100         0                     [Acg]CG[Tacg][Ta][Acg][Agt][Acgt]    #177
+   18.36    [ 357.7]    GTAGTTCC / GGAACTAC      -500         0                      [Ga][Ta][Ac][Gc][Tcg]T[Ct][Cagt]    #178
+   18.32    [ 247.6]    CTACGTTT / AAACGTAG      -600         0                            [Ca][Ta][Act]CG[Tacg][Tg]T    #179
+   18.27    [ 489.1]    TTCGAATT / AATTCGAA     -1550         0                     [Tac][Ta]CG[Agt][Acg][Tacg][Tacg]    #181
+   18.19    [ 622.4]    TTGTAGTT / AACTACAA     -1250         0                             [Tac][Tcg]GT[Ac]G[Tg][Tc]    #182
+   18.11    [ 623.8]    GGCGCGAA / TTCGCGCC     -1550         0                            [Gact][Gt]C[Gt]C[Gac]A[At]    #185
+   18.07    [ 317.2]    GGAAGTGA / TCACTTCC      -150         0                           [Gt]G[At][Ac][Ga]T[Ga][Acg]    #186
+   17.97    [ 524.0]    CGCCTATT / AATAGGCG      -850         0                   CG[Cat][Cagt][Tacg][Acgt][Tacg][Tg]    #188
+   17.87    [ 483.8]    CGTTTCCA / TGGAAACG      -800         0                           CG[Tc]T[Ta][Cag][Cgt][Acgt]    #190
+   17.78    [ 250.2]    GCACTACG / CGTAGTGC      -800         0                         [Gat][Cagt][At][Cagt][Tag]ACG    #192
+   17.78    [ 424.7]    ATTGGCTA / TAGCCAAT      -600         0                            AT[Tcg][Gc]G[Cg][Tag][Acg]    #193
+   17.64    [ 359.8]    CTACGACT / AGTCGTAG     -1150         0                         [Cgt][Tag]AC[Gac]A[Cgt][Tacg]    #194
+   17.49    [ 285.9]    TCTACGGA / TCCGTAGA      -850         0                     [Ta][Cagt][Tag][Ag]C[Gc][Gt][Agt]    #196
+   17.44    [ 572.2]    TGCGCAGC / GCTGCGCA      -600         0                         [Ta][Gat]CG[Cag]A[Gact][Cagt]    #197
+   17.43    [ 431.9]    TGCGGAGT / ACTCCGCA      -600         0                        [Tag][Gac]C[Gc][Gact][At][Ga]T    #198
+   17.43    [ 453.7]    ACCTCCGC / GCGGAGGT      -350         0                            A[Cag][Cagt]T[Cat]CG[Cagt]    #199
+   17.42    [ 557.1]    CCGCCATC / GATGGCGG      -600         0                         [Cagt]CGC[Cagt][At][Ta][Cagt]    #200
+   17.28    [ 439.8]    TGGGCGGA / TCCGCCCA      -300         0                       [Ta][Gact][Gac][Gat]CG[Gat][At]    #203
+   17.22    [ 515.8]    TCGCTTTC / GAAAGCGA      -700         0                      [Tacg]CG[Cat][Tacg][Ta][Ta][Cgt]    #206
+   17.15    [ 551.0]    TCCCGCCT / AGGCGGGA      -400         0                          T[Cat][Cgt][Cg]G[Ca][Ct][Ta]    #209
+   17.04    [ 502.6]    CGCGCGAC / --------     -1950         0                        [Cg][Gact][Ct]G[Ct][Gct]A[Cat]    #213
+   17.03    [ 533.7]    ACGAAACT / --------     -2000       -50               [Agt]C[Gct][Acgt][Acgt][Acg][Cag][Tacg]    #214
+   16.95    [ 618.6]    GTACTTAA / TTAAGTAC     -1600      -300                           [Gc][Ta]A[Ct][Tag]T[Ag][Ac]    #215
+   16.95    [ 616.7]    CTGCCGGA / TCCGGCAG      -600         0                      [Cat][Ta][Gact][Cag]CG[Gact][At]    #216
+   16.87    [ 604.5]    GGAACGCG / CGCGTTCC      -550         0                   [Gac][Gact]A[At][Cag][Gt][Cat][Gct]    #217
+   16.80    [ 405.7]    ACGCCACC / GGTGGCGT      -650         0                           ACG[Cat][Cagt][At][Ct][Cat]    #218
+   16.68    [ 354.7]    AGCCGCCA / TGGCGGCT      -350       -50                       [At][Gact][Cag][Cg]G[Cat][Cat]A    #221
+   16.60    [ 377.6]    CTCATTGG / CCAATGAG      -200         0                                 [Cgt][Tcg][Cagt]ATTGG    #223
+   16.57    [ 370.7]    AAACGAAA / TTTCGTTT      -750         0                           [Act][Agt][Ac]CG[Acg]A[Acg]    #224
+   16.55    [ 541.5]    ACGCCCTT / AAGGGCGT      -450         0                 [Acgt][Ct]G[Cagt][Cagt][Cg][Tcg][Tag]    #225
+   16.46    [ 244.8]    CGAAAAGG / --------      -750       -50                      CG[Act][Act][Acgt][Acg][Ga][Gct]    #226
+   16.46    [ 614.7]    CGTTTTGG / CCAAAACG     -1750         0                       CG[Tacg][Ta][Tag][Tac][Ga][Gct]    #227
+   16.43    [ 584.8]    GTCCCGCC / GGCGGGAC      -450         0                             [Gt]T[Cat][Cag]CG[Ca][Ct]    #228
+   16.39    [ 418.7]    CGTCATCA / TGATGACG      -700         0                    [Ct]G[Tac]C[Acg][Tacg][Cagt][Acgt]    #232
+   16.37    [ 609.7]    AAATACGG / CCGTATTT     -1550         0                     A[Agt][Act][Ta][Acg][Cg][Gc][Gct]    #233
+   16.26    [ 315.5]    CCGCAGAA / --------      -600         0                    [Cagt]CG[Cagt][Agt][Gact][At][Act]    #234
+   16.25    [ 245.9]    GAATGACG / --------      -750         0                   [Gact][Act][Acgt][Tag][Gt][At]C[Gc]    #235
+   16.21    [ 620.0]    AGATCGCG / CGCGATCT     -1450       -50                           A[Ga][At][Ta][Cg][Gct]C[Gt]    #237
+   16.19    [ 406.5]    CTACTTCC / --------      -650         0                     [Cagt][Tag]A[Cat][Tcg][Tacg][Ct]C    #239
+   16.18    [ 602.1]    GTCTCAAA / --------     -1850     -1250                          [Gt][Tg][Cag][Ta]CA[At][Act]    #240
+   16.16    [ 585.6]    AAACTACA / TGTAGTTT     -1350         0                                [Acg]A[Ac]C[Tg]AC[Acg]    #241
+   16.09    [ 610.8]    GCAACGCC / GGCGTTGC      -750         0                       [Gat][Cag][Acgt]AC[Gt][Cag][Ca]    #242
+   16.04    [ 329.7]    GACCACGC / GCGTGGTC      -650         0                              [Gat]AC[Cat][At]CG[Cagt]    #243
+   16.03    [ 480.9]    TTCCCGTA / TACGGGAA      -600         0              [Tacg][Tg][Cg][Cagt][Cg][Ga][Tacg][Acgt]    #244
+   15.89    [ 592.7]    ACACTAAA / --------     -1800      -450                      [Act]C[Ag][Ca][Tg][At][At][Acgt]    #245
+   15.87    [ 412.6]    ACGCCAAG / CTTGGCGT      -500         0                   [Acg]C[Gt][Ct][Cagt][Agt][Act][Gac]    #246
+   15.73    [ 341.8]    CGCTCTTC / GAAGAGCG      -350         0                          [Ct]G[Ct][Tac][Cgt]T[Ta][Ca]    #247
+   15.65    [ 595.9]    GTTAACAA / TTGTTAAC     -1150      -250                    [Gc][Tag][Ta]A[At][Cg][Acgt][Acgt]    #249
+   15.64    [ 332.9]    CTCTAACG / --------     -1250         0                [Cgt][Tacg][Ct][Tcg][Acg][Agt][Ct][Gc]    #250
+   15.62    [ 570.1]    CGCGGCTT / AAGCCGCG      -400         0                   [Cagt][Gt][Cgt][Gact][Gct][Ca]T[Ta]    #251
+   15.51    [ 611.7]    CACACTAA / --------     -1600      -500                 [Cagt][Acgt][Cgt][Agt][Cag][Tag]A[At]    #253
+   15.48    [ 601.0]    TAAAATAC / --------     -1800      -800                          [Tg]A[Ac][Ag][Acgt]T[At][Ct]    #254
+   15.46    [ 475.9]    TCTAACGC / GCGTTAGA     -1200         0                 [Tacg][Cagt][Tag][Act][Acg]C[Gc][Cgt]    #255
+   15.40    [ 300.0]    AACCAATG / CATTGGTT      -400         0                        [Acg][Act]C[Ct][Agt]A[Tc][Gac]    #256
+   15.35    [ 612.7]    ACTACAAC / GTTGTAGT     -1150         0                        [Acg]C[Tg]A[Ca][Acg][Acg][Cgt]    #258
+   15.29    [ 549.6]    TCCGGGTT / AACCCGGA     -1150         0                         [Ta][Cag]CG[Gac][Gac][Ta][Tc]    #260
+   15.27    [ 612.4]    GATCGCGC / GCGCGATC     -1950         0                                 [Gac][At]T[Cg]GC[Gt]C    #261
+   15.23    [ 611.2]    ACCGCGCC / --------     -2000      -700                                     A[Ct]C[Ga]CGC[Ct]    #263
+   15.14    [ 603.7]    ACTAATTT / --------     -1900      -500                           A[Ca][Tg]A[Ac][Tag][Tc][Tc]    #265
+   15.07    [ 599.7]    ATCCGCCC / GGGCGGAT     -1800         0                                           [At]TCCGCCC    #266
+   15.03    [ 603.8]    AAACTCCG / CGGAGTTT     -1400         0                                   A[Agt]A[Ct]T[Cag]CG    #268
+   14.96    [ 421.6]    AAATCGGT / ACCGATTT     -1300         0                      [Acg][Agt][At][Tag]CG[Gact][Tac]    #269
+   14.92    [ 581.3]    AAAATTAC / --------     -1700      -200                               A[Act][Act][Acg][Tg]TAC    #270
+   14.92    [ 601.0]    AAAAACGA / --------     -1800       -50                             [Ag][Ac][Ag]AAC[Gct][Act]    #272
+   14.91    [ 595.5]    TGTCTCAA / --------     -2000     -1000                                 [Tc][Ga]T[Cgt]TC[Ag]A    #273
+   14.90    [ 100.9]    GAAGTGAC / GTCACTTC      -100         0                                     G[At]A[Ga]T[Ga]AC    #274
+   14.88    [ 553.0]    CCGACAAG / CTTGTCGG     -1000         0                [Cgt][Cg]G[Acgt][Cagt][Acgt][Act][Gat]    #276
+   14.86    [ 347.9]    TACTAATT / --------     -1150      -300                       [Tcg][At][Cg][Tg][Ac]A[Tg][Tac]    #277
+   14.84    [ 483.3]    AACGTAAA / --------     -2000       -50                      [Acgt][Acgt]C[Gt][Tag][At][Acg]A    #278
+   14.81    [ 610.2]    CGATTCTT / AAGAATCG     -1350         0                               CG[Ac][Tc][Tg][Ct]T[Tc]    #279
+   14.78    [ 361.9]    ACAGCGGA / TCCGCTGT      -600         0                          A[Cagt][At][Gat]C[Gc][Gact]A    #282
+   14.61    [ 561.0]    ACTTAAAA / --------     -1650      -400                                [Ag]C[Tacg]TAA[Ac][At]    #284
+   14.55    [ 389.8]    GCGAACCA / TGGTTCGC      -600         0                [Gact]C[Gct][Agt][Act][Cag][Cagt][Agt]    #286
+   14.52    [ 243.8]    AAAACCCG / --------      -600       -50                      [At][Ac][Acgt][Ag][Cagt][Cagt]CG    #288
+   14.51    [ 515.6]    AACGATCA / --------     -1750      -150           [Agt][Acgt][Cag][Gat][Act][Tac][Cagt][Acgt]    #289
+   14.46    [ 341.8]    GTACGAAG / CTTCGTAC      -950         0                   [Gct][Tag][Agt]C[Gc][Agt][Ac][Gact]    #290
+   14.44    [ 604.3]    AAAAAAAC / --------     -1550     -1050                                  A[At][Ac]A[Ac]AA[Cg]    #292
+   14.41    [ 583.9]    TAATACAC / --------     -2000      -150                          [Ta][At][Agt]TA[Ca][Act][Ca]    #294
+   14.35    [ 601.6]    CACCACGC / --------     -1100         0                         [Cagt][Ag][Cagt][Cagt][Ag]CGC    #295
+   14.34    [ 162.4]    ACGCTCTA / TAGAGCGT      -250         0                   [Agt]C[Gt][Ca][Ta][Cagt][Tacg][Act]    #296
+   14.29    [ 578.7]    AGCCTGTA / TACAGGCT     -2000     -1500                                  [Ac][Gt][Ct]CT[Gt]TA    #298
+   14.25    [ 607.8]    TACTCGGG / CCCGAGTA     -2000      -700                                   TA[Cg]TC[Gc][Gact]G    #300
+   14.23    [ 604.1]    TCTAGCGA / TCGCTAGA     -1300         0                              [Tcg][Ca][Ta][Ac][Gc]CGA    #302
+   14.19    [ 598.0]    TCGCTTCT / AGAAGCGA      -800         0                    [Tacg]CG[Cagt][Tcg][Tag][Cag][Tcg]    #303
+   14.02    [ 599.1]    AATACAAG / CTTGTATT     -2000      -450                                     A[At]TACA[Ac][Gt]    #306
+   13.97    [ 218.0]    CCGACTAA / --------     -1350      -100                     [Cat]C[Gc][Ac][Cag][Tag][Agt][Ac]    #307
+   13.96    [ 534.0]    GCGAATCC / GGATTCGC     -1150         0                     [Gat]C[Gc][Agt][Ac][Ta][Cag][Cgt]    #308
+   13.94    [ 554.7]    TACGTTTG / CAAACGTA     -1950         0                       [Tg][At]C[Gc][Tac]T[Tacg][Gact]    #309
+   13.92    [ 360.4]    CGGCTAGA / TCTAGCCG      -700         0                   C[Gc][Gct][Cagt][Ta][Act][Gac][Acg]    #310
+   13.91    [ 601.7]    GGTACTTT / AAAGTACC     -1400      -700                      [Gat][Gt][Tc]A[Cgt][Tc][Ta][Tac]    #311
+   13.91    [ 590.9]    AGGTACTT / AAGTACCT     -1650      -300                               [Act][Gact]GT[At]CT[Tc]    #312
+   13.91    [ 180.6]    CAACGCTC / --------      -300         0                       [Cagt][Acg][Ac][Cg]GC[Tcg][Cat]    #313
+   13.90    [ 601.8]    ATTTACTA / --------     -1650      -500                     [At][Tacg]T[Tacg][Ac][Cg][Tg][At]    #314
+   13.78    [ 432.7]    CGCCACAG / CTGTGGCG      -700         0                            CG[Cagt][Cagt]A[Ca]A[Gact]    #315
+   13.77    [ 601.2]    AATTACAA / --------     -1800      -500                           [Acg]A[Tc][Tc][At]C[At][Ac]    #316
+   13.77    [ 588.4]    CTCAAAAA / --------     -1600     -1050                           [Ct][Tg][Cgt][Ag]A[At][At]A    #317
+   13.73    [ 225.9]    GCATGCGT / --------     -1050         0                                    GCA[Tc][Gc]CG[Tac]    #318
+   13.72    [ 182.5]    TCCGTTCC / GGAACGGA      -350         0                               T[Cat]CGT[Ta][Cgt][Cgt]    #319
+   13.65    [ 285.2]    CAGCGACT / --------      -850         0                        [Cagt][At][Gact]CGA[Cat][Tacg]    #320
+   13.62    [ 210.6]    AGCACGCA / --------      -700         0                            A[Gat][Cgt][Act]CG[Ct][At]    #322
+   13.52    [ 576.6]    TGAACCCG / CGGGTTCA     -1700      -600                             [Tc][Gct][Ag]A[Cat][Cg]CG    #324
+   13.49    [ 257.5]    ATCACCGC / --------      -550         0                    [Acg][Tag][Cat][Ag][Cag][Cg]G[Cag]    #326
+   13.36    [ 601.1]    AAAAATTA / --------     -1700     -1300                             [At]A[At]A[Act][Tc]T[Acg]    #327
+   13.32    [ 138.8]    CGCAATCC / GGATTGCG     -1100         0                                       CGCAAT[Ct][Cag]    #328
+   13.28    [ 413.7]    ATTGAACG / CGTTCAAT     -1700      -100                     [Acgt][Tg][Tacg][Gact][Act][At]CG    #329
+   13.25    [ 338.2]    AAACCCGT / --------     -1350      -100                       [At][At]A[Cgt][Cagt]C[Gt][Tacg]    #330
+   13.24    [ 601.6]    CTGTAATC / GATTACAG     -1900     -1650                                     C[Ta]GTA[Ag][Tc]C    #331
+   13.22    [ 590.4]    TCTCAAAA / --------     -1950     -1400                                 [Tag]CT[Ct][Ag]AA[Ac]    #334
+   13.13    [ 571.9]    CTAAGTTT / AAACTTAG     -1850     -1600                          C[Ta]A[Acgt][Gat][Tacg]T[Tg]    #335
+   13.06    [ 567.7]    CACGCGCC / GGCGCGTG      -200         0                 [Cat]A[Cgt][Gat][Cag][Gact][Cat][Cag]    #336
+   13.03    [ 590.6]    CAAAAATT / --------     -1700     -1250                              [Cag][Ac]A[Ac]A[At]T[Ta]    #337
+   13.03    [ 292.1]    CGCACAAG / --------      -450         0            [Ca][Gac][Cat][Act][Cagt][Acgt][Act][Gact]    #338
+   12.99    [ 297.8]    CGCAGAAC / --------     -1350         0                              CG[Cagt]A[Ga][Act]A[Cag]    #340
+   12.88    [ 585.5]    TTAAAAAG / --------     -1050      -250                            [Tacg][Tc]AA[Ac]A[Act][Gc]    #342
+   12.87    [ 242.9]    CAACGCCG / --------      -950         0                       [Cgt]A[At][Ct][Ga][Cagt]C[Gact]    #344
+   12.85    [ 599.7]    TAATTTTT / AAAAATTA     -1500     -1300                            [Tc]A[Ag][Tc]T[Ta][Ta][Ta]    #345
+   12.84    [ 587.8]    TTTTTGTA / TACAAAAA     -2000     -1700                                          TTTT[Tac]GTA    #346
+   12.84    [ 574.6]    AGTTAAGC / GCTTAACT     -1600      -200                           [Acgt][Gt]T[Ta]A[Acg][Gct]C    #349
+   12.76    [ 597.1]    ACAAAAAT / --------     -1650     -1250                              A[Ct][Acg][Ag]AA[At][Ta]    #352
+   12.75    [ 104.8]    ACACGCTC / --------      -300         0                                 [Act][Cg]ACG[Cg]T[Ca]    #353
+   12.67    [ 256.6]    AAGACTAC / GTAGTCTT      -550         0                               [Acgt][Acg][Ga]AC[Ta]AC    #355
+   12.66    [ 253.6]    AGGCCTAA / TTAGGCCT      -550      -150                      [Act][Gac][Gt][Ca][Cg]T[At][Act]    #358
+   12.66    [ 583.1]    ATCGCTTG / CAAGCGAT     -1950      -850                                 ATCG[Cg][Tac][Ta][Gc]    #359
+   12.65    [ 252.2]    AAAGGTTA / --------     -1650      -600                                    A[At][Acg]GGTT[At]    #360
+   12.65    [ 597.5]    ATTAATAC / --------     -1900      -450                        [Agt][Tacg]TA[Ac][Tc][Acg][Ca]    #361
+   12.64    [ 332.1]    AACGCCGG / CCGGCGTT      -500         0                      [At]A[Ca][Gt][Ca][Ct][Gct][Gact]    #362
+   12.63    [ 452.5]    AAGCTAAC / --------     -1450      -150                  [Ac][Acg][Gat][Ct][Tg][Agt][Ag][Cag]    #363
+   12.59    [ 597.6]    GGACTACA / TGTAGTCC     -1900     -1650                             [Gc][Gct][Act][Ct]TA[Cg]A    #365
+   12.59    [ 560.6]    TCGGGAGT / ACTCCCGA     -1600      -700                             [Tg]CG[Gact][Ga]A[Ga][Tg]    #366
+   12.59    [ 410.5]    CAGCCGAC / GTCGGCTG      -700         0                     [Cagt][At][Gac][Cat]C[Gt][At][Ca]    #367
+   12.53    [ 201.8]    AGTACCTC / --------      -800       -50                       [Act][Gc]T[At][Ct][Cag][Tg][Ct]    #369
+   12.52    [ 594.1]    GAGTTCGA / TCGAACTC     -1550      -600                         [Gac][At][Gact][Tg][Tc]CG[Ag]    #370
+   12.50    [ 587.9]    CCGCCTCA / TGAGGCGG     -2000      -750                                        CCG[Ct]CT[Ca]A    #372
+   12.49    [ 591.6]    AACTGCAA / --------     -1300         0                        [At]A[Cgt][Tg][Gac]C[Acgt][Ag]    #373
+   12.49    [ 582.1]    AAAAAGGC / GCCTTTTT     -1050       -50                                 A[At]AA[Act][Gc][Gc]C    #374
+   12.49    [ 413.5]    GGATTAAA / --------     -1050      -250                    [Gc][Gat][At][Tg][Ta][At][Ag][Act]    #375
+   12.44    [ 590.2]    TACAACTC / GAGTTGTA     -1300         0                       [Tg][At]C[Ag][Act][Ct][Tag][Ca]    #376
+   12.43    [ 594.4]    ACTACAGG / CCTGTAGT     -1900     -1650                                A[Cgt][Tg]AC[Acg][Ga]G    #377
+   12.43    [ 471.5]    AAGCTTAA / TTAAGCTT     -1500      -450                                A[Ac]GC[Tac][Ta]A[Act]    #378
+   12.38    [ 575.9]    ACTAAAGT / --------     -1950      -500                         [At][Ct][Tag][Ag]A[Acg][Gac]T    #382
+   12.38    [ 363.8]    GTTTCGAG / CTCGAAAC     -1000         0                      [Gat][Tg][Tacg][Tac]CG[Ac][Gact]    #383
+   12.37    [ 586.8]    AAACAAAA / --------     -1600     -1250                               [At][Ac]A[Ca][Ag]AA[At]    #384
+   12.34    [ 576.0]    AACAAAAA / --------     -1500     -1050                                        AA[Ca][At]AAAA    #387
+   12.31    [ 593.3]    GCGCCACT / AGTGGCGC     -1450         0                                      GCG[Cgt]CA[Cat]T    #388
+   12.25    [ 590.5]    CTACTCGG / CCGAGTAG     -2000      -700                                     CTA[Ct]TC[Gc][Ga]    #391
+   12.20    [ 592.9]    CGCTTGAA / TTCAAGCG     -1950      -850                                    CG[Ct]TT[Gt]A[Acg]    #396
+   12.19    [ 497.5]    GCGACAGA / TCTGTCGC     -2000      -800                                 [Ga]CGA[Cat][At][Gc]A    #397
+   12.18    [ 475.2]    GAGAAAGC / --------      -650         0                    [Gact][Ac][Gact][At][At][Ac][Gac]C    #399
+   12.16    [ 583.3]    AGTTCGAG / CTCGAACT     -1750      -600                                  A[Gat]TTCG[Ag][Gact]    #400
+   12.14    [ 583.7]    ACGCGCCT / AGGCGCGT     -1250         0                         A[Ct][Gc]C[Gt][Cagt][Cat][Ta]    #402
+   12.13    [ 239.7]    TCACGTGA / TCACGTGA      -900         0                                T[Ct][Acg]CG[Ta][Gct]A    #403
+   12.11    [ 574.3]    ACAAATTT / --------     -1500      -250                             AC[Agt][Ag][Agt][Tg]T[Tc]    #404
+   12.07    [ 592.8]    GTCTCGAA / --------     -1950     -1150                                     [Gt][Ta]CTC[Ga]AA    #405
+   12.06    [ 585.8]    ATTTTTAG / CTAAAAAT     -2000     -1700                             A[Tag][Ta][Ta][Tac]T[Ac]G    #408
+   12.03    [ 591.1]    TGTATTTT / AAAATACA     -2000     -1700                                  [Tc]GTA[Ta]T[Tc][Tg]    #410
+   12.01    [ 235.8]    ACGATCAA / --------     -1300      -100                  [Acg][Ca][Gt][At][Tc][Cat][Act][Acg]    #412
+   12.01    [ 591.2]    GATCCGCC / GGCGGATC     -1800         0                                        [Gt][At]TCCGCC    #413
+   12.00    [ 588.2]    AATTTACT / --------     -1700      -500                          [Acg]A[Tc][Tc][Ta]A[Cgt][Tc]    #415
+   11.96    [ 426.9]    ACAGTATT / --------     -1650      -400                                A[Ca]A[Gct]TA[Tc][Tac]    #416
+   11.94    [ 381.5]    TAAGGAAT / --------     -1200      -300                         [Ta][At][Acg][Gct][Gt][Agt]AT    #417
+   11.93    [ 419.1]    ACACCTAA / --------     -1700      -400                            A[Cg][Acg][Ca][Cagt]T[Ac]A    #418
+   11.90    [ 354.1]    GCCATCTT / AAGATGGC      -900         0                                     GC[Cg][Ag]T[Ct]TT    #422
+   11.88    [ 568.5]    TCCGTCTC / GAGACGGA     -2000      -750                                     T[Ct][Cg]GTCT[Cg]    #423
+   11.86    [ 187.5]    AGTTTCGA / --------     -1150         0                           [Acgt][Gat][Ta]T[Tag][Ca]GA    #425
+   11.84    [ 475.6]    CGACAGAG / CTCTGTCG     -2000      -800                                 CGA[Ct][Ac][Gc]A[Gct]    #427
+   11.82    [ 554.6]    CCAGCCTG / CAGGCTGG     -2000     -1850                                C[Ct]A[Gat][Ca][Cgt]TG    #430
+   11.80    [ 574.7]    AATCAACT / --------     -1900      -750                  [Ag][Acgt][Tg][Ct][Act][Ac][Cgt][Tg]    #432
+   11.78    [ 592.7]    ACAAAACA / --------     -2000     -1250                               AC[Ag][At][At][Ag][Ca]A    #433
+   11.77    [ 178.0]    TGTAGTCT / AGACTACA      -700         0                                      [Tacg]GTAGTC[Tg]    #434
+   11.73    [ 565.1]    TTTTTTTT / AAAAAAAA     -1550     -1400                                  [Tg]TTT[Tg][Tg][Tg]T    #436
+   11.72    [ 579.6]    TTGTATTT / AAATACAA     -2000     -1700                                     [Ta]TG[Ta]ATT[Ta]    #437
+   11.71    [ 589.8]    CGAGATCG / CGATCTCG     -1650         0                          C[Gt][Act][Ga]A[Tc][Ca][Gct]    #439
+   11.70    [ 138.2]    ACAACTCC / --------      -200       -50                   [Ag][Cag][Acgt]A[Cagt][Tag][Ca][Cg]    #440
+   11.64    [ 295.8]    AGCGTGAG / CTCACGCT      -750       -50                              A[Gact]CGT[Gact][At][Gc]    #444
+   11.64    [ 544.6]    AAAAGAGC / --------     -1550      -250                              A[Ag][At]A[Gct]A[Gt][Ct]    #445
+   11.62    [ 589.5]    AAAACAAA / --------     -1600     -1250                                 AA[Acg][Ac][Ca][Ac]AA    #448
+   11.59    [ 585.9]    GAGATCGC / GCGATCTC     -1950      -500                               [Ga][Act][Gact]AT[Ca]GC    #449
+   11.57    [ 375.7]    TAAAAACC / --------     -1000      -200                          [Tcg]A[At][At][Acg][At][Cg]C    #450
+   11.56    [ 570.0]    AAAAAAAT / --------     -1550     -1250                                A[At]AAA[Agt][Acg][Tg]    #451
+   11.50    [ 581.4]    ATAAACTA / TAGTTTAT     -1700      -500                                    A[Tag][Ac][Ac]ACTA    #452
+   11.48    [ 510.0]    ACGGAGTC / GACTCCGT     -2000     -1000                             ACG[Gat][Acg][Ga][Ta][Ct]    #455
+   11.44    [ 132.7]    CAACCGGC / --------     -1500         0                                     C[At]A[Ct]CGG[Ca]    #456
+   11.44    [ 417.9]    TCACGGGC / GCCCGTGA      -700         0                          T[Ct][At]C[Gct][Gc][Gct][Ca]    #457
+   11.35    [ 147.8]    ACGCACAA / --------     -1000       -50                                [Agt]CG[Ct][Ac][Cag]AA    #458
+   11.32    [ 507.5]    CCACCGCG / --------     -1250         0                            [Cag][Cat]A[Cat][Cg]G[Ca]G    #459
+   11.27    [ 587.7]    TTTGAGAC / GTCTCAAA     -1650     -1300                             [Tg][Ta]T[Gac]A[Gct][Ac]C    #460
+   11.27    [ 586.5]    GGGTTTCA / TGAAACCC     -2000     -1600                           [Gac]G[Gt][Ta][Ta][Ta]C[Ag]    #461
+   11.27    [ 587.0]    TTCAATAA / --------     -1950      -350                               T[Ta]CA[Ac][Ta][Ag][Ac]    #462
+   11.24    [ 568.1]    TTTTGTAT / ATACAAAA     -2000     -1700                                     TT[Ta][Ta][Ga]TAT    #463
+   11.23    [ 571.8]    TTACTCTA / --------     -2000      -850                     [Tc][Tac][Agt]C[Tcg][Cgt][Tc][At]    #465
+   11.22    [ 536.7]    GGTTTCAC / GTGAAACC     -2000     -1650                              G[Gct][Tg]TT[Ct][Ag][Cg]    #466
+   11.21    [ 589.3]    AAATAATT / --------     -1850     -1250                                 [Agt]A[Ac][Ta]AAT[Tg]    #467
+   11.20    [ 582.7]    GAACTACT / --------     -1750         0                     [Ga][Acgt]A[Cgt][Tcg]A[Cag][Tacg]    #468
+   11.20    [ 552.8]    CCCGTCTC / --------     -1500      -700                                 [Cat]CCG[Tc][Ct]T[Ca]    #470
+   11.19    [ 203.9]    CACACCGC / --------      -600      -150                            [Cag][At][Cat][At][Cag]CGC    #471
+   11.18    [ 584.8]    AGGCTGGA / TCCAGCCT     -2000     -1800                                AG[Gt][Cg]T[Gact]G[At]    #472
+   11.16    [ 452.6]    AACCCGGG / CCCGGGTT     -1450      -600                                    AA[Ct][Cg]CGG[Gat]    #473
+   11.13    [ 263.7]    AGCCTCGT / --------     -1150         0                         [Ac][Gact][Cgt][Cg][Ta]CG[Ta]    #474
+   11.12    [ 520.9]    AAAGATAA / --------     -1450      -450                           A[Ac][Ag][Gc][Ac]T[Ac][Agt]    #475
+   11.12    [ 335.0]    TAGCTACA / --------     -1250       -50                            [Tc]A[Gac]C[Ta][Acgt]C[Ag]    #476
+   11.11    [ 565.4]    GGTTAAGA / TCTTAACC     -1550      -750                           [Gat][Gc]TT[Ag][Acgt][Gat]A    #477
+   11.09    [ 530.7]    TCTAACAT / --------     -1800      -350                        [Tc][Cag]T[At][Act]C[Acg][Tag]    #478
+   11.09    [ 332.3]    TGTTAACA / --------     -1250      -200                              [Tac][Gc][Tc]T[At]AC[At]    #479
+   11.07    [ 416.8]    ACTACTTC / --------     -1900         0                         A[Cg][Tg]A[Ca][Tcg][Tacg][Ca]    #480
+   11.06    [ 143.5]    ACAGCGAT / --------      -550         0                              [Agt]C[Agt]GCG[Act][Tac]    #481
+   11.06    [ 587.4]    GCTACTCG / CGAGTAGC     -1900      -700                                     [Ga]C[Tc]ACTC[Gc]    #482
+   11.06    [ 570.6]    TGATCCGC / GCGGATCA     -1900      -500                               [Tac][Gat]ATC[Cg]G[Cgt]    #484
+   11.01    [ 567.7]    AAAAACAA / --------     -1550     -1150                                    AA[Ac]AA[Ca][Agt]A    #485
+   10.99    [ 581.8]    TTACAGGC / GCCTGTAA     -2000     -1600                                      [Tg]TACA[Gact]GC    #486
+   10.96    [ 583.5]    AGAATCGC / GCGATTCT     -1950      -750                                       [Ag]G[Agt]ATCGC    #489
+   10.93    [ 578.1]    AAAAAGTG / CACTTTTT     -1250      -350                                    [Ag]AA[At]AG[Tcg]G    #492
+   10.93    [ 415.8]    ATCTCGGC / --------     -1950      -800                               [Ag][Ta]C[Tcg]CGG[Cagt]    #493
+   10.92    [ 545.5]    AACCTCCG / CGGAGGTT     -1900      -800                               [At][Ag][Ct]C[Tc][Ca]CG    #494
+   10.92    [ 580.7]    CGGGGTTT / AAACCCCG     -1100         0                                    CGG[Ga][Gct]TT[Ta]    #495
+   10.89    [ 531.5]    GTGATCCG / --------     -2000      -750                              [Gt][Tcg][Gt]A[Tg][Ca]CG    #496
+   10.87    [ 547.2]    TACCTGAA / TTCAGGTA     -1150      -200                          TA[Cat][Cgt][Tcg][Gact]A[Ac]    #497
+   10.83    [ 585.0]    TCCATTTT / AAAATGGA     -1400         0                                     [Tg]C[Cg][Ag]TTTT    #498
+   10.82    [ 581.5]    AATTTTTG / CAAAAATT     -2000     -1450                                       AATT[Tg]T[Tcg]G    #499
+   10.82    [ 571.1]    TCTCGAAC / GTTCGAGA     -1350         0                           [Ta][Cg][Tcg]CG[At][Ag][Ca]    #500
+   10.81    [ 579.5]    CAAAAAAA / --------     -1550     -1050                                        [Ca]AAAAAA[Ag]    #501
+   10.75    [ 584.8]    AAATATTA / --------     -1700     -1200                              A[Ac][Ag][Ta]A[Tg]T[Acg]    #503
+   10.74    [ 203.6]    TCAGAACG / --------      -750         0                        [Tag][Cat]A[Gct][Act][Ag]C[Gc]    #504
+   10.74    [ 579.7]    GGGATTAC / GTAATCCC     -1900     -1600                                        GGG[Ag][Tc]TAC    #505
+   10.73    [ 580.4]    ACTAAGGA / TCCTTAGT     -1050         0                     [Acg][Ct][Tg]A[Ac][Gc][Gct][Acgt]    #507
+   10.67    [ 570.1]    GGAGTTCG / CGAACTCC     -2000      -900                                   G[Gct]A[Gat]TT[Ca]G    #508
+   10.67    [ 558.7]    TCCGCCTC / --------     -1450      -800                            [Tac][Cat][Cg]G[Cgt][Ca]TC    #510
+   10.66    [ 578.7]    GTTTCACC / GGTGAAAC     -2000     -1500                                 [Gc]TTT[Cgt][Ag][Ca]C    #511
+   10.66    [ 575.0]    CACTAAAA / --------     -1700      -450                           CAC[Tag][At][Acg][Agt][Acg]    #512
+   10.63    [ 564.5]    TAAATTTA / --------     -1700      -750                              [Ta]A[Ag][Ac][Ta]T[Tcg]A    #513
+   10.62    [ 561.8]    TGAGCCAC / GTGGCTCA     -1850     -1550                                    T[Gt][Act]GCCA[Ct]    #514
+   10.59    [ 542.1]    GCCACCGC / --------     -1250         0                               G[Cat][Cat]A[Cat]CG[Ca]    #515
+   10.59    [ 576.2]    AGATAAAA / --------     -1400      -400                          [Acg][Gc][Ag][Tc]AA[At][Agt]    #516
+   10.58    [ 563.2]    GTATTTTT / AAAAATAC     -1850     -1600                              G[Ta]AT[Tc][Ta][Tg][Tac]    #517
+   10.57    [ 355.0]    GAACCCGG / CCGGGTTC     -1350      -800                                  [Gc][Ac]A[Ct][Cg]CGG    #518
+   10.57    [ 585.2]    TAATCCCA / TGGGATTA     -1900     -1700                           [Tg]A[Acg][Tc][Ct][Ca][Cg]A    #519
+   10.56    [ 349.8]    CTACCCGC / GCGGGTAG     -1350         0                           [Ca]TA[Cagt][Cagt][Cg]G[Ca]    #521
+   10.54    [ 492.1]    CACCCGGC / GCCGGGTG     -1850     -1050                                    C[Ag][Cat]CCG[Gt]C    #524
+   10.53    [ 554.3]    GCGTGAGC / GCTCACGC     -2000     -1050                                       GCG[Ta][Gat]AGC    #525
+   10.50    [ 579.6]    TCCGCCCG / --------     -1300         0                          [Ta][Ct][Ca]G[Ca]C[Cag][Gat]    #527
+   10.47    [ 205.6]    TCCCATGA / TCATGGGA      -450         0                              TC[Cg][Ca][Ag][Tc][Gat]A    #528
+   10.46    [ 568.8]    AATTTTCA / --------     -1750      -900                               AAT[Tcg][Tc]T[Ca][Acgt]    #529
+   10.42    [ 522.7]    AGACGGAG / CTCCGTCT     -2000     -1000                               [Ac][Ga]AC[Gc][Gt]A[Ga]    #530
+   10.42    [ 580.1]    CCTCACAA / TTGTGAGG     -1900     -1600                              [Ct][Cg][Tg][Ct][Acg]CAA    #533
+   10.42    [ 558.6]    TTTGTATT / AATACAAA     -2000     -1650                                     [Ta]T[Tc]GTA[Tc]T    #534
+   10.41    [ 469.8]    CAGCCTGG / --------     -2000     -1850                               [Cg]A[Gac][Cag]CTG[Gat]    #536
+   10.40    [ 577.3]    TACAACCT / --------     -1450      -200                [Ta][Act][Cg][Ag][Acgt][Cagt][Ct][Tag]    #537
+   10.36    [ 581.9]    TTCTTAAA / --------     -1700      -600                              T[Ta]CT[Tc][At][Act][Ac]    #538
+   10.35    [ 578.4]    ATTAGCCG / CGGCTAAT     -1800     -1200                        [Acg][Tg]T[Ag][Gac][Cgt]C[Gat]    #539
+   10.33    [ 470.1]    CCGCCTCG / CGAGGCGG     -1400      -650                             [Cag]CG[Cat][Ca][Ta]C[Ga]    #540
+   10.31    [ 581.5]    GATCTCGG / CCGAGATC     -2000      -850                                    [Gat]AT[Ct]TCG[Ga]    #541
+   10.31    [ 582.1]    AATCGCTT / AAGCGATT     -1950      -800                                    [Ag]A[Tc]CGC[Tag]T    #542
+   10.29    [ 228.1]    CCTTCGCC / --------      -900       -50                                  C[Cagt][Ta]TCGC[Cag]    #543
+   10.29    [ 579.4]    ACGGGGTT / AACCCCGT     -1800      -700                                      ACGG[Gac][Gct]TT    #544
+   10.27    [ 574.6]    TTTTTTTA / TAAAAAAA     -1600     -1250                                       TTTT[Tag]T[Tc]A    #545
+   10.26    [ 577.3]    CCCGGCTA / --------     -2000     -1450                           [Cg][Ct]C[Ga][Ga][Cag][Tc]A    #546
+   10.25    [  64.7]    TGGTCGCG / --------      -150         0                             T[Gact]GT[Ct][Ga][Ca][Gc]    #547
+   10.24    [ 377.1]    TCCCGAGT / ACTCGGGA     -1650     -1200                            [Tc][Ct][Cgt][Cag]G[Act]GT    #548
+   10.22    [ 433.1]    GACGGAGT / ACTCCGTC     -2000      -750                                           GACGGA[Gt]T    #550
+   10.21    [ 582.1]    TTTACTAA / TTAGTAAA     -2000     -1700                        [Ta][Tc][Ta]A[Ct][Tg][At][Act]    #552
+   10.20    [ 578.6]    GAATCGCT / AGCGATTC     -1950      -750                                       G[Acg][Ac]TCGCT    #553
+   10.15    [ 279.2]    AGGTCCTC / --------     -1050         0                            A[Gc][Gt]T[Ca][Cg][Tg][Ct]    #554
+   10.14    [ 397.9]    TAACCAAA / --------     -1900      -650                               T[Ac]A[Ct][Ca][At]A[Ag]    #556
+   10.13    [ 536.6]    CCACGCCC / --------     -1100       -50                               [Cat][Cat]ACGC[Cat][Ct]    #557
+   10.13    [ 355.8]    CAGTACCG / CGGTACTG     -1150         0                        [Ca][Ag][Gct]T[Agt][Cag][Cgt]G    #558
+   10.11    [ 577.9]    CGGCTCAC / --------     -1900     -1250                                  [Ct][Gc]G[Ca][Tg]CAC    #561
+   10.11    [ 576.6]    AGCACTTT / AAAGTGCT     -1950     -1600                                  [Ag][Gc][Ca][Ag]CTTT    #562
+   10.09    [ 572.0]    CAACATGG / CCATGTTG     -2000     -1600                               C[At]ACA[Tc][Gact][Gat]    #564
+   10.05    [ 552.8]    CAAAGTGC / GCACTTTG     -1950     -1600                                 [Cgt][Ac]AAG[Tc][Gt]C    #566
+   10.02    [ 581.2]    TCACGAGT / ACTCGTGA     -2000     -1000                                  T[Ct][Ac]CGA[Ga][Tg]    #569
+   10.01    [ 346.5]    TGGGCGAC / GTCGCCCA     -2000     -1100                                    T[Gac][Gc][Gt]CGAC    #570
+    9.99    [ 564.8]    TTCACCAT / ATGGTGAA     -2000     -1450                                     T[Tg]CACC[Ag][Ta]    #572
+    9.99    [ 568.8]    GCTAATTT / AAATTAGC     -2000     -1700                                      [Gac][Cat]TAATTT    #573
+    9.98    [ 576.0]    TTCCAAAA / --------     -1400      -600                         [Ta][Ta]C[Cagt]A[Acg][At][Ac]    #575
+    9.98    [ 230.6]    CCACTACA / --------     -1250      -600                            [Ct][Cagt]A[Cg]TA[Cat][At]    #576
+    9.97    [ 360.6]    ACCTCTAC / --------     -1650       -50                              A[Cg][Ca][Tag]CT[At][Cg]    #577
+    9.97    [ 574.7]    TCAAAAAA / --------     -1850     -1250                                        [Ta]C[At]AAAAA    #578
+    9.93    [ 565.9]    TGGCCAAC / GTTGGCCA     -2000     -1400                                     T[Gc]G[Ca][Ct]AAC    #581
+    9.91    [ 573.8]    AGAAACAA / --------     -1700      -850                                  [Ac][Ga]AAA[Ct][At]A    #582
+    9.90    [ 572.5]    ACAGGCGC / GCGCCTGT     -1750     -1050                                       AC[Act]GGCG[Ct]    #583
+    9.90    [ 227.6]    GTTGAGCT / AGCTCAAC      -950         0                                 GT[Tc][Gat][Ac]GC[Tg]    #584
+    9.90    [ 510.0]    TACAAAGC / --------     -1700      -200                           [Tc]A[Cagt][Acgt]A[Ac][Gc]C    #585
+    9.89    [ 574.4]    TAGCCGGG / CCCGGCTA     -2000      -700                                    TA[Gc][Cgt]CGG[Gc]    #586
+    9.88    [ 336.8]    CTAACCTC / --------     -1100         0                           [Ct][Tg][Ac]A[Cg][Cg]T[Cat]    #587
+    9.88    [ 578.9]    AGCTACTC / GAGTAGCT     -2000     -1600                                  A[Ga][Ct]TAC[Tg][Ct]    #588
+    9.88    [ 106.6]    CAGATTCG / --------     -1200       -50                                 [Ct][Acg][Ga]A[Ta]TCG    #590
+    9.88    [ 541.6]    ATGTTGGC / GCCAACAT     -2000     -1400                                    AT[Gat]TT[Gc][Ga]C    #591
+    9.85    [ 549.8]    CCAACTTT / AAAGTTGG      -600       -50                       C[Cagt][At][Agt]C[Tag][Tcg][Tc]    #592
+    9.83    [ 568.0]    TTTCACCA / TGGTGAAA     -1850     -1350                                  [Tg][Ta]TC[Ag]CC[Ag]    #594
+    9.76    [ 144.0]    CAATCACC / --------     -1450         0                                     C[Ag]ATC[Ag]C[Cg]    #595
+    9.76    [ 553.8]    TTTAAAAA / --------     -1300      -900                            [Tc][Tc][Tc]A[Ag]A[Ac][At]    #596
+    9.76    [ 565.6]    GGCTAATT / AATTAGCC     -1800     -1250                                 [Gt]GC[Tg][Ac]AT[Tcg]    #597
+    9.74    [ 254.4]    GCCTCCAA / TTGGAGGC      -300       -50                             [Gc][Ca]C[Tag][Cat][Ca]AA    #599
+    9.72    [ 569.8]    CCACCACG / --------     -1500      -300                               C[Cagt][Ag][Cat]C[Ag]CG    #600
+    9.71    [ 559.9]    AAAACTGA / --------     -1550      -450                                  [Act]AA[Ag]CT[Gact]A    #601
+    9.68    [ 395.0]    CCGAGGCG / CGCCTCGG     -1800      -600                                        [Ca]CGAG[Ga]CG    #602
+    9.68    [ 555.2]    AACTGTTT / --------     -1950      -300                                AA[Ct][Tacg]G[Tc]T[Tc]    #604
+    9.65    [ 530.5]    GAGACGGG / CCCGTCTC     -1450     -1000                                    [Gt]AG[Ag]CGG[Gat]    #605
+    9.65    [ 540.2]    CAATTAAG / --------     -1850      -750                    [Cg][Ag][Acg][Tc][Tacg][Ac]A[Gact]    #606
+    9.64    [ 436.8]    AGACGGGG / CCCCGTCT     -1450     -1000                                 [At]G[At]CGG[Ga][Gct]    #607
+    9.62    [ 572.1]    AGTAGCTG / CAGCTACT     -1900     -1600                             [Ag]GTA[Ga][Ct][Tag][Gac]    #611
+    9.60    [ 572.2]    GTAGCTGG / CCAGCTAC     -1950     -1650                           [Ga]T[At][Ga][Ct]T[Ga][Gac]    #612
+    9.58    [ 560.7]    CGTGAGCC / GGCTCACG     -2000     -1050                                     CGT[Gt][Ac]GC[Cg]    #615
+    9.56    [ 523.9]    CTCCGCCT / AGGCGGAG     -1950     -1700                                   [Cag]TC[Ca]GC[Cat]T    #616
+    9.56    [ 503.9]    GTTCAAAA / --------     -1750      -450                           G[Tc]T[Ct][Acg][At][Ac][Ac]    #617
+    9.56    [ 541.6]    GACGGGGT / ACCCCGTC     -2000     -1250                                  GAC[Gc]G[Ga][Gt][Ta]    #618
+    9.51    [ 224.9]    ACTCCTGA / --------     -1800     -1600                           [At][Ca]T[Cg][Ct][Tcg][Ga]A    #619
+    9.50    [ 560.5]    TTCTCAAT / --------     -1700      -800                      [Tc][Tg][Cgt][Tcg][Cat][Ag]A[Ta]    #620
+    9.48    [ 204.7]    CTCTCGAG / --------     -1050         0                             [Cg][Tg][Cat][Tag]CGA[Ga]    #622
+    9.48    [ 549.6]    CGGGAGGC / GCCTCCCG     -1500      -700                                           CGG[Gc]AGGC    #623
+    9.42    [ 555.2]    GGCGACAG / CTGTCGCC     -2000      -700                             [Gc][Gat]CGA[Ct][Act][Gc]    #627
+    9.36    [ 571.8]    GGAGGTTG / CAACCTCC     -1650      -900                                        GGAG[Ga]T[Tc]G    #628
+    9.36    [ 574.9]    CGCCACTG / CAGTGGCG     -1950      -800                                  CGC[Ct]A[Ct][Ta][Ga]    #630
+    9.36    [ 567.7]    TTAGCCGG / CCGGCTAA     -1800     -1150                            [Tg]T[Ac][Ga][Ct]C[Ga][Gt]    #632
+    9.34    [ 573.2]    GGCTGGTC / GACCAGCC     -2000     -1550                                        GG[Ca]TGGT[Ca]    #634
+    9.32    [ 570.8]    GGTCTCGA / TCGAGACC     -1750      -650                                     [Gt][Gc]T[Cg]TCGA    #635
+    9.31    [ 575.3]    CGCCACCA / --------     -1850       -50                                 C[Gt]C[Cat][At]C[Cg]A    #636
+    9.29    [ 555.6]    AGGCGTGA / TCACGCCT     -1750      -900                                 A[Gac][Gc]CG[Tc][Gc]A    #637
+    9.28    [ 567.2]    AGAGACGG / CCGTCTCT     -2000     -1250                                    [At]G[At][Gct]ACGG    #638
+    9.27    [ 560.0]    TTTTTTGA / TCAAAAAA     -2000     -1550                                           [Tg]TTTTTGA    #641
+    9.26    [ 573.0]    CACGCCTG / CAGGCGTG     -1800     -1050                                           CACGCC[Tc]G    #643
+    9.24    [ 565.9]    GGCGTGAG / CTCACGCC     -2000      -950                                           GGCGTG[Ac]G    #645
+    9.21    [ 572.6]    GTGAGCCA / TGGCTCAC     -1750     -1400                                       GTG[Act]GCC[Ag]    #646
+    9.21    [ 555.6]    CTGGCCAA / TTGGCCAG     -2000     -1400                                     C[Tc][Gc]G[Ca]CAA    #647
+    9.19    [ 509.9]    CTCGGCCT / AGGCCGAG     -1950     -1750                                     CTC[Gac]GCC[Tacg]    #649
+    9.17    [ 306.7]    ACTCAATT / --------     -1500      -400                             AC[Tacg][Ca][Ag]A[Tc][Ta]    #650
+    9.16    [ 530.6]    GCTTGAAC / GTTCAAGC     -1650     -1150                           G[Ca][Tg][Ta][Gct][At]A[Ct]    #651
+    9.09    [ 565.9]    TAGCTGGG / CCCAGCTA     -1900     -1600                                TA[Ga][Ct][Tc][Gact]GG    #653
+    9.07    [ 570.3]    CATGTTGG / CCAACATG     -2000     -1400                                  [Ct]A[Ta]GTT[Gc][Gt]    #655
+    9.03    [ 568.5]    TCTCGGCT / AGCCGAGA     -1950      -800                                          TCTCGG[Cat]T    #656
+    9.01    [ 150.5]    TGCCGACA / --------      -650         0                         [Tac][Gc][Cagt]CG[At][Ca][Ac]    #658
+    9.01    [ 570.0]    TTTTGAGA / TCTCAAAA     -1950     -1450                                           TTT[Tc]GAGA    #659
+    8.97    [ 331.3]    AACAGAGT / --------     -2000     -1300                               [At]A[Cag][Acgt][Ga]AGT    #660
+    8.96    [ 489.7]    GCCCGCCT / --------     -1850      -500                                    [Gat][Ca]CCGC[Ct]T    #661
+    8.95    [ 559.1]    ACAAAATC / --------     -1950      -600                              [Acg]C[Ac][At]A[Ag][Ta]C    #662
+    8.94    [ 567.1]    GGGTTCAA / TTGAACCC     -1850     -1100                                     [Gc][Gc]GTTCA[Ac]    #663
+    8.93    [ 541.7]    GGAGAATC / GATTCTCC     -1350      -900                           [Ga][Gat]A[Gt][At]A[Ta][Ca]    #664
+    8.91    [ 504.6]    AAACATCT / --------     -1700      -200                              A[At][Ac][Cg][Acg][Tg]CT    #665
+    8.90    [  79.8]    CCTTTCGT / --------      -500       -50                                 [Cgt]CT[Ta][Tg][Ca]GT    #666
+    8.90    [ 571.8]    TTTCACAA / --------     -1100      -250                       [Tcg][Tac][Tcg]C[Acg][Cag][Ag]A    #667
+    8.87    [ 528.8]    AGTTACCT / AGGTAACT     -1550         0                                [Ac][Gt]TTA[Cag][Cgt]T    #668
+    8.86    [ 169.7]    CAATTACA / --------      -800      -300                                CA[Act]T[Tg]A[Cg][Act]    #669
+    8.86    [ 277.6]    ACCTCGTC / --------      -750       -50                        [Act][Cgt][Cg]TC[Gct][Ta][Cat]    #670
+    8.83    [ 534.8]    GAGGCGGA / TCCGCCTC     -2000     -1200                                           GAG[Ga]CGGA    #671
+    8.80    [ 455.5]    TTCCCTAA / --------     -1250      -150                           T[Ta][Cag][Cat][Cagt]TA[Ac]    #672
+    8.79    [ 544.3]    TTTTTGAG / CTCAAAAA     -2000     -1600                                           TTTTTGA[Ga]    #673
+    8.77    [ 515.5]    CTCCCGAG / CTCGGGAG     -1500      -750                                  CTC[Cagt][Cg]GA[Gac]    #674
+    8.77    [ 564.9]    GAGGCTGA / TCAGCCTC     -1950     -1700                                       [Gac]AGGC[Tg]GA    #676
+    8.76    [ 262.8]    ATCAGACG / CGTCTGAT     -1900         0                             [At]T[Cg][Acgt][Ga][At]CG    #677
+    8.72    [ 569.1]    GCCTCCCA / TGGGAGGC     -1950     -1600                                           GCCTC[Cg]CA    #678
+    8.71    [ 547.2]    GTTGCAGT / ACTGCAAC     -1850     -1250                                        [Ga]T[Tc]GCAGT    #680
+    8.70    [ 496.2]    CCACTGCA / TGCAGTGG     -2000     -1800                               [Ct]C[Ag][Ct]T[Gt]C[At]    #683
+    8.69    [ 564.2]    AAAAACCC / --------     -1800      -150                                  A[Ag]AA[Ag]C[Cg][Ca]    #684
+    8.64    [ 557.6]    GAGGTTGC / GCAACCTC     -2000     -1500                                     GA[Gc][Gc]TT[Ga]C    #685
+    8.63    [ 565.2]    TTTTAAAA / --------     -1300      -600                                       [Tg]TTTAA[Acg]A    #687
+    8.61    [ 344.3]    TCTGATTC / --------     -1300         0                             T[Ca][Tcg][Ga]AT[Ta][Cag]    #688
+    8.61    [ 220.6]    TCACCTCG / --------     -1300       -50                                  T[Cat]A[Cag]C[Tcg]CG    #689
+    8.58    [ 371.7]    AGGAATTC / --------     -2000     -1500                             A[Gc][Ga][Acgt][Ag]T[Tg]C    #690
+    8.56    [ 563.9]    AATCCCAG / CTGGGATT     -1900     -1600                                     AAT[Ca][Ca][Cg]AG    #691
+    8.54    [ 532.6]    CCGGGCGT / ACGCCCGG     -2000      -800                                  CC[Ga][Ga][Gc][Ca]GT    #692
+    8.53    [ 568.9]    CTACTAAA / --------     -1950     -1000                                 [Ca][Tcg][Ac]C[Tg]AAA    #693
+    8.53    [ 143.6]    TCCAGTAC / --------     -1900     -1450                             TC[Ct][Acgt][Gact]TA[Cat]    #694
+    8.48    [ 543.6]    GGTTGCAG / CTGCAACC     -1850     -1250                                        GGTT[Gt]C[Ac]G    #695
+    8.46    [ 569.3]    ACCCGGGA / TCCCGGGT     -2000     -1150                                     AC[Ct]CG[Ga][Gt]A    #698
+    8.43    [ 323.0]    CATAACAT / --------     -1200      -250                      [Ct][Act]T[Ac][At][Ct][Ag][Tacg]    #699
+    8.41    [ 181.7]    GGAGAACG / --------     -1550       -50                                    [Ga][Gac]A[Gc]AACG    #700
+    8.41    [ 567.3]    TCGGCTCA / TGAGCCGA     -1950      -850                                  TCG[Gt][Ct][Tg][Ct]A    #701
+    8.40    [ 541.8]    TTTTTTAA / --------     -1250      -450                                       TT[Tac][Tc]TTAA    #702
+    8.38    [  88.8]    CATTCCTA / --------     -1400      -950                                        CAT[Ta]CC[Ta]A    #703
+    8.36    [ 489.8]    CAACAGAG / CTCTGTTG     -2000     -1350                                  C[Ag]A[Ct][Ac]G[Ac]G    #704
+    8.35    [ 560.3]    CAGATAAA / TTTATCTG     -1550      -500                              [Cg][Acg]G[Ac]T[At]A[Ag]    #705
+    8.35    [ 269.6]    AACTCCTG / --------     -1800     -1600                         [Acg][At][Ca]T[Cag][Cg][Tcg]G    #706
+    8.26    [  56.6]    CAACCCTA / --------      -250      -100                               C[Ag][Ag][Ca]C[Ca]T[Ac]    #708
+    8.26    [ 545.5]    GGGGTTTC / GAAACCCC     -2000     -1600                             [Gac][Gac]GG[Ta]T[Ta][Ca]    #709
+    8.26    [ 562.6]    AATCTTTT / --------     -2000      -850                              AA[Tag]C[Tc][Ta][Tg][Ta]    #710
+    8.25    [  83.8]    CACGTTAT / --------     -1100      -250                                 C[At]CG[Tg][Tc]A[Tag]    #711
+    8.19    [ 556.4]    CACTGCAA / --------     -1850     -1350                                    CAC[Tcg][Ga]CA[Ac]    #713
+    8.16    [ 415.4]    GTTCTCAA / --------     -1600      -500                                [Gat]TT[Cat][Ta]C[Ag]A    #714
+    8.15    [ 560.7]    TTTTGGAG / CTCCAAAA     -1050      -750                           [Tc]TT[Tc][Gct][Ga][Ag][Ga]    #715
+    8.13    [ 550.6]    GGCTGAGG / CCTCAGCC     -1950     -1700                                     GGCT[Ga]A[Ga][Ga]    #716
+    8.12    [ 559.1]    GGCTCACT / AGTGAGCC     -1950     -1250                                           GGC[Tg]CACT    #717
+    8.05    [ 382.4]    CTGGGCGA / TCGCCCAG     -1950     -1100                                [Cat]T[Gac][Gc][Gt]CGA    #718
+    8.04    [  69.9]    AACTGTCA / --------      -400      -150                                  AA[Cg]TG[Tg][Cg][Ag]    #719
+    8.04    [ 438.7]    TTGCAGTG / CACTGCAA     -1600     -1250                                     TT[Ga][Ct]AG[Tc]G    #720
+    8.03    [ 531.7]    ATTCCATT / --------     -1600      -300                            A[Tac]T[Ca][Cgt][Acg][Tc]T    #721
+    8.00    [ 416.1]    AGGAAATA / --------     -1650      -700                             [Ag]GG[Act][Agt][Ac]T[Ac]    #722
+    8.00    [ 142.6]    GCCGACCC / --------      -550      -150                              [Gt][Ca]CG[At]C[Cat][Ca]    #723
+    7.99    [ 392.0]    ACTGCACT / AGTGCAGT     -2000     -1800                              A[Ct][Ta]G[Cag][At][Ca]T    #724
+    7.97    [ 542.8]    AAGTGCTG / CAGCACTT     -1800     -1400                                     AA[Gt]T[Ga]C[Tc]G    #725
+    7.94    [ 391.0]    AAAGTGTA / --------     -1300      -350                           A[Acgt][Ag]G[Tacg][Gt][Tc]A    #726
+    7.93    [ 558.9]    CTCCCAAA / TTTGGGAG     -1950     -1600                                    C[Tg][Ca][Cag]CAAA    #727
+    7.91    [ 557.5]    CAGAAATA / --------     -1900     -1000                             [Cat][Acg][Ga][At]AAT[At]    #728
+    7.91    [  73.7]    TCTAAACC / --------      -800      -600                              [Tg][Ca][Tg][Acg]AA[Cg]C    #729
+    7.90    [ 467.3]    GGGCGACA / TGTCGCCC     -1950      -800                                   [Gct][Gac]GCGAC[At]    #730
+    7.89    [ 308.8]    TCAGAATT / --------     -1750     -1150                           T[Ca][Ag]G[Acg][At][Ta][Tc]    #731
+    7.88    [ 561.9]    AGCTGGGA / TCCCAGCT     -1950     -1650                                     A[Ga][Cg]TG[Gc]GA    #732
+    7.84    [ 517.5]    AGGTTGCA / TGCAACCT     -1850     -1250                                        [Ac]GGTTG[Ct]A    #734
+    7.83    [ 560.6]    GTCTCTAC / GTAGAGAC     -1950     -1350                                        GT[Cg]TCTA[Ca]    #737
+    7.78    [ 240.1]    GCCAGAAT / --------     -2000     -1350                             G[Ca][Cg][Ac][Gact]A[Ac]T    #739
+    7.78    [ 563.0]    TAAAAATA / TATTTTTA     -2000     -1650                                           TA[Ag]AAATA    #740
+    7.76    [ 381.7]    ATTATTCT / --------     -1200      -550                     A[Tg][Tg][Ac][Tag][Tacg][Cg][Tag]    #741
+    7.76    [  84.6]    TCGGCAGG / --------      -550         0                                     TCG[Ga][Ca]AG[Gt]    #742
+    7.75    [ 556.1]    CGGCCTCC / --------     -1950      -800                                        C[Gc][Ga]CCTCC    #743
+    7.73    [ 433.7]    AGCCACCG / CGGTGGCT     -1700     -1050                                   AGC[Cag]A[Cat][Cg]G    #744
+    7.73    [ 232.6]    ATCTAAGT / --------     -1250       -50                           A[Tc]C[Tag][At][Ac][Gc][Ta]    #745
+    7.72    [ 213.5]    GCACATTA / --------     -1750     -1000                              [Gt]C[At]C[Ac][Tcg]T[At]    #746
+    7.62    [ 361.7]    ACTTATCT / --------     -2000      -150                                AC[Tac][Ta]AT[Cg][Tac]    #748
+    7.57    [  43.8]    ACCATACC / --------     -2000     -1650                                           [Ag]CCATACC    #749
+    7.55    [ 545.3]    TTTTTAGT / ACTAAAAA     -1950     -1650                                           TTTTT[At]GT    #750
+    7.55    [ 114.6]    CACCTATC / GATAGGTG      -300         0                                     [Cg]ACC[Ta][At]TC    #751
+    7.51    [ 558.6]    CCCAAAGT / ACTTTGGG     -1950     -1600                               [Ca][Cg]C[At]A[Ac][Ga]T    #752
+    7.47    [ 198.9]    CAGCAACC / --------      -750      -150                                 [Ca][Ac][Gc]CAAC[Cag]    #755
+    7.47    [ 299.0]    GCTCCACC / --------      -650       -50                             [Gt][Ct]T[Cat][Cg]AC[Cag]    #756
+    7.37    [ 559.5]    TGGTCTCG / CGAGACCA     -1750      -750                               T[Gt][Gc][Ta][Ca][Tg]CG    #758
+    7.35    [ 358.5]    CTCCTGAC / GTCAGGAG     -1800     -1550                                 C[Tc][Cag]CT[Gt]A[Ct]    #759
+    7.34    [ 129.9]    CTAAAGCC / --------      -450      -150                          [Ca][Ta][At]A[Acgt][Gc]C[Ct]    #760
+    7.33    [ 107.0]    TAACAACA / --------      -550      -200                               T[Acg][Agt]C[Agt]AC[At]    #761
+    7.31    [ 558.4]    CTGTACTA / --------     -1750     -1000                   [Ct][Tacg][Gact][Ta]A[Cg][Tc][Acgt]    #762
+    7.25    [ 556.1]    GCTGGTCT / AGACCAGC     -2000     -1650                                  [Ga][Ca]TG[Gc]T[Ca]T    #763
+    7.20    [ 491.5]    CCTCGGCC / GGCCGAGG     -1950     -1750                              [Cg][Ca]T[Ca][Gac]GC[Ct]    #764
+    7.18    [ 540.3]    TGCCTTTA / TAAAGGCA     -1100      -100                              [Tc]GC[Ct][Tag]T[Ta][Ag]    #765
+    7.13    [  65.6]    GGTACTCC / --------      -850      -400                                  G[Ga]TA[Ca][Tg]C[Ca]    #767
+    7.11    [ 359.6]    CCGCCCGC / --------     -1800      -550                               [Ca]CG[Ct][Ct]C[Ga][Ct]    #768
+    7.05    [ 182.9]    CAATAAGA / --------     -1700      -200                                     CA[Ac]TA[Ac]G[Ag]    #769
+    6.99    [ 241.0]    ATTCTCCT / --------     -1950     -1750                             A[Tg][Tac]CT[Ca][Ca][Tag]    #770
+    6.98    [ 542.6]    CACTTTGG / CCAAAGTG     -1950     -1600                                    C[Ag][Ca]TTT[Gat]G    #771
+    6.94    [ 129.6]    GAGTCTTG / --------     -2000     -1800                          [Gt]A[Gac]T[Cag][Tg][Tc][Ga]    #772
+    6.93    [ 125.8]    TTTGTTCA / --------      -900      -350                                    [Tag]T[Tc]GTTC[Ag]    #773
+    6.92    [ 167.8]    GTTTACAT / --------     -1550      -150                                     G[Tc]T[Tg]AC[Ag]T    #774
+    6.89    [ 540.5]    GCCACTGC / --------     -1850     -1050                                           GCCAC[Tc]GC    #775
+    6.81    [ 554.5]    GCCACCAC / --------     -1200      -150                                  [Gt]C[Cg]AC[Cg][Ag]C    #776
+    6.78    [ 460.6]    GGGAGGCT / AGCCTCCC     -1900     -1700                                        GG[Ga]AGGC[Tc]    #777
+    6.59    [ 120.9]    TCTTATAC / --------     -1300      -450                                  T[Ca][Tg][Ta]ATA[Cg]    #778
+    6.57    [ 449.6]    CGCCCGCC / --------     -1900      -700                           [Cg][Gt][Ca][Cgt]C[Gc]C[Ca]    #779
+    6.57    [ 134.6]    AGCTCCAC / --------      -700      -200                                       [Ac]GCT[Cag]CAC    #780
+    6.50    [ 551.8]    ACTCCAGC / --------     -1900     -1050                                  AC[Tg][Ca]C[Ac]G[Cg]    #781
+    6.38    [ 236.5]    ATTTCACA / --------     -1400      -250                                          ATT[Tac]CACA    #782
+    6.29    [ 542.2]    ATCCCAGC / --------     -1950     -1200                                  ATC[Cg]C[Ag][Ga][Ca]    #783
+    6.26    [ 151.2]    TCATTCCA / --------     -1100      -250                                     TCA[Ta]T[Cg][Cg]A    #784
+    6.24    [  31.2]    TTGTACCT / --------     -1100      -750                                           TTGTACC[Tg]    #785
+    6.19    [ 545.3]    TCCCAAAG / CTTTGGGA     -1950     -1500                                              TCCCAAAG    #786
+    6.17    [ 499.9]    CCGCGCCC / --------     -1750      -600                              [Ct]C[Ga]CG[Cat][Ct][Ct]    #787
+    6.06    [  49.5]    ACCCTCCG / --------      -250      -100                                     ACC[Cg]T[Ca]C[Ga]    #788
+    6.02    [  91.8]    AAGTATAT / --------     -1600     -1300                                  A[Ac][Gc]T[Ag][Tc]AT    #789
+    5.94    [  22.6]    TGACGGTT / --------     -1400      -550                                           [Tc]GACGGTT    #790
+    5.77    [  30.9]    GCTTATAA / --------     -1350     -1100                                        GC[Tg]TATA[Ag]    #792
+    5.66    [ 324.6]    CTGGTCTC / GAGACCAG     -1350     -1050                                        [Ct]T[Gt]GTCTC    #793
+    5.62    [ 110.9]    AAAGCACA / --------     -1900     -1100                                           AAAGC[Ag]CA    #794
+    4.90    [  45.7]    TTTGTAAC / --------     -1200     -1050                                     TT[Tc]G[Tc]AA[Ct]    #795
+    4.89    [  20.7]    GGTATAAG / --------      -900      -350                                              GGTATAAG    #796
+    4.73    [  37.5]    TGATCTTA / --------     -1450      -800                                              TGATCTTA    #797
+    4.70    [  19.5]    GATACAGT / --------     -1750     -1450                                              GATACAGT    #798
+    4.32    [  30.9]    ATTGTTCC / --------     -1400     -1150                                           [Ag]TTGTTCC    #799
+    4.28    [  21.9]    AGCAACTT / --------     -1050      -800                                              AGCAACTT    #800
+================================================================================
+Trying to merge 200 motifs ...
+--------------------------------------------------------------------------------
+   60.61    [ 767.0]                                 -150         0    (5 motifs in cluster_001_-150_0.seq)
+   54.35    [ 708.8]    TACTTCCG   /   CGGAAGTA      -650         0                   [Tacg][Acgt][Cagt][Ta][Tacg][Cag]CG
+   52.01    [ 734.8]     ACTTCCGG  /  CCGGAAGT       -600         0                      [Agt][Cgt][Ta][Ta][Ca]C[Gc][Gct]
+   48.48    [ 700.9]      CTTCCGGC / GCCGGAAG        -400         0                           [Cgt]T[Ta][Cag]CG[Gac][Cgt]
+   45.92    [ 711.6]      CTTCCGGA / TCCGGAAG        -600         0                          [Ct]T[Ta][Cag]CG[Gact][Acgt]
+   44.21    [ 654.1]     TCTTCCGG  /  CCGGAAGA       -600         0                         [Tag][Cat][Tg][Ta][Cg]CG[Gct]
+--------------------------------------------------------------------------------
+   58.66    [ 751.2]                               -150         0    (3 motifs in cluster_002_-150_0.seq)
+   52.01    [ 734.8]    CCGGAAGT  /  ACTTCCGG      -600         0                      [Cag][Cg]G[Gt][At][At][Gac][Tac]
+   43.18    [ 710.6]    CCGGAAGC  /  GCTTCCGG      -500         0                           [Cagt]CGG[At][At][Gac][Cat]
+   48.50    [ 698.6]     CGGAAGCG / CGCTTCCG       -350         0                     C[Ga][Gact][At]A[Gact][Cagt][Gat]
+--------------------------------------------------------------------------------
+   56.52    [ 749.5]                                 -150         0    (6 motifs in cluster_003_-150_0.seq)
+   44.38    [ 715.0]     TTTCCGCC  /  GGCGGAAA       -550         0                    [Tacg][Ta][Ta][Cagt]CG[Cagt][Cagt]
+   35.38    [ 684.6]      TTCCGCCC / GGGCGGAA        -450         0                      T[Ta][Cat][Cg]G[Cagt][Cgt][Cagt]
+   35.02    [ 557.4]    ATTTCCGC   /   GCGGAAAT      -550         0                  [Acgt][Tacg][Ta][Ta][Cgt][Cg]G[Cagt]
+   35.01    [ 613.0]     TTTCCGCT  /  AGCGGAAA       -600         0                     [Tacg][Ta][Tac][Cag]CG[Cgt][Tacg]
+   35.62    [ 592.7]      TTCCGCTG / CAGCGGAA        -650         0                        TT[Cagt][Cg]G[Cat][Tacg][Gact]
+   30.97    [ 568.8]     GTTCCGCC  /  GGCGGAAC       -600         0                          [Gct]T[Ta][Ca]CG[Cagt][Cagt]
+--------------------------------------------------------------------------------
+   51.42    [ 742.3]                             -250         0    (2 motifs in cluster_004_-250_0.seq)
+   48.50    [ 698.6]    CGCTTCCG / CGGAAGCG      -350         0                     [Cat][Gact][Cagt]T[Ta][Cagt][Ct]G
+   30.59    [ 624.6]    AGCTTCCG / CGGAAGCT      -800         0                     [Act][Gat][Cg][Tag][Ta][Cgt][Cg]G
+--------------------------------------------------------------------------------
+   51.23    [ 618.2]                               -400         0    (2 motifs in cluster_005_-400_0.seq)
+   42.87    [ 446.9]    ACGTCACT  /  AGTGACGT      -400         0                         [Acgt]CGT[Cag][Ac][Cat][Tacg]
+   31.09    [ 500.1]     CGTCACTT / AAGTGACG       -700         0                    CG[Tac][Cagt][Ag][Cagt][Tacg][Tac]
+--------------------------------------------------------------------------------
+   50.31    [ 755.8]                                 -350         0    (8 motifs in cluster_006_-350_0.seq)
+   29.49    [ 396.7]    AGACTACG   /   CGTAGTCT      -750         0                  [Acgt][Gact][Ac][Cat][Tac][At]C[Gct]
+   26.26    [ 332.8]     GACTACGA  /  TCGTAGTC      -1150         0                         [Gact][Acgt][Ct]T[Ag]CG[Acgt]
+   28.41    [ 427.6]      ACTACGAT / ATCGTAGT       -1400         0                      [Acgt][Ca][Tac]AC[Ga][Act][Tacg]
+   25.59    [ 485.2]     GACTACGC  /  GCGTAGTC       -700         0                   [Ga]A[Cat][Tc][Acgt][Ca][Gat][Cagt]
+   19.92    [ 286.9]      ACTACGTT / AACGTAGT       -1100         0                           [At][Cag]T[At]CG[Tacg][Tag]
+   23.71    [ 229.8]     AACTACGA  /  TCGTAGTT       -400         0                       [Acgt][Ag]C[Tcg][At]C[Ga][Acgt]
+   22.69    [ 351.5]      ACTACGCT / AGCGTAGT       -1100         0                      [Ag][Cagt][Tag][Ac]CG[Cagt][Tag]
+   21.54    [ 335.6]      ACTACGAC / GTCGTAGT       -1300         0                         [Ac][Cgt][Tg][Agt]C[Ga]A[Cgt]
+--------------------------------------------------------------------------------
+   45.16    [ 667.0]                               -150         0    (3 motifs in cluster_007_-150_0.seq)
+   36.17    [ 570.3]    TGCCGGAA  /  TTCCGGCA      -400         0                    [Tacg][Gact][Cag][Cg]G[Gact]A[Act]
+   25.75    [ 496.5]    TCCCGGAA  /  TTCCGGGA      -350         0                        [Tac][Cagt][Cat]C[Ga][Gc]A[At]
+   33.75    [ 696.7]     CCCGGAAG / CTTCCGGG       -650         0                             [Cagt][Cg]C[Gc]G[At][At]G
+--------------------------------------------------------------------------------
+   43.18    [ 730.6]                                 -150         0    (7 motifs in cluster_008_-150_0.seq)
+   37.53    [ 628.6]     GCCAATCG  /  CGATTGGC       -450         0              [Gact][Cgt][Cgt][At][Acg][Tacg][Ca][Gac]
+   27.78    [ 433.7]     GCCAATCA  /  TGATTGGC       -200         0                               [Gact]CCAA[Tc][Cag][Ag]
+   26.48    [ 343.7]     ACCAATCA  /  TGATTGGT       -200         0                                [Acg]CC[At]AT[Cg][Acg]
+   28.43    [ 352.6]    AACCAATC   /   GATTGGTT      -250         0                                [Acg][Acg][Cg][Cg]AATC
+   26.25    [ 459.2]    GACCAATC   /   GATTGGTC      -300         0                   [Gact][Acgt][Cgt]C[At][Ag][Tac][Cg]
+   24.41    [ 524.7]    AGCCAATC   /   GATTGGCT      -450         0                           [Acgt][Gact]C[Cg][At]A[Tc]C
+   25.05    [ 514.7]      CCAATCAC / GTGATTGG        -450         0                               CC[Ag]AT[Ca][Acg][Cagt]
+--------------------------------------------------------------------------------
+   40.13    [ 686.7]                                   -100         0    (12 motifs in cluster_009_-100_0.seq)
+   27.78    [ 433.7]      GCCAATCA  /  TGATTGGC        -200         0                               [Gact]CCAA[Tc][Cag][Ag]
+   26.48    [ 343.7]      ACCAATCA  /  TGATTGGT        -200         0                                [Acg]CC[At]AT[Cg][Acg]
+   24.41    [ 524.7]     AGCCAATC   /   GATTGGCT       -450         0                           [Acgt][Gact]C[Cg][At]A[Tc]C
+   24.03    [ 364.5]       CCAATCAA / TTGATTGG         -200         0                       [Ct][Cg][At]A[Tc][Cg][Ag][Acgt]
+   22.19    [ 353.2]     ACCCAATC   /   GATTGGGT       -400         0                              [Ag][Cag][Cg][Cg]AAT[Cg]
+   21.15    [ 370.1]      GCCAATGA  /  TCATTGGC        -450         0                                 [Gat]CC[At]A[Tc][Gc]A
+   19.24    [ 278.1]     CACCAATC   /   GATTGGTG       -300         0                            [Cagt]A[Ca][Ca]A[At]T[Cag]
+   18.41    [ 599.6]     ACGCAATC   /   GATTGCGT      -1450         0                 [Acgt]C[Gc][Cag][Act][Agt][Tac][Cagt]
+   22.68    [ 327.0]    CAACCAAT    /    ATTGGTTG      -150         0                   [Cag][Acgt][Agt]C[Cg][At][Acgt][Tc]
+   18.83    [ 495.6]    CAGCCAAT    /    ATTGGCTG      -550         0                               [Cgt][Acg][Gat]C[Cg]AAT
+   17.87    [ 342.6]    GAACCAAT    /    ATTGGTTC      -350         0                       [Gac][Acg][Acgt]C[Cg][At]A[Tac]
+   17.78    [ 424.7]    TAGCCAAT    /    ATTGGCTA      -600         0                            [Tcg][Act][Gc]C[Cg][Acg]AT
+--------------------------------------------------------------------------------
+   38.77    [ 711.9]                               -350         0    (4 motifs in cluster_010_-350_0.seq)
+   38.10    [ 569.9]    TTGCGCAG  /  CTGCGCAA      -650         0                      [Tac][Tac][Gc]CG[Cagt][Act][Gat]
+   24.81    [ 480.2]     TGCGCATG / CATGCGCA       -700         0                           [Tac][Ga]CG[Cgt]A[Tacg][Gt]
+   23.10    [ 339.2]    TTGCGCAT  /  ATGCGCAA      -850         0                        [Ta][Tac][Gt]CG[Cg][Acgt][Tag]
+   22.37    [ 370.6]     TGCGGATG / CATCCGCA       -700         0                         T[Gat]C[Gc][Gct][At][Tac][Ga]
+--------------------------------------------------------------------------------
+   36.83    [ 695.7]                               -300         0    (2 motifs in cluster_011_-300_0.seq)
+   34.96    [ 522.6]    GCGGAAGA  /  TCTTCCGC      -300         0                   [Gac]C[Gc][Gact][At][Ac][Gac][Acgt]
+   23.12    [ 609.6]     CGGAAGAC / GTCTTCCG       -650         0                    [Ca]G[Gct][Act][Agt][Gt][Act][Cag]
+--------------------------------------------------------------------------------
+   36.77    [ 674.0]                                 -300         0    (4 motifs in cluster_012_-300_0.seq)
+   26.54    [ 670.3]    GCTTGCGC   /   GCGCAAGC      -750         0                       [Gact][Cagt][Ta]T[Gct]C[Ga][Cg]
+   24.55    [ 515.4]     CTTGCGCT  /  AGCGCAAG       -700         0                        [Cagt][Ta]T[Gct]CG[Cagt][Tacg]
+   21.38    [ 448.7]      TTGCGCTC / GAGCGCAA        -950         0                            [Ta]T[Gact]CG[Cagt]T[Cagt]
+   19.49    [ 312.8]    GCATGCGC   /   --------      -850         0                            [Gat]C[At][Ta][Gat]CG[Cat]
+--------------------------------------------------------------------------------
+   36.74    [ 481.6]                               -600         0    (2 motifs in cluster_013_-600_0.seq)
+   30.62    [ 394.6]     ACGTCATC / GATGACGT       -600         0                      [Agt]CG[Tac][Cg][Ag][Tacg][Cagt]
+   30.59    [ 186.6]    TACGTCAT  /  ATGACGTA      -200         0                      [Tacg][Ag]CG[Tg][Cgt][Acg][Tacg]
+--------------------------------------------------------------------------------
+   35.45    [ 684.5]                               -200         0    (2 motifs in cluster_014_-200_0.seq)
+   33.75    [ 696.7]     CCCGGAAG / CTTCCGGG       -650         0                             [Cagt][Cg]C[Gc]G[At][At]G
+   25.40    [ 638.6]    ACCCGGAA  /  TTCCGGGT      -350         0                    [Acgt][Cagt][Cagt][Ct][Gat]GA[Agt]
+--------------------------------------------------------------------------------
+   33.90    [ 671.4]                               -250         0    (3 motifs in cluster_015_-250_0.seq)
+   27.93    [ 597.8]    ACCGGAAA  /  TTTCCGGT      -850         0                   [Agt][Cag][Cg]G[Gact][At][Act][Agt]
+   22.47    [ 641.7]     CCGGAAAG / CTTTCCGG       -600         0                  [Cg][Cg][Gc][Gact][At][At][Ag][Gact]
+   21.68    [ 515.0]    ACGGGAAA  /  TTTCCCGT      -600         0                     [Ag][Ct][Gc][Gact][Gact][Ac]A[Ag]
+--------------------------------------------------------------------------------
+   33.30    [ 619.1]                             -400         0    (2 motifs in cluster_016_-400_0.seq)
+   23.17    [ 335.6]    TCCGATTG / CAATCGGA      -400         0                   [Tag][Cat][Cgt][Gt][Ag][Tag][Tacg]G
+   20.13    [ 400.5]    TCCGGTTG / CAACCGGA      -400         0                   [Tg][Cgt]C[Gc][Gact][Tc][Tacg][Gct]
+--------------------------------------------------------------------------------
+   33.26    [ 680.1]                               -550       -50    (3 motifs in cluster_017_-550_-50.seq)
+   22.75    [ 542.9]    CCTTAGCG  /  CGCTAAGG      -800         0              [Cgt][Cagt][Tag][Ta][Acgt][Gact][Ct][Ga]
+   19.40    [ 317.2]     CTTAGCGG / CCGCTAAG       -950         0                           [Cgt]T[Ta][At][Gact]CG[Gct]
+   21.86    [ 419.1]     CTTAACGG / CCGTTAAG       -850       -50               [Cagt][Tcg][Tac][Acgt][Acgt]C[Gac][Gct]
+--------------------------------------------------------------------------------
+   31.65    [ 689.6]                             -200         0    (4 motifs in cluster_018_-200_0.seq)
+   23.86    [ 650.9]    CGCAGTCG / CGACTGCG      -650         0                  [Ca][Gt][Ct][At][Ga][Tag][Cat][Gact]
+   23.03    [ 639.6]    CGCAGGCG / CGCCTGCG      -450         0                              [Ca]G[Cat]A[Gact][Gat]CG
+   19.99    [ 413.5]    CGCAGTAG / CTACTGCG      -850         0                        CG[Cgt][Acgt][Gac]T[Act][Gact]
+   19.53    [ 442.3]    CGCATGCG / --------      -300         0                     [Ca][Ga][Ct][Acg][Tacg]G[Cgt][Ga]
+--------------------------------------------------------------------------------
+   30.95    [ 488.0]                             -500         0    (2 motifs in cluster_019_-500_0.seq)
+   22.71    [ 346.2]    GCCGCAAT / ATTGCGGC      -500         0                    [Gct][Cagt][Cg]G[Ct][Act][At][Tag]
+   18.50    [ 261.6]    GCCGCCAT / ATGGCGGC      -500       -50                                [Gat][Ca]CGC[Cat]A[Ta]
+--------------------------------------------------------------------------------
+   29.46    [ 680.4]                             -800      -100    (2 motifs in cluster_020_-800_-100.seq)
+   27.71    [ 664.6]    AAAAAACG / CGTTTTTT      -850      -100                    [Ag][Acgt][Acgt][Acgt][Act][Agt]CG
+   20.39    [ 280.8]    ATAAAACG / --------     -1100         0                            [Acg][Tag][Act][At][Ac]ACG
+--------------------------------------------------------------------------------
+   29.14    [ 637.2]                                 -400         0    (4 motifs in cluster_021_-400_0.seq)
+   23.33    [ 627.9]     GGCGTTTT  /  AAAACGCC       -850         0                     [Gact][Gact]CG[Tacg]T[Tacg][Tacg]
+   20.23    [ 482.2]      GCGTTTTG / CAAAACGC       -1000         0                          [Gct]CGT[Tag][Tcg][Tc][Gact]
+   19.33    [ 509.9]    AGGCGTTT   /   AAACGCCT     -1000         0                         [Acgt][Gac][Gact]CG[Ta]T[Tcg]
+   21.38    [ 556.3]    AGACGTTT   /   AAACGTCT     -1300         0                      [Act][Gact][Acgt]CG[Tac][Tc][Ta]
+--------------------------------------------------------------------------------
+   27.77    [ 619.7]                              -1100         0    (2 motifs in cluster_022_-1100_0.seq)
+   19.70    [ 415.0]     TTAACGTC / GACGTTAA      -1100         0                    [Tac][Tac][Agt][Agt]C[Gt][Tg][Cgt]
+   18.40    [ 385.9]    TTTAACGT  /  ACGTTAAA     -1100         0                     [Tacg][Tac][Tcg][At][Acgt]CG[Tcg]
+--------------------------------------------------------------------------------
+   26.78    [ 672.3]    CGCCGAAA / TTTCGGCG     -1200         0              [Ct][Gct][Cagt][Cagt][Gct][Acgt][At][At]
+--------------------------------------------------------------------------------
+   26.78    [ 660.5]    CGCGAAAA / TTTTCGCG     -1000         0           [Cagt][Gt][Cagt][Gat][Acgt][Agt][Act][Acgt]
+--------------------------------------------------------------------------------
+   26.20    [ 396.6]    CGGAAACA / TGTTTCCG      -350         0                   C[Gc][Gct][At][Ag][Acgt][Cat][Acgt]
+--------------------------------------------------------------------------------
+   25.93    [ 300.0]    TGACGTCA / TGACGTCA      -350         0                          [Tg][Gt][Agt]CG[Tg][Ct][Agt]
+--------------------------------------------------------------------------------
+   25.87    [ 600.6]                             -700         0    (2 motifs in cluster_023_-700_0.seq)
+   20.66    [ 421.2]    TGCGCAGG / CCTGCGCA      -700         0                                     TGCGCA[Gact][Gac]
+   19.93    [ 486.7]    TGCGCAGA / TCTGCGCA      -600         0                          T[Gct]CG[Ca][Act][Gat][Acgt]
+--------------------------------------------------------------------------------
+   25.69    [ 644.0]                               -450       -50    (2 motifs in cluster_024_-450_-50.seq)
+   24.27    [ 633.5]     CGCTTTTT / AAAAAGCG       -700         0                  C[Ga][Cagt][Tg][Tag][Tacg][Tcg][Tcg]
+   22.17    [ 646.9]    CCGCTTTT  /  AAAAGCGG      -900         0                     [Cat][Cg]G[Cat][Tcg][Ta][Tcg][Tc]
+--------------------------------------------------------------------------------
+   25.66    [ 401.7]    GCGCAAAA / TTTTGCGC      -650         0                      [Ga]CG[Cagt][Acg][Ac][Acgt][Act]
+--------------------------------------------------------------------------------
+   23.82    [ 641.1]                               -400         0    (3 motifs in cluster_025_-400_0.seq)
+   19.94    [ 638.2]     GGAAACGA / TCGTTTCC      -1000       -50                   [Gac][Gac][Acgt][Ag][Agt]C[Gt][Act]
+   17.87    [ 483.8]    TGGAAACG  /  CGTTTCCA      -800         0                           [Tacg][Gac][Gct][At]A[Ag]CG
+   17.83    [ 258.9]    TAGAAACG  /  CGTTTCTA      -350         0                      [Tacg][Acg][Gct][Acgt]A[Ag]C[Gc]
+--------------------------------------------------------------------------------
+   23.30    [ 591.1]    AAGCGGAC / GTCCGCTT      -700         0                [At][Act][Gact]C[Gct][Gat][Acgt][Cagt]
+--------------------------------------------------------------------------------
+   23.14    [ 469.3]    CGCCATTT / AAATGGCG      -550         0                     CG[Ct][Cagt][Acg][Tac][Tacg][Tag]
+--------------------------------------------------------------------------------
+   22.93    [ 591.8]    AACTCCGC / GCGGAGTT      -450         0                   [Agt][Ag][Cgt][Tacg][Cag][Cg]G[Cgt]
+--------------------------------------------------------------------------------
+   22.82    [ 560.8]    AATTGCGC / GCGCAATT     -1000         0                 [Acgt][Acgt][Tcg][Tacg][Gc][Cg]G[Cgt]
+--------------------------------------------------------------------------------
+   21.39    [ 474.0]    CGCAAGAG / CTCTTGCG      -400         0                  CG[Cgt][Acgt][Act][Gact][Acgt][Gact]
+--------------------------------------------------------------------------------
+   21.26    [ 313.6]    TTCGTAAG / CTTACGAA     -1050         0                       [Tcg][Tac]CG[Tag][Ag][Acg][Gac]
+--------------------------------------------------------------------------------
+   20.53    [ 481.1]    CACGCTTC / GAAGCGTG      -450         0                     [Cagt][Ac]CG[Cat][Tcg][Tac][Cagt]
+--------------------------------------------------------------------------------
+   20.33    [ 623.4]    TCGCGCGA / TCGCGCGA     -1950         0                           [Tc][Cg][Gt][Ct]G[Cgt][Gt]A
+--------------------------------------------------------------------------------
+   19.96    [ 455.0]    CGAACTTC / GAAGTTCG      -750         0                  CG[Acgt][Acgt][Cgt][Tacg][Tag][Cagt]
+--------------------------------------------------------------------------------
+   19.49    [ 522.6]    AAAGCCGC / GCGGCTTT      -550         0                   [Agt][At][Ac][Gact][Cat][Cg]G[Cagt]
+--------------------------------------------------------------------------------
+   19.41    [ 306.1]    ACTTACGT / ACGTAAGT      -800         0                      [Ag][Cagt][Ta][Tacg][Act]CG[Tag]
+--------------------------------------------------------------------------------
+   19.23    [ 441.7]    CGTTAGTT / AACTAACG      -900         0              [Cag]G[Tacg][Tacg][Acgt][Gac][Tcg][Tacg]
+--------------------------------------------------------------------------------
+   18.75    [ 217.6]    CTATTGGT / ACCAATAG      -250         0                                C[Tcg][Ag]T[Tc]GG[Tac]
+--------------------------------------------------------------------------------
+   18.45    [ 611.4]                              -1950      -850    (2 motifs in cluster_026_-1950_-850.seq)
+   18.17    [ 628.3]     TCGCGCCA / TGGCGCGA      -1950         0                               [Ta][Cg]GCG[Cagt][Cgt]A
+   17.59    [ 597.5]    ATCGCGCC  /  --------     -2000      -600                      [Ag][Tac][Cag][Gc]C[Gat][Ca][Cg]
+--------------------------------------------------------------------------------
+   18.36    [ 357.7]    GTAGTTCC / GGAACTAC      -500         0                      [Ga][Ta][Ac][Gc][Tcg]T[Ct][Cagt]
+--------------------------------------------------------------------------------
+   18.32    [ 247.6]    CTACGTTT / AAACGTAG      -600         0                            [Ca][Ta][Act]CG[Tacg][Tg]T
+--------------------------------------------------------------------------------
+   18.32    [ 247.6]    AAACGTAG / CTACGTTT      -600         0                            A[Ac][Acgt]CG[Tag][At][Gt]
+--------------------------------------------------------------------------------
+   18.27    [ 489.1]    TTCGAATT / AATTCGAA     -1550         0                     [Tac][Ta]CG[Agt][Acg][Tacg][Tacg]
+--------------------------------------------------------------------------------
+   18.11    [ 623.8]    GGCGCGAA / TTCGCGCC     -1550         0                            [Gact][Gt]C[Gt]C[Gac]A[At]
+--------------------------------------------------------------------------------
+   18.07    [ 317.2]    GGAAGTGA / TCACTTCC      -150         0                           [Gt]G[At][Ac][Ga]T[Ga][Acg]
+--------------------------------------------------------------------------------
+   18.07    [ 317.2]    TCACTTCC / GGAAGTGA      -150         0                           [Tcg][Ct]A[Ct][Tg][Ta]C[Ca]
+--------------------------------------------------------------------------------
+   17.97    [ 524.0]    CGCCTATT / AATAGGCG      -850         0                   CG[Cat][Cagt][Tacg][Acgt][Tacg][Tg]
+--------------------------------------------------------------------------------
+   17.78    [ 250.2]    GCACTACG / CGTAGTGC      -800         0                         [Gat][Cagt][At][Cagt][Tag]ACG
+--------------------------------------------------------------------------------
+   17.64    [ 359.8]    CTACGACT / AGTCGTAG     -1150         0                         [Cgt][Tag]AC[Gac]A[Cgt][Tacg]
+--------------------------------------------------------------------------------
+   17.49    [ 285.9]    TCTACGGA / TCCGTAGA      -850         0                     [Ta][Cagt][Tag][Ag]C[Gc][Gt][Agt]
+--------------------------------------------------------------------------------
+   17.43    [ 431.9]    TGCGGAGT / ACTCCGCA      -600         0                        [Tag][Gac]C[Gc][Gact][At][Ga]T
+--------------------------------------------------------------------------------
+   17.43    [ 453.7]    ACCTCCGC / GCGGAGGT      -350         0                            A[Cag][Cagt]T[Cat]CG[Cagt]
+--------------------------------------------------------------------------------
+   17.42    [ 557.1]    CCGCCATC / GATGGCGG      -600         0                         [Cagt]CGC[Cagt][At][Ta][Cagt]
+
+Try:    for f in cluster_*.seq; do seqlogo.sh $f ${f/.seq/.pdf}; done
